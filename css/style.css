@@ -4,9 +4,10 @@
   margin: 0px;
   box-sizing: border-box; }
 
+/*variables*/
 /* estilo del body */
-body {
-  background-color: #f8dcdc;
+.body {
+  background-color: #dff6ff;
   font-family: Futura, sans-serif; }
 
 /*estilo de contact*/
@@ -60,26 +61,32 @@ body {
   .contenedorpro__hijo span {
     padding: 0.5rem; }
 
+/*variables*/
 /* estilos del nav */
-body header nav {
+.body header nav {
   display: block;
   text-align: end;
-  background-color: #fcefef; }
-  body header nav ul li {
+  background-color: #47b5ff; }
+  .body header nav ul li {
     font-weight: bold;
     padding: 1rem;
     transition: 1s; }
-    body header nav ul li:hover {
+    .body header nav ul li:hover {
       text-decoration: underline;
       transform: scale(1.08); }
+  .body header nav div a img {
+    width: 100%;
+    height: 4rem;
+    margin-left: 10px; }
 
+/*variables*/
 /* estilo del footer */
 .footer {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   align-items: center;
-  background-color: #072849;
+  background-color: #06283d;
   padding: 10px;
   margin-top: 10px;
   color: white;
@@ -90,13 +97,13 @@ body header nav {
   font-weight: bold; }
 
 /* estilos del h1 */
-body main h1 {
+.body main h1 {
   font-size: 2rem;
   text-align: center;
   margin: 2rem; }
 
 /*estilos de las imagenes*/
-body main img {
+.body main img {
   height: 12.5rem;
   width: 18.75rem; }
 
@@ -123,9 +130,7 @@ section div div {
     align-items: center;
     text-align: center;
     border: 0.5rem solid black;
-    grid-template-areas: "hijo1 hijo2"
- "hijo4 hijo3"
- "hijo5 hijo6"; }
+    grid-template-areas: "hijo1 hijo2" "hijo4 hijo3" "hijo5 hijo6"; }
     .contenedorsed div img {
       width: 60%; }
   .contenedorsed__hijo1 {

@@ -12,61 +12,64 @@
     <title>Contacto</title>
 </head>
 
-<body class="contacto">
-    <header>
-        <nav class="navbar navbar-expand-sm bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Elaisa</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="pro.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="sed.html">Sedes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="nos.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contacto</a>
-                        </li>
-                    </ul>
+<body>
+    <div class="body">
+        <header>
+            <nav class="navbar navbar-expand-sm ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"><img src="../img/ELaisa-removebg-preview (2).png" alt="Logo de la Marca Elaisa"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    </button>
+                    <div class="collapse navbar-collapse d-md-flex justify-content-md-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="pro.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sed.html">Sedes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nos.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+        </header>
+        <main>
+            <form action="" class="contacto__formulario">
+                <fieldset class="contacto__formulario__caja">
+                    <legend class="contacto__formulario__titulo"> Inicia seción</legend>
+                    <section class="contacto__formulario__nombre">
+                        <label for="nombre">Nombre de usuario</label>
+                        <input type="text" name="" id="nombre" placeholder="Escribe el nombre de usuario">
+                    </section>
+                    <section class="contacto__formulario__mail">
+                        <label for="mail">Completa tu E-mail</label>
+                        <input type="email" name="" id="mail" placeholder="Escribe tu E-mail">
+                    </section>
+                    <section class="contacto__formulario__botones">
+                        <input class="reset" type="reset">
+                        <input class="submit" type="submit">
+                    </section>
+                </fieldset>
+            </form>
+        </main>
+        <footer class="footer">
+            <p class="footer__subt">Seguinos en nuestras redes</p>
+            <div>
+                <img src="../img/logo-face.png" alt="logo de facebook">
+                <img src="../img/logo-insta.png" alt="logo de instagram">
             </div>
-        </nav>
-    </header>
-    <main>
-        <form action="" class="contacto__formulario">
-            <fieldset class="contacto__formulario__caja">
-                <legend class="contacto__formulario__titulo"> Inicia seción</legend>
-                <section class="contacto__formulario__nombre">
-                    <label for="nombre">Nombre de usuario</label>
-                    <input type="text" name="" id="nombre" placeholder="Escribe el nombre de usuario">
-                </section>
-                <section class="contacto__formulario__mail">
-                    <label for="mail">Completa tu E-mail</label>
-                    <input type="email" name="" id="mail" placeholder="Escribe tu E-mail">
-                </section>
-                <section class="contacto__formulario__botones">
-                    <input class="reset" type="reset">
-                    <input class="submit" type="submit">
-                </section>
-            </fieldset>
-        </form>
-    </main>
-    <footer class="footer">
-        <p class="footer__subt">Seguinos en nuestras redes</p>
-        <div>
-            <img src="../img/logo-face.png" alt="logo de facebook">
-            <img src="../img/logo-insta.png" alt="logo de instagram">
-        </div>
-        <p>Todos los derechos reservados</p>
-    </footer>
+            <p>Todos los derechos reservados</p>
+        </footer>
+    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>

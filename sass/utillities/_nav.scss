@@ -1,17 +1,25 @@
+/*variables*/
+@import "variables";
+
 /* estilos del nav */
-body header nav {
+.body header nav {
     display: block;
     text-align: end;
-    background-color: rgb(252, 239, 239);
+    background-color: $colorNav;
+
     ul li {
         font-weight: bold;
         padding: 1rem;
         transition: 1s;
-        &:hover{
+
+        &:hover {
             text-decoration: underline;
             transform: scale(1.08);
         }
     }
+    div a img{
+        width: 100%;
+        height: 4rem;
+        margin-left: 10px;
+    }
 }
-
-
