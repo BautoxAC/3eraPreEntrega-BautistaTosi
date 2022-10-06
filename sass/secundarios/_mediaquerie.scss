@@ -19,7 +19,7 @@
             "hijo4 hijo3"
             "hijo5 hijo6";
         div img {
-         width: 60%;
+         @include sizes(60%,13rem)
         }
     }
 
