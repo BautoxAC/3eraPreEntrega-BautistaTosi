@@ -1,24 +1,26 @@
-/*variables*/
-@import "variables";
-
+// listas, variables y mixin
+@import "listas";
+@import"variables";
+@import"mixin";
 /* estilos del nav */
 .body header nav {
-    display: block;
-    text-align: end;
-    background-color: $colorNav;
-
+    background-color: nth($colores,1);
+    text-align: center;
     ul li {
         font-weight: bold;
-        padding: 1rem;
+        padding: $medida-1;
         transition: 1s;
-
         &:hover {
             text-decoration: underline;
-            transform: scale(1.08);
+            transform: scale(1.2);
+        }
+        #a{
+            color: nth($colores, 3);
         }
     }
-    div a img{
-            width: 8rem;
-            height: 4rem;
+    div{
+        a img{
+            @include sizes(8rem, 4rem);
         }
+    }
 }

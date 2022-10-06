@@ -1,6 +1,7 @@
+// mixin
+@import"mixin";
 /*reset*/
 * {
-    padding: 0px;
-    margin: 0px;
+    @include margen(0rem,0rem);
     box-sizing: border-box;
 }
