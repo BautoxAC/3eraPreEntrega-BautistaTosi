@@ -1,6 +1,6 @@
-// variables y listas
-@import "listas";
-@import"variables";
+// imports
+@import "../utillities/listas";
+@import"../utillities/variables";
 /* estilo del footer */
 .footer {
     display: flex;

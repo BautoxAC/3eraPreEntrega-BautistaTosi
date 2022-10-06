@@ -1,6 +1,8 @@
-// variables e extend
-@import"variables";
-@import"extend";
+//imports
+@import"../utillities/variables";
+@import"../utillities/extend";
+@import"../utillities/mixin";
+@import"../utillities/listas";
 /* estilos de la mediaquerie */
 @media screen and (min-width:600px) {
 
@@ -81,12 +83,42 @@
     #a{
         font-size: $medida-1;
     }
+
     /*estilos de index*/
 
     .contenedorindex{
     @extend %grid;
+    grid-template-areas: 
+    "logo video"
+    "h2 video"
+    "p video";
+    .contenedorindex__logo{
+        grid-area: logo;
+        display: inline;
+        padding: 0rem $medida-1;
+        img{
+            @include sizes(45%,90%);
+        }
     }
+    .contenedorindex__video{
+        grid-area: video;
+        @include sizes(100%,100%);
+    }   
+    .contenedorindex__h2{
+        grid-area: h2;
+        padding: $medida-1;
+    }
+    .contenedorindex__p{
+        grid-area: p;
+        padding: $medida-1;
+        display: inline;
+    }
+    }
+    /*estilos de nos*/
     .contenedornos{
         @extend %grid;
+        .contenedornos__p1{
+            display: inline;
+        }
     }
 }

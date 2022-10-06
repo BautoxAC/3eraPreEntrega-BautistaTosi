@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Pagina deInicio</title>
+    <title>Pagina de Inicio</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <nav class="navbar navbar-expand-sm ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html"><img src="img/ELaisa-removebg-preview (2).png"
-                            alt="Logo de la Marca Elaisa"></a>
+                            alt="Logo de la Marca Elaisa" class="d-md-none"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -44,18 +44,19 @@
             </nav>
         </header>
         <main class="contenedorindex">
-            <h1><img src="img/ELaisa-removebg-preview (2).png" alt="Imagen del logo de Elaisa"> </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facere voluptatum soluta iure saepe
+            <div class="contenedorindex__logo"><img src="img/ELaisa-removebg-preview (2).png"
+                    alt="Imagen del logo de Elaisa"></div>
+            <h2 class="contenedorindex__h2">Una Prenda distinta</h2>
+            <p class="contenedorindex__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facere
+                voluptatum soluta iure saepe
                 dolor, nihil temporibus doloremque minima debitis quasi nobis ipsa, voluptatibus iste totam amet eaque
                 dolores eius.</p>
-            <div>
-                <h2>Una Prenda distinta</h2>
-            </div>
+            <p class="d-md-none d-sm-inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ut cumque dolore fugiat similique </p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/bvQcvnCLt0I"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </main> 
+                allowfullscreen class="contenedorindex__video"></iframe>
+        </main>
         <footer class="footer">
             <p class="footer__subt">Seguinos en nuestras redes</p>
             <div>
