@@ -1,3 +1,5 @@
+//variables
+@import"variables";
 /* estilo de productos */
 .contenedorpro {
     display: flex;
@@ -5,8 +7,8 @@
 }
 
 .contenedorpro__hijo {
-    margin: 0rem 1rem;
-    padding: 1rem 0rem;
+    margin: 0rem $medida-1;
+    padding: $medida-1 0rem;
     width: auto;
     text-align: center;
     border: 0.3rem solid black;
@@ -14,12 +16,12 @@
     transition: 1s;
     margin-top: 2rem;
     h2 {
-        padding: 1rem;
+        padding: $medida-1;
     }
     p {
         font-weight: bold;
-        font-size: 1.5rem;
-        padding-bottom: 1rem;
+        font-size: $medida-1 + 0.5rem;
+        padding-bottom: $medida-1;
     }
     &:hover {
         transform: scale(1.08);

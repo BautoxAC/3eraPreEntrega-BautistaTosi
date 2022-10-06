@@ -4,7 +4,6 @@
   margin: 0px;
   box-sizing: border-box; }
 
-/*variables*/
 /* estilo del body */
 .body {
   background-color: #dff6ff;
@@ -61,7 +60,6 @@
   .contenedorpro__hijo span {
     padding: 0.5rem; }
 
-/*variables*/
 /* estilos del nav */
 .body header nav {
   background-color: #47b5ff;
@@ -72,15 +70,13 @@
     transition: 1s; }
     .body header nav ul li:hover {
       text-decoration: underline;
-      transform: scale(1.08);
-      color: #dff6ff; }
-    .body header nav ul li a {
+      transform: scale(1.2); }
+    .body header nav ul li #a {
       color: #dff6ff; }
   .body header nav div a img {
     width: 8rem;
     height: 4rem; }
 
-/*variables*/
 /* estilo del footer */
 .footer {
   display: flex;

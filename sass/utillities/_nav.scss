@@ -1,9 +1,9 @@
-/*variables*/
-@import "variables";
+// listas
+@import "listas";
 
 /* estilos del nav */
 .body header nav {
-    background-color: $colorNav;
+    background-color: nth($colores,1);
     text-align: center;
     ul li {
         font-weight: bold;
@@ -11,11 +11,10 @@
         transition: 1s;
         &:hover {
             text-decoration: underline;
-            transform: scale(1.08);
-            color: $colorFondo;
+            transform: scale(1.2);
         }
-        a{
-            color: $colorFondo;
+        #a{
+            color: nth($colores, 3);
         }
     }
     div{
