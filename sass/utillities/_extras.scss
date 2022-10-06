@@ -1,8 +1,10 @@
+// variables
+@import"variables";
 /* estilos del h1 */
 .body main h1 {
-    font-size: 2rem;
+    font-size: $medida-2;
     text-align: center;
-    margin: 2rem;
+    margin: $medida-2;
 }
 /*estilos de las imagenes*/
 .body main img {

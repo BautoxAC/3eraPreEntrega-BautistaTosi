@@ -1,3 +1,5 @@
+// variables
+@import"variables";
 /* estilos de la mediaquerie */
 @media screen and (min-width:600px) {
 
@@ -9,11 +11,11 @@
     .contenedorsed {
         display: grid;
         margin: 3rem;
-        row-gap: 1rem;
+        row-gap: $medida-1;
         grid-template-columns: 1fr 1fr;
         align-items: center;
         text-align: center;
-        border: 0.5rem solid black;
+        border: $medida-3 solid black;
         grid-template-areas:
             "hijo1 hijo2"
             "hijo4 hijo3"
@@ -25,44 +27,43 @@
 
     .contenedorsed__hijo1 {
         grid-area: hijo1;
-        padding: 2rem;
+        padding: $medida-2;
         align-self: center;
     }
-
     .contenedorsed__hijo2 {
         grid-area: hijo2;
-        padding: 2rem;
+        padding: $medida-2;
         h2 {
             font-size: xx-large;
-            margin: 0.5rem;
+            margin: $medida-3;
         }
     }
 
     .contenedorsed__hijo3 {
         grid-area: hijo3;
-        padding: 2rem;
+        padding: $medida-2;
     }
 
     .contenedorsed__hijo4 {
         grid-area: hijo4;
-        padding: 2rem;
+        padding: $medida-2;
         h2 {
             font-size: xx-large;
-            margin: 0.5rem;
+            margin: $medida-3;
         }
     }
 
     .contenedorsed__hijo5 {
         grid-area: hijo5;
-        padding: 2rem;
+        padding: $medida-2;
     }
 
     .contenedorsed__hijo6 {
         grid-area: hijo6;
-        padding: 2rem;
+        padding: $medida-2;
         h2 {
             font-size: xx-large;
-            margin: 0.5rem;
+            margin: $medida-3;
         }
     }
     /* estilos de Productos de mediaquerie*/
@@ -78,6 +79,10 @@
 
     /* estilos del h1 */
     body main h1 {
-        font-size: 3rem;
+        font-size: $medida-2 + 1rem;
+    }
+    /*estilos del nav*/
+    #a{
+        font-size: $medida-1;
     }
 }

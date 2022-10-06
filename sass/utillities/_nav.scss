@@ -1,5 +1,6 @@
-// listas
+// listas y variables
 @import "listas";
+@import"variables";
 
 /* estilos del nav */
 .body header nav {
@@ -7,7 +8,7 @@
     text-align: center;
     ul li {
         font-weight: bold;
-        padding: 1rem;
+        padding: $medida-1;
         transition: 1s;
         &:hover {
             text-decoration: underline;
