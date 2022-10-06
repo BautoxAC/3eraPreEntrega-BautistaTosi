@@ -116,9 +116,18 @@
     }
     /*estilos de nos*/
     .contenedornos{
-        @extend %grid;
-        .contenedornos__p1{
+        flex-direction: row-reverse;
+        margin: $medida-2;
+        .contenedornos__div{
+            padding: $medida-1;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .contenedornos__div__p1{
             display: inline;
         }
     }
+    
 }

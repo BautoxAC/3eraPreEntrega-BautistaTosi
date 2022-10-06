@@ -1,5 +1,5 @@
 @media screen and (min-width: 600px) {
-  .contenedorsed, .contenedorindex, .contenedornos {
+  .contenedorsed, .contenedorindex {
     display: grid;
     margin: 3rem;
     row-gap: 1rem;
@@ -46,7 +46,7 @@
       justify-content: space-around; }
 
 @media screen and (min-width: 600px) {
-  .contenedorsed, .contenedorindex, .contenedornos {
+  .contenedorsed, .contenedorindex {
     display: grid;
     margin: 3rem;
     row-gap: 1rem;
@@ -84,7 +84,7 @@
     padding: 0.5rem; }
 
 @media screen and (min-width: 600px) {
-  .contenedorsed, .contenedorindex, .contenedornos {
+  .contenedorsed, .contenedorindex {
     display: grid;
     margin: 3rem;
     row-gap: 1rem;
@@ -162,7 +162,7 @@ section div div {
     padding: 1rem; }
 
 @media screen and (min-width: 600px) {
-  .contenedorsed, .contenedorindex, .contenedornos {
+  .contenedorsed, .contenedorindex {
     display: grid;
     margin: 3rem;
     row-gap: 1rem;
@@ -181,14 +181,14 @@ section div div {
     text-align: center; }
   .contenedornos .contenedornos__img {
     padding: 1rem; }
-  .contenedornos .contenedornos__h1 {
+  .contenedornos contenedornos__div__h1 {
     font-size: 2rem;
     padding: 1rem; }
-  .contenedornos .contenedornos__p1 {
+  .contenedornos contenedornos__div__p1 {
     display: none; }
 
 @media screen and (min-width: 600px) {
-  .contenedorsed, .contenedorindex, .contenedornos {
+  .contenedorsed, .contenedorindex {
     display: grid;
     margin: 3rem;
     row-gap: 1rem;
@@ -269,5 +269,14 @@ section div div {
       padding: 1rem;
       display: inline; }
   /*estilos de nos*/
-  .contenedornos .contenedornos__p1 {
-    display: inline; } }
+  .contenedornos {
+    flex-direction: row-reverse;
+    margin: 2rem; }
+    .contenedornos .contenedornos__div {
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+    .contenedornos .contenedornos__div__p1 {
+      display: inline; } }
