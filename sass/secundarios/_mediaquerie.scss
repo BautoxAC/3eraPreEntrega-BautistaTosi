@@ -124,10 +124,13 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
+            margin-bottom: $medida-2;
+        }
+        .contenedornos__div__h1{
+            padding-top: $medida-2*1.7;
         }
         .contenedornos__div__p1{
             display: inline;
         }
     }
-    
 }

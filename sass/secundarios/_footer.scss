@@ -12,9 +12,17 @@
     margin-top: $medida-1;
     color: white;
     gap: 0.6rem;
+    .footer__subt {
+        font-size: $medida-1 + $medida-3;
+        font-weight: bold;
+    }
+    div {
+        margin-bottom: $medida-1;
+        a{
+            margin: $medida-3;
+        }
+    }
+    
 }
-.footer__subt {
-    font-size: $medida-1 + $medida-3;
-    font-weight: bold;
-}
+
 
