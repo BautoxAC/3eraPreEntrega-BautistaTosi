@@ -1,13 +1,9 @@
-// variables
+// variables y mixin
 @import"variables";
+@import"mixin";
 /* estilos del h1 */
 .body main h1 {
     font-size: $medida-2;
     text-align: center;
     margin: $medida-2;
-}
-/*estilos de las imagenes*/
-.body main img {
-    height: 12.5rem;
-    width: 18.75rem;
 }

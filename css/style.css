@@ -1,7 +1,7 @@
 /*reset*/
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0rem;
+  margin: 0rem;
   box-sizing: border-box; }
 
 /* estilo del body */
@@ -13,6 +13,7 @@
 .contacto__formulario {
   display: flex;
   justify-content: center;
+  padding: 0rem;
   margin: 5rem 1rem; }
   .contacto__formulario .contacto__formulario__caja {
     background-color: white;
@@ -21,12 +22,13 @@
     .contacto__formulario .contacto__formulario__caja .contacto__formulario__titulo {
       border: 1px solid black;
       background-color: #f8eaea;
-      font-size: 25px;
+      font-size: 1.5rem;
       padding: 2rem;
+      margin: 0rem;
       text-align: center; }
     .contacto__formulario .contacto__formulario__caja section {
-      margin: 2rem;
       padding: 1rem;
+      margin: 2rem;
       gap: 1rem;
       font-size: larger; }
     .contacto__formulario .contacto__formulario__caja .contacto__formulario__botones {
@@ -39,8 +41,8 @@
   flex-flow: column wrap; }
 
 .contenedorpro__hijo {
-  margin: 0rem 1rem;
   padding: 1rem 0rem;
+  margin: 0rem 1rem;
   width: auto;
   text-align: center;
   border: 0.3rem solid black;
@@ -56,7 +58,8 @@
   .contenedorpro__hijo:hover {
     transform: scale(1.08); }
   .contenedorpro__hijo img {
-    width: 66.6%; }
+    width: 66.6%;
+    height: 12.5rem; }
   .contenedorpro__hijo span {
     padding: 0.5rem; }
 
@@ -99,11 +102,6 @@
   text-align: center;
   margin: 2rem; }
 
-/*estilos de las imagenes*/
-.body main img {
-  height: 12.5rem;
-  width: 18.75rem; }
-
 /* estilos de sedes */
 .contenedorsed {
   display: none; }
@@ -112,18 +110,21 @@ section div div {
   display: inline;
   text-align: center; }
 
+@media screen and (min-width: 600px) {
+  .contenedorsed, .contenedorindex, .contenedornos {
+    display: grid;
+    margin: 3rem;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center; } }
+
 /* estilos de la mediaquerie */
 @media screen and (min-width: 600px) {
   /* estilos de sed de mediquerie*/
   .carrusel {
     display: none; }
   .contenedorsed {
-    display: grid;
-    margin: 3rem;
-    row-gap: 1rem;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    text-align: center;
     border: 0.5rem solid black;
     grid-template-areas: "hijo1 hijo2" "hijo4 hijo3" "hijo5 hijo6"; }
     .contenedorsed div img {
@@ -167,4 +168,14 @@ section div div {
     font-size: 3rem; }
   /*estilos del nav*/
   #a {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  /*estilos de index*/ }
+
+@media screen and (min-width: 600px) {
+  .contenedorsed, .contenedorindex, .contenedornos {
+    display: grid;
+    margin: 3rem;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center; } }

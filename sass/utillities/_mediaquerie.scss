@@ -1,5 +1,6 @@
-// variables
+// variables e extend
 @import"variables";
+@import"extend";
 /* estilos de la mediaquerie */
 @media screen and (min-width:600px) {
 
@@ -9,12 +10,7 @@
     }
 
     .contenedorsed {
-        display: grid;
-        margin: 3rem;
-        row-gap: $medida-1;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        text-align: center;
+        @extend %grid;
         border: $medida-3 solid black;
         grid-template-areas:
             "hijo1 hijo2"
@@ -84,5 +80,13 @@
     /*estilos del nav*/
     #a{
         font-size: $medida-1;
+    }
+    /*estilos de index*/
+
+    .contenedorindex{
+    @extend %grid;
+    }
+    .contenedornos{
+        @extend %grid;
     }
 }
