@@ -1,6 +1,8 @@
-// variables e extend
-@import"variables";
-@import"extend";
+//imports
+@import"../utillities/variables";
+@import"../utillities/extend";
+@import"../utillities/mixin";
+@import"../utillities/listas";
 /* estilos de la mediaquerie */
 @media screen and (min-width:600px) {
 
@@ -17,7 +19,7 @@
             "hijo4 hijo3"
             "hijo5 hijo6";
         div img {
-         width: 60%;
+         @include sizes(60%,13rem)
         }
     }
 
@@ -81,12 +83,54 @@
     #a{
         font-size: $medida-1;
     }
+
     /*estilos de index*/
 
     .contenedorindex{
     @extend %grid;
+    grid-template-areas: 
+    "logo video"
+    "h2 video"
+    "p video";
+    .contenedorindex__logo{
+        grid-area: logo;
+        display: inline;
+        padding: 0rem $medida-1;
+        img{
+            @include sizes(45%,90%);
+        }
     }
+    .contenedorindex__video{
+        grid-area: video;
+        @include sizes(100%,100%);
+    }   
+    .contenedorindex__h2{
+        grid-area: h2;
+        padding: $medida-1;
+    }
+    .contenedorindex__p{
+        grid-area: p;
+        padding: $medida-1;
+        display: inline;
+    }
+    }
+    /*estilos de nos*/
     .contenedornos{
-        @extend %grid;
+        flex-direction: row-reverse;
+        margin: $medida-2;
+        .contenedornos__div{
+            padding: $medida-1;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-bottom: $medida-2;
+        }
+        .contenedornos__div__h1{
+            padding-top: $medida-2*1.7;
+        }
+        .contenedornos__div__p1{
+            display: inline;
+        }
     }
 }

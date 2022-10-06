@@ -1,11 +1,13 @@
-// listas, variables y mixin
-@import "listas";
-@import"variables";
-@import"mixin";
+//imports
+@import"../utillities/variables";
+@import"../utillities/extend";
+@import"../utillities/mixin";
+@import"../utillities/listas";
 /* estilos del nav */
 .body header nav {
     background-color: nth($colores,1);
     text-align: center;
+
     ul li {
         font-weight: bold;
         padding: $medida-1;

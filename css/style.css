@@ -1,3 +1,13 @@
+@media screen and (min-width: 600px) {
+  .contenedorsed, .contenedorindex {
+    display: grid;
+    margin: 3rem;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center; } }
+
 /*reset*/
 * {
   padding: 0rem;
@@ -18,10 +28,11 @@
   .contacto__formulario .contacto__formulario__caja {
     background-color: white;
     border: 4px solid black;
-    background-color: #f8eaea; }
+    background-color: #daf1fa; }
     .contacto__formulario .contacto__formulario__caja .contacto__formulario__titulo {
       border: 1px solid black;
-      background-color: #f8eaea;
+      font-weight: bold;
+      background-color: #daf1fa;
       font-size: 1.5rem;
       padding: 2rem;
       margin: 0rem;
@@ -34,6 +45,16 @@
     .contacto__formulario .contacto__formulario__caja .contacto__formulario__botones {
       display: flex;
       justify-content: space-around; }
+
+@media screen and (min-width: 600px) {
+  .contenedorsed, .contenedorindex {
+    display: grid;
+    margin: 3rem;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center; } }
 
 /* estilo de productos */
 .contenedorpro {
@@ -63,6 +84,16 @@
   .contenedorpro__hijo span {
     padding: 0.5rem; }
 
+@media screen and (min-width: 600px) {
+  .contenedorsed, .contenedorindex {
+    display: grid;
+    margin: 3rem;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center; } }
+
 /* estilos del nav */
 .body header nav {
   background-color: #47b5ff;
@@ -91,10 +122,13 @@
   margin-top: 1rem;
   color: white;
   gap: 0.6rem; }
-
-.footer__subt {
-  font-size: 1.5rem;
-  font-weight: bold; }
+  .footer .footer__subt {
+    font-size: 1.5rem;
+    font-weight: bold; }
+  .footer div {
+    margin-bottom: 1rem; }
+    .footer div a {
+      margin: 0.5rem; }
 
 /* estilos del h1 */
 .body main h1 {
@@ -109,15 +143,69 @@
 section div div {
   display: inline;
   text-align: center; }
+  section div div img {
+    width: 60%;
+    height: 13rem; }
+
+#p {
+  margin: 0.5rem; }
+
+/*estilos del index*/
+.contenedorindex__logo {
+  display: none; }
+
+.contenedorindex {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contenedorindex .contenedorindex__video {
+    width: 100%;
+    height: 20rem;
+    padding: 1rem; }
+  .contenedorindex .contenedorindex__p {
+    display: none; }
+  .contenedorindex .contenedorindex__h2 {
+    font-size: 2rem;
+    margin-top: 2rem; }
+  .contenedorindex p {
+    text-align: center;
+    padding: 1rem; }
 
 @media screen and (min-width: 600px) {
-  .contenedorsed, .contenedorindex, .contenedornos {
+  .contenedorsed, .contenedorindex {
     display: grid;
     margin: 3rem;
     row-gap: 1rem;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    text-align: center; } }
+    text-align: center;
+    justify-content: center; } }
+
+/*estilos de nos*/
+.contenedornos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .contenedornos .contenedornos__p2 {
+    padding: 1rem;
+    text-align: center; }
+  .contenedornos .contenedornos__img {
+    padding: 1rem; }
+  .contenedornos .contenedornos__div__h1 {
+    font-size: 2rem;
+    padding: 1rem; }
+  .contenedornos .contenedornos__div__p1 {
+    display: none; }
+
+@media screen and (min-width: 600px) {
+  .contenedorsed, .contenedorindex {
+    display: grid;
+    margin: 3rem;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center; } }
 
 /* estilos de la mediaquerie */
 @media screen and (min-width: 600px) {
@@ -128,7 +216,8 @@ section div div {
     border: 0.5rem solid black;
     grid-template-areas: "hijo1 hijo2" "hijo4 hijo3" "hijo5 hijo6"; }
     .contenedorsed div img {
-      width: 60%; }
+      width: 60%;
+      height: 13rem; }
   .contenedorsed__hijo1 {
     grid-area: hijo1;
     padding: 2rem;
@@ -169,13 +258,39 @@ section div div {
   /*estilos del nav*/
   #a {
     font-size: 1rem; }
-  /*estilos de index*/ }
-
-@media screen and (min-width: 600px) {
-  .contenedorsed, .contenedorindex, .contenedornos {
-    display: grid;
-    margin: 3rem;
-    row-gap: 1rem;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    text-align: center; } }
+  /*estilos de index*/
+  .contenedorindex {
+    grid-template-areas: "logo video" "h2 video" "p video"; }
+    .contenedorindex .contenedorindex__logo {
+      grid-area: logo;
+      display: inline;
+      padding: 0rem 1rem; }
+      .contenedorindex .contenedorindex__logo img {
+        width: 45%;
+        height: 90%; }
+    .contenedorindex .contenedorindex__video {
+      grid-area: video;
+      width: 100%;
+      height: 100%; }
+    .contenedorindex .contenedorindex__h2 {
+      grid-area: h2;
+      padding: 1rem; }
+    .contenedorindex .contenedorindex__p {
+      grid-area: p;
+      padding: 1rem;
+      display: inline; }
+  /*estilos de nos*/
+  .contenedornos {
+    flex-direction: row-reverse;
+    margin: 2rem; }
+    .contenedornos .contenedornos__div {
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-bottom: 2rem; }
+    .contenedornos .contenedornos__div__h1 {
+      padding-top: 3.4rem; }
+    .contenedornos .contenedornos__div__p1 {
+      display: inline; } }
