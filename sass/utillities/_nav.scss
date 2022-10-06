@@ -3,23 +3,25 @@
 
 /* estilos del nav */
 .body header nav {
-    display: block;
-    text-align: end;
     background-color: $colorNav;
-
+    text-align: center;
     ul li {
         font-weight: bold;
         padding: 1rem;
         transition: 1s;
-
         &:hover {
             text-decoration: underline;
             transform: scale(1.08);
+            color: $colorFondo;
+        }
+        a{
+            color: $colorFondo;
         }
     }
-    div a img{
-        width: 100%;
-        height: 4rem;
-        margin-left: 10px;
+    div{
+        a img{
+            width: 8rem;
+            height: 4rem;
+        }
     }
 }
