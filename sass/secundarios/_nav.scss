@@ -7,7 +7,12 @@
 .body header nav {
     background-color: nth($colores,1);
     text-align: center;
-
+    height: auto;
+    .boton{
+        background-color: nth($colores, 5);
+        @include sizes($medida-2,$medida-1);
+        border: 2px solid nth($colores, 2);
+    }
     ul li {
         font-weight: bold;
         padding: $medida-1;
