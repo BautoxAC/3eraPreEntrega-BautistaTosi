@@ -14,6 +14,7 @@
     }
     .contenedornos__img{
         padding: $medida-1;
+        @include sizes(auto,25rem)
     }
     .contenedornos__div__h1{
         font-size: $medida-2;

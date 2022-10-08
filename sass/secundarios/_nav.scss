@@ -8,6 +8,7 @@
     background-color: nth($colores,1);
     text-align: center;
     height: auto;
+    text-transform: uppercase;
     .boton{
         background-color: nth($colores, 5);
         @include sizes($medida-2,$medida-1);
