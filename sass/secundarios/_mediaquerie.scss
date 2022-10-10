@@ -6,64 +6,8 @@
 /* estilos de la mediaquerie */
 @media screen and (min-width:600px) {
 
-    /* estilos de sed de mediquerie*/
-    .carrusel {
-        display: none;
-    }
-
-    .contenedorsed {
-        @extend %grid;
-        border: $medida-3 solid black;
-        grid-template-areas:
-            "hijo1 hijo2"
-            "hijo4 hijo3"
-            "hijo5 hijo6";
-        div img {
-         @include sizes(60%,13rem)
-        }
-    }
-
-    .contenedorsed__hijo1 {
-        grid-area: hijo1;
-        padding: $medida-2;
-        align-self: center;
-    }
-    .contenedorsed__hijo2 {
-        grid-area: hijo2;
-        padding: $medida-2;
-        h2 {
-            font-size: xx-large;
-            margin: $medida-3;
-        }
-    }
-
-    .contenedorsed__hijo3 {
-        grid-area: hijo3;
-        padding: $medida-2;
-    }
-
-    .contenedorsed__hijo4 {
-        grid-area: hijo4;
-        padding: $medida-2;
-        h2 {
-            font-size: xx-large;
-            margin: $medida-3;
-        }
-    }
-
-    .contenedorsed__hijo5 {
-        grid-area: hijo5;
-        padding: $medida-2;
-    }
-
-    .contenedorsed__hijo6 {
-        grid-area: hijo6;
-        padding: $medida-2;
-        h2 {
-            font-size: xx-large;
-            margin: $medida-3;
-        }
-    }
+    /* estilos de sedes*/
+    
     /* estilos de Productos de mediaquerie*/
 
     .contenedorpro {

@@ -2,12 +2,12 @@
 @import"../utillities/variables";
 @import"../utillities/mixin";
 /* estilos de sedes */
-.contenedorsed {
-    display: none;
-}
 section div div {
     display: inline;
     text-align: center;
+    p{
+        display: none;
+    }
     img{
         @include sizes(60%,13rem)
     }
