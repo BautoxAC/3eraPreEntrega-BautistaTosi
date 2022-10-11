@@ -17,7 +17,8 @@
 /* estilo del body */
 .body {
   background-color: #dff6ff;
-  font-family: Futura,sans-serif; }
+  font-family: Futura,sans-serif;
+  color: #06283d; }
 
 /*estilo de contact*/
 .main {
@@ -51,7 +52,7 @@
   margin: 0rem 1rem;
   width: auto;
   text-align: center;
-  border: 0.3rem solid black;
+  border: 0.3rem solid #bad9e5;
   overflow: auto;
   transition: 1s;
   margin-top: 2rem; }
@@ -123,20 +124,31 @@
       margin: 0.5rem; }
 
 /* estilos del h1 */
+.body main p {
+  line-height: 2rem;
+  font-size: 1.125rem; }
+
 .body main h1 {
   font-size: 2rem;
   text-align: center;
-  margin: 2rem; }
+  margin: 2rem;
+  text-decoration: underline #319fe7; }
 
 /* estilos de sedes */
-section div div {
-  display: inline;
-  text-align: center; }
-  section div div p {
-    display: none; }
-  section div div img {
-    width: 60%;
-    height: 13rem; }
+section {
+  margin: 0rem; }
+  section div div {
+    display: inline;
+    text-align: center; }
+    section div div h2 {
+      padding-top: 1rem; }
+    section div div p {
+      display: none; }
+    section div div hr {
+      display: none; }
+    section div div img {
+      width: auto;
+      height: 13.5rem; }
 
 #p {
   margin: 0.5rem; }
@@ -203,6 +215,20 @@ section div div {
 /* estilos de la mediaquerie */
 @media screen and (min-width: 600px) {
   /* estilos de sedes*/
+  section {
+    margin: 2rem 4rem 4rem 4rem; }
+    section div div {
+      text-align: center; }
+      section div div h2 {
+        padding-top: 2rem; }
+      section div div hr {
+        display: block; }
+      section div div p {
+        display: inline; }
+      section div div img {
+        height: 25rem; }
+      section div div hr {
+        height: 0.5rem; }
   /* estilos de Productos de mediaquerie*/
   .contenedorpro {
     justify-content: center;
@@ -210,8 +236,8 @@ section div div {
   .contenedorpro__hijo {
     width: 33.3%; }
   /* estilos del h1 */
-  body main h1 {
-    font-size: 3rem; }
+  .body main h1 {
+    font-size: 2.5rem; }
   /*estilos del nav*/
   #a {
     font-size: 1rem; }
@@ -252,6 +278,7 @@ section div div {
       justify-content: space-evenly;
       margin-bottom: 2rem; }
     .contenedornos .contenedornos__div__h1 {
-      padding-top: 3.4rem; }
+      padding-top: 3.4rem;
+      font-size: 2.5rem; }
     .contenedornos .contenedornos__div__p1 {
       display: inline; } }

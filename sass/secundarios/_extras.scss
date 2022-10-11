@@ -1,9 +1,18 @@
 // variables y mixin
 @import"../utillities/variables";
 @import"../utillities/mixin";
+@import"../utillities/listas";
 /* estilos del h1 */
-.body main h1 {
-    font-size: $medida-2;
-    text-align: center;
-    margin: $medida-2;
+.body main {
+    p{
+        line-height: $medida-2;
+        font-size: $medida-1 + 0.125rem;
+    }
+    h1 {
+        font-size: $medida-2;
+        text-align: center;
+        margin: $medida-2;
+        text-decoration: underline nth($colores, 5);
 }
+} 
+

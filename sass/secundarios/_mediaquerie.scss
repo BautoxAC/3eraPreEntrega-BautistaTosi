@@ -7,7 +7,27 @@
 @media screen and (min-width:600px) {
 
     /* estilos de sedes*/
-    
+    section{
+        margin: $medida-2 $medida-2 * 2 $medida-2 * 2 $medida-2 * 2 ;
+        div div {
+            text-align: center;
+            h2{
+                padding-top: $medida-2;
+            }
+            hr{
+                display: block;
+            }
+            p{
+                display: inline;
+            }
+            img{
+                height: 25rem;
+            }
+            hr{
+                height: $medida-3;
+            }
+            }
+        }
     /* estilos de Productos de mediaquerie*/
 
     .contenedorpro {
@@ -20,8 +40,8 @@
     }
 
     /* estilos del h1 */
-    body main h1 {
-        font-size: $medida-2 + 1rem;
+    .body main h1 {
+        font-size: $medida-2 + $medida-3;
     }
     /*estilos del nav*/
     #a{
@@ -77,7 +97,8 @@
             margin-bottom: $medida-2;
         }
         .contenedornos__div__h1{
-            padding-top: $medida-2*1.7;
+            padding-top: $medida-2 * 1.7;
+            font-size: $medida-2 + $medida-3;
         }
         .contenedornos__div__p1{
             display: inline;
