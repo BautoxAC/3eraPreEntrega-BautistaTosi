@@ -7,27 +7,6 @@
 @media screen and (min-width:600px) {
 
     /* estilos de sedes*/
-    section{
-        margin: $medida-2 $medida-2 * 2 $medida-2 * 2 $medida-2 * 2 ;
-        div div {
-            text-align: center;
-            h2{
-                padding-top: $medida-2;
-            }
-            hr{
-                display: block;
-            }
-            p{
-                display: inline;
-            }
-            img{
-                height: 25rem;
-            }
-            hr{
-                height: $medida-3;
-            }
-            }
-        }
     /* estilos de Productos de mediaquerie*/
 
     .contenedorpro {
@@ -83,6 +62,10 @@
         padding: $medida-1;
         display: inline;
     }
+    }
+    .contenedorsed{
+        @include sizes(60%,25rem);
+        margin: $medida-2;
     }
     /*estilos de nos*/
     .contenedornos{

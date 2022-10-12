@@ -13,6 +13,15 @@
         text-align: center;
         margin: $medida-2;
         text-decoration: underline nth($colores, 5);
+        font-family: Tiemann,serif;
+    }
+    h2{
+        text-decoration: underline nth($colores, 5);
+        font-family: Tiemann,serif;
+    }
+    h3{
+        margin-top: $medida-2;
+        text-decoration: underline nth($colores, 5);
+        font-family: Tiemann,serif;
+    }
 }
-} 
-
