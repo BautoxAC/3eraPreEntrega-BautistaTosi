@@ -1,13 +1,30 @@
 //variables
 @import"variables";
+
 @media screen and (min-width:600px) {
-    %grid{
+    %grid {
         display: grid;
         margin: 3rem;
         row-gap: $medida-1;
         grid-template-columns: 1fr 1fr;
         align-items: center;
-        text-align: center;  
+        text-align: center;
         justify-content: center;
+    }
+}
+
+%grid2 {
+    grid-template-rows: 40% 60%;
+    row-gap: $medida-1;
+    margin-bottom: $medida-2;
+    p {
+        grid-area: p;
+    }
+    h1 {
+        grid-area: h1;
+    }
+    img {
+        width: 30rem;
+        grid-area: img;
     }
 }

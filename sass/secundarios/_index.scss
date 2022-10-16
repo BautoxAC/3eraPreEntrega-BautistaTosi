@@ -1,27 +1,65 @@
 // imports
 @import"../utillities/variables";
 @import"../utillities/mixin";
+@import"../utillities/extend";
+
 /*estilos del index*/
-.contenedorindex__logo{
+.contenedorindex__logo {
     display: none;
 }
-.contenedorindex{
+.mainindex {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    .contenedorindex__video{
-        @include sizes(100%,20rem);
-        padding: $medida-1;
+
+    .mainindex__sec1 {
+        position: absolute;
+        top: 5.8rem;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+
+        .mainindex__sec1__video {
+            width: 100%;
+        }
     }
-    .contenedorindex__p{
-        display: none;
+
+    .mainindex__sec2 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        z-index: 2;
+        height: 40rem;
     }
-    .contenedorindex__h2{
-        font-size: $medida-2;
-        margin-top: $medida-2;
+
+    .mainindex__sec3 {
+        margin-top: $medida-2 * 3;
+
+        .mainindex__sec3__div1 {
+            display: grid;
+            grid-template-areas:
+                "img h1"
+                "img p";
+            @extend %grid2;
+        }
+
+        .mainindex__sec3__div2 {
+            display: grid;
+            grid-template-areas:
+                "h1 img"
+                "p img";
+            @extend %grid2;
+        }
+
+        .mainindex__sec3__div3 {
+            display: grid;
+            grid-template-areas:
+                "img h1"
+                "img p";
+            @extend %grid2;
+        }
     }
-    p{
-        text-align: center;
-        padding: $medida-1;
-    }
+
 }

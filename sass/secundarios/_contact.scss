@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     .main__caja{
-        
         margin: 8rem;
         @include sizes(40rem,auto);
         border: $medida-3 / 2 solid nth($colores,7);
