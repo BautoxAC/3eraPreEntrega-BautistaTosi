@@ -7,20 +7,18 @@
     p{
         line-height: $medida-2;
         font-size: $medida-1 + 0.125rem;
-        text-align: center;
     }
     #h1 {
         font-size: $medida-2 * 1.5;
-        text-align: center;
         margin: $medida-2;
         text-decoration: underline nth($colores, 5);
         font-family: Tiemann,serif;
+        margin-bottom: $medida-1;
     }
     #h2{
         font-size: $medida-2 * 1.15;
         text-decoration: underline nth($colores, 5);
         font-family: Tiemann,serif;
-        text-align: center;
         margin: $medida-2;
     }
     #h3{
