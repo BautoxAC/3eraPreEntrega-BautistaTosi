@@ -17,8 +17,11 @@
         font-family: Tiemann,serif;
     }
     #h2{
+        font-size: $medida-2 * 1.15;
         text-decoration: underline nth($colores, 5);
         font-family: Tiemann,serif;
+        text-align: center;
+        margin: $medida-2;
     }
     #h3{
         margin-top: $medida-2;

@@ -8,15 +8,15 @@
     text-align: center;
     justify-content: center; } }
 
-.mainindex .mainindex__sec3 .mainindex__sec3__div1, .mainindex .mainindex__sec3 .mainindex__sec3__div2, .mainindex .mainindex__sec3 .mainindex__sec3__div3 {
+.mainindex .mainindex__sec4 .mainindex__sec4__div1, .mainindex .mainindex__sec4 .mainindex__sec4__div2, .mainindex .mainindex__sec4 .mainindex__sec4__div3 {
   grid-template-rows: 40% 60%;
   row-gap: 1rem;
   margin-bottom: 2rem; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 p, .mainindex .mainindex__sec3 .mainindex__sec3__div2 p, .mainindex .mainindex__sec3 .mainindex__sec3__div3 p {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex .mainindex__sec4 .mainindex__sec4__div3 p {
     grid-area: p; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div2 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div3 h1 {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div2 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div3 h1 {
     grid-area: h1; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 img, .mainindex .mainindex__sec3 .mainindex__sec3__div2 img, .mainindex .mainindex__sec3 .mainindex__sec3__div3 img {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex .mainindex__sec4 .mainindex__sec4__div3 img {
     width: 30rem;
     grid-area: img; }
 
@@ -54,15 +54,15 @@
     text-align: center;
     justify-content: center; } }
 
-.mainindex .mainindex__sec3 .mainindex__sec3__div1, .mainindex .mainindex__sec3 .mainindex__sec3__div2, .mainindex .mainindex__sec3 .mainindex__sec3__div3 {
+.mainindex .mainindex__sec4 .mainindex__sec4__div1, .mainindex .mainindex__sec4 .mainindex__sec4__div2, .mainindex .mainindex__sec4 .mainindex__sec4__div3 {
   grid-template-rows: 40% 60%;
   row-gap: 1rem;
   margin-bottom: 2rem; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 p, .mainindex .mainindex__sec3 .mainindex__sec3__div2 p, .mainindex .mainindex__sec3 .mainindex__sec3__div3 p {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex .mainindex__sec4 .mainindex__sec4__div3 p {
     grid-area: p; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div2 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div3 h1 {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div2 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div3 h1 {
     grid-area: h1; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 img, .mainindex .mainindex__sec3 .mainindex__sec3__div2 img, .mainindex .mainindex__sec3 .mainindex__sec3__div3 img {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex .mainindex__sec4 .mainindex__sec4__div3 img {
     width: 30rem;
     grid-area: img; }
 
@@ -104,15 +104,15 @@
     text-align: center;
     justify-content: center; } }
 
-.mainindex .mainindex__sec3 .mainindex__sec3__div1, .mainindex .mainindex__sec3 .mainindex__sec3__div2, .mainindex .mainindex__sec3 .mainindex__sec3__div3 {
+.mainindex .mainindex__sec4 .mainindex__sec4__div1, .mainindex .mainindex__sec4 .mainindex__sec4__div2, .mainindex .mainindex__sec4 .mainindex__sec4__div3 {
   grid-template-rows: 40% 60%;
   row-gap: 1rem;
   margin-bottom: 2rem; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 p, .mainindex .mainindex__sec3 .mainindex__sec3__div2 p, .mainindex .mainindex__sec3 .mainindex__sec3__div3 p {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex .mainindex__sec4 .mainindex__sec4__div3 p {
     grid-area: p; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div2 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div3 h1 {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div2 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div3 h1 {
     grid-area: h1; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 img, .mainindex .mainindex__sec3 .mainindex__sec3__div2 img, .mainindex .mainindex__sec3 .mainindex__sec3__div3 img {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex .mainindex__sec4 .mainindex__sec4__div3 img {
     width: 30rem;
     grid-area: img; }
 
@@ -173,32 +173,16 @@
   font-family: Tiemann,serif; }
 
 .body main #h2 {
+  font-size: 2.3rem;
   text-decoration: underline #319fe7;
-  font-family: Tiemann,serif; }
+  font-family: Tiemann,serif;
+  text-align: center;
+  margin: 2rem; }
 
 .body main #h3 {
   margin-top: 2rem;
   text-decoration: underline #319fe7;
   font-family: Tiemann,serif; }
-
-/* estilos de sedes */
-section {
-  margin: 0rem; }
-  section div div {
-    display: inline;
-    text-align: center; }
-    section div div h2 {
-      padding-top: 1rem; }
-    section div div p {
-      display: none; }
-    section div div hr {
-      display: none; }
-    section div div img {
-      width: auto;
-      height: 13.5rem; }
-
-#p {
-  margin: 0.5rem; }
 
 @media screen and (min-width: 600px) {
   .contenedorindex {
@@ -210,15 +194,15 @@ section {
     text-align: center;
     justify-content: center; } }
 
-.mainindex .mainindex__sec3 .mainindex__sec3__div1, .mainindex .mainindex__sec3 .mainindex__sec3__div2, .mainindex .mainindex__sec3 .mainindex__sec3__div3 {
+.mainindex .mainindex__sec4 .mainindex__sec4__div1, .mainindex .mainindex__sec4 .mainindex__sec4__div2, .mainindex .mainindex__sec4 .mainindex__sec4__div3 {
   grid-template-rows: 40% 60%;
   row-gap: 1rem;
   margin-bottom: 2rem; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 p, .mainindex .mainindex__sec3 .mainindex__sec3__div2 p, .mainindex .mainindex__sec3 .mainindex__sec3__div3 p {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex .mainindex__sec4 .mainindex__sec4__div3 p {
     grid-area: p; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div2 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div3 h1 {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div2 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div3 h1 {
     grid-area: h1; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 img, .mainindex .mainindex__sec3 .mainindex__sec3__div2 img, .mainindex .mainindex__sec3 .mainindex__sec3__div3 img {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex .mainindex__sec4 .mainindex__sec4__div3 img {
     width: 30rem;
     grid-area: img; }
 
@@ -241,22 +225,81 @@ section {
   .mainindex .mainindex__sec2 {
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     z-index: 2;
     height: 40rem;
     margin-bottom: 6rem; }
-  .mainindex .mainindex__sec3 {
+    .mainindex .mainindex__sec2 p {
+      background: -webkit-linear-gradient(#dff6ff, white);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 1.25rem; }
+  .mainindex .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+    padding: 1rem 0rem;
+    margin: 0rem 1rem;
+    width: auto;
+    text-align: center;
+    border: 0.3rem solid #bad9e5;
+    border-radius: 0.5rem;
+    overflow: auto;
+    transition: 1s;
+    margin-top: 2rem; }
+    .mainindex .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo h2 {
+      padding: 1rem; }
+    .mainindex .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo p {
+      font-weight: bold;
+      font-size: 1.5rem;
+      padding-bottom: 1rem; }
+      .mainindex .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo p .s1 {
+        text-decoration: line-through;
+        opacity: 50%; }
+    .mainindex .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo:hover {
+      transform: scale(1.08); }
+    .mainindex .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo img {
+      width: 66.6%;
+      height: 12.5rem; }
+    .mainindex .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo span {
+      padding: 0.5rem; }
+  .mainindex .mainindex__sec3 .mainindex__sec3__contenedorpro {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap; }
+  .mainindex .mainindex__sec3 .mainindex__sec3__boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.4rem;
+    font-size: 1.5rem;
+    transition: 1s;
+    margin-bottom: -3rem; }
+    .mainindex .mainindex__sec3 .mainindex__sec3__boton button {
+      border: 0.3rem solid #06283d;
+      border-radius: 0.5rem;
+      transition: 1s; }
+      .mainindex .mainindex__sec3 .mainindex__sec3__boton button:hover {
+        transform: scale(1.08); }
+    .mainindex .mainindex__sec3 .mainindex__sec3__boton a {
+      display: inline-block;
+      padding: 1rem;
+      text-decoration: none;
+      color: #06283d;
+      letter-spacing: 0.15rem;
+      font-weight: bold;
+      border: 0.3rem solid #bad9e5; }
+  .mainindex .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+    width: 33.3%; }
+  .mainindex .mainindex__sec4 {
     margin: 1rem;
     margin-top: 6rem; }
-    .mainindex .mainindex__sec3 .mainindex__sec3__div1 {
+    .mainindex .mainindex__sec4 .mainindex__sec4__div1 {
       display: grid;
       grid-template-areas: "img h1" "img p"; }
-    .mainindex .mainindex__sec3 .mainindex__sec3__div2 {
+    .mainindex .mainindex__sec4 .mainindex__sec4__div2 {
       display: grid;
       grid-template-areas: "h1 img" "p img"; }
-    .mainindex .mainindex__sec3 .mainindex__sec3__div3 {
+    .mainindex .mainindex__sec4 .mainindex__sec4__div3 {
       display: grid;
       grid-template-areas: "img h1" "img p"; }
 
@@ -270,15 +313,15 @@ section {
     text-align: center;
     justify-content: center; } }
 
-.mainindex .mainindex__sec3 .mainindex__sec3__div1, .mainindex .mainindex__sec3 .mainindex__sec3__div2, .mainindex .mainindex__sec3 .mainindex__sec3__div3 {
+.mainindex .mainindex__sec4 .mainindex__sec4__div1, .mainindex .mainindex__sec4 .mainindex__sec4__div2, .mainindex .mainindex__sec4 .mainindex__sec4__div3 {
   grid-template-rows: 40% 60%;
   row-gap: 1rem;
   margin-bottom: 2rem; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 p, .mainindex .mainindex__sec3 .mainindex__sec3__div2 p, .mainindex .mainindex__sec3 .mainindex__sec3__div3 p {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex .mainindex__sec4 .mainindex__sec4__div3 p {
     grid-area: p; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div2 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div3 h1 {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div2 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div3 h1 {
     grid-area: h1; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 img, .mainindex .mainindex__sec3 .mainindex__sec3__div2 img, .mainindex .mainindex__sec3 .mainindex__sec3__div3 img {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex .mainindex__sec4 .mainindex__sec4__div3 img {
     width: 30rem;
     grid-area: img; }
 
@@ -310,15 +353,15 @@ section {
     text-align: center;
     justify-content: center; } }
 
-.mainindex .mainindex__sec3 .mainindex__sec3__div1, .mainindex .mainindex__sec3 .mainindex__sec3__div2, .mainindex .mainindex__sec3 .mainindex__sec3__div3 {
+.mainindex .mainindex__sec4 .mainindex__sec4__div1, .mainindex .mainindex__sec4 .mainindex__sec4__div2, .mainindex .mainindex__sec4 .mainindex__sec4__div3 {
   grid-template-rows: 40% 60%;
   row-gap: 1rem;
   margin-bottom: 2rem; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 p, .mainindex .mainindex__sec3 .mainindex__sec3__div2 p, .mainindex .mainindex__sec3 .mainindex__sec3__div3 p {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex .mainindex__sec4 .mainindex__sec4__div3 p {
     grid-area: p; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div2 h1, .mainindex .mainindex__sec3 .mainindex__sec3__div3 h1 {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div2 h1, .mainindex .mainindex__sec4 .mainindex__sec4__div3 h1 {
     grid-area: h1; }
-  .mainindex .mainindex__sec3 .mainindex__sec3__div1 img, .mainindex .mainindex__sec3 .mainindex__sec3__div2 img, .mainindex .mainindex__sec3 .mainindex__sec3__div3 img {
+  .mainindex .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex .mainindex__sec4 .mainindex__sec4__div3 img {
     width: 30rem;
     grid-area: img; }
 
