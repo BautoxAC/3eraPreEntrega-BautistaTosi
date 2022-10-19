@@ -189,6 +189,7 @@
     margin-bottom: 6rem; }
     .mainindex .mainindex__sec2 p {
       background: -webkit-linear-gradient(#dff6ff, white);
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 1.25rem; }

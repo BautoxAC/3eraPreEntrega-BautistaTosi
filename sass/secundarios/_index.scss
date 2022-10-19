@@ -38,6 +38,7 @@
 
         p {
             background: -webkit-linear-gradient(nth($colores, 3), nth($colores, 8));
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: $medida-1 + 0.25rem;
