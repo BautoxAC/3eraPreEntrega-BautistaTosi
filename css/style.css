@@ -196,7 +196,7 @@
     text-align: center;
     padding: 1rem;
     text-align: center;
-    margin: 4rem;
+    margin: 3rem;
     font-size: 4.5rem;
     text-decoration: underline #319fe7;
     font-family: Tiemann, serif; }
@@ -258,7 +258,8 @@
     margin-top: 8rem; }
   .mainindex .mainindex__sec4 {
     margin-top: 6rem;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 6rem; }
     .mainindex .mainindex__sec4 h2 {
       text-align: center;
       font-size: 4.25rem;
@@ -309,6 +310,26 @@
         font-size: 2.3rem;
         text-decoration: underline #319fe7;
         font-family: Tiemann, serif; }
+    .mainindex .mainindex__sec4 .mainindex__sec4__boton {
+      display: flex;
+      justify-content: center;
+      margin-top: 6rem;
+      font-size: 1.5rem;
+      transition: 1s; }
+      .mainindex .mainindex__sec4 .mainindex__sec4__boton button {
+        border: 0.3rem solid #06283d;
+        border-radius: 0.5rem;
+        transition: 1s; }
+        .mainindex .mainindex__sec4 .mainindex__sec4__boton button:hover {
+          transform: scale(1.08); }
+        .mainindex .mainindex__sec4 .mainindex__sec4__boton button a {
+          display: inline-block;
+          padding: 1rem;
+          text-decoration: none;
+          color: #06283d;
+          letter-spacing: 0.15rem;
+          font-weight: bold;
+          border: 0.3rem solid #bad9e5; }
 
 .mainindex .mainindex__sec4 .mainindex__sec4__div1, .mainindex .mainindex__sec4 .mainindex__sec4__div2, .mainindex .mainindex__sec4 .mainindex__sec4__div3 {
   row-gap: 1rem;

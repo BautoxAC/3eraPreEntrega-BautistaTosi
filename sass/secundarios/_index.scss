@@ -49,7 +49,7 @@
             text-align: center;
             padding: $medida-1;
             text-align: center;
-            margin: 4rem;
+            margin: 3rem;
             font-size: 4.5rem;
             text-decoration: underline nth($colores, 5);
             font-family: Tiemann, serif
@@ -131,13 +131,16 @@
         }
 
     }
-    hr{
+
+    hr {
         margin: 0;
         margin-top: 8rem;
     }
+
     .mainindex__sec4 {
         margin-top: $medida-2 * 3;
         width: 100%;
+        margin-bottom: 6rem;
 
         h2 {
             text-align: center;
@@ -216,6 +219,31 @@
                 font-size: $medida-2 * 1.15;
                 text-decoration: underline nth($colores, 5);
                 font-family: Tiemann, serif;
+            }
+        }
+        .mainindex__sec4__boton {
+            display: flex;
+            justify-content: center;
+            margin-top: 6rem;
+            font-size: $medida-1 + $medida-3;
+            transition: 1s;
+            button {
+                border: 0.3rem solid nth($colores, 2);
+                border-radius: $medida-3;
+                transition: 1s;
+
+                &:hover {
+                    transform: scale(1.08);
+                }
+                a {
+                    display: inline-block;
+                    padding: $medida-1;
+                    text-decoration: none;
+                    color: nth($colores, 2);
+                    letter-spacing: 0.15rem;
+                    font-weight: bold;
+                    border: 0.3rem solid nth($colores, 7);
+                }
             }
         }
     }
