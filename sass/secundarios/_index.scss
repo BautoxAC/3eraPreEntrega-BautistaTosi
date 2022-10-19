@@ -45,6 +45,16 @@
     }
 
     .mainindex__sec3 {
+        h1 {
+            text-align: center;
+            padding: $medida-1;
+            text-align: center;
+            margin: 4rem;
+            font-size: 4.5rem;
+            text-decoration: underline nth($colores, 5);
+            font-family: Tiemann, serif
+        }
+
         .mainindex__sec3__contenedorpro__hijo {
             @include margen(0rem $medida-1, $medida-1 0rem);
             width: auto;
@@ -55,15 +65,12 @@
             transition: 1s;
             margin-top: $medida-2;
 
-            h2 {
-                padding: $medida-1;
-                text-align: center;
-            }
-
             p {
                 font-weight: bold;
                 font-size: $medida-1 + $medida-3;
                 padding-bottom: $medida-1;
+                line-height: $medida-2;
+                font-size: $medida-1 + 0.125rem;
 
                 .s1 {
                     text-decoration: line-through;
@@ -124,95 +131,92 @@
         }
 
     }
-
+    hr{
+        margin: 0;
+        margin-top: 8rem;
+    }
     .mainindex__sec4 {
         margin-top: $medida-2 * 3;
-        display: grid;
         width: 100%;
-        grid-template-columns: 38% 24% 38%;
-        row-gap: 10rem;
-        grid-template-areas:
-            "h2 h2 h2"
-            "img ph3 b"
-            "b2 ph32 img2"
-            "img3 ph33 b3";
+
         h2 {
-            grid-area: h2;
             text-align: center;
+            font-size: 4.25rem;
+            text-decoration: underline nth($colores, 5);
+            font-family: Tiemann, serif
         }
-        .mainindex__sec4__img {
-            grid-area: img;
-            display: flex;
-            justify-content: center;
-            height: 18rem;
-            img{
-                @include sizes(90%,18rem);
-            }
-        }
-        .mainindex__sec4__img2 {
-            grid-area: img2;
-            display: flex;
-            justify-content: center;
-            height: 18rem;
-            img{
-                @include sizes(90%,18rem);
-            }
-        }
-        .mainindex__sec4__img3 {
-            grid-area: img3;
-            display: flex;
-            justify-content: center;
-            height: 18rem;
-            img{
-                @include sizes(90%,18rem);
-            }
-        }
-        .mainindex__sec4__ph3 {
-            grid-area: ph3;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            p{
+
+        .mainindex__sec4__div1 {
+            margin-top: 8rem;
+            width: 97%;
+            display: grid;
+            grid-template-columns: 42.5% 30% 32.5%;
+            grid-template-areas:
+                "img h2 b"
+                "img p b";
+            @extend %grid2;
+
+            p {
                 text-align: left;
+                line-height: $medida-2;
+                font-size: $medida-1 + 0.125rem;
             }
-            h3{
+
+            h3 {
                 text-align: left;
-                width: 90%;
-                padding-right: 1rem;
+                font-size: $medida-2 * 1.15;
+                text-decoration: underline nth($colores, 5);
+                font-family: Tiemann, serif;
             }
         }
-        .mainindex__sec4__ph32 {
-            grid-area: ph32;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            p{
+
+        .mainindex__sec4__div2 {
+            width: 97%;
+            display: grid;
+            grid-template-columns: 32.5% 25% 42.5%;
+            grid-template-areas:
+                "b h2 img"
+                "b p img";
+            @extend %grid2;
+
+            p {
                 text-align: right;
+                line-height: $medida-2;
+                font-size: $medida-1 + 0.125rem;
             }
-            h3{
+
+            h3 {
                 text-align: right;
+                font-size: $medida-2 * 1.15;
+                text-decoration: underline nth($colores, 5);
+                font-family: Tiemann, serif;
             }
+
+            margin-top: 15rem;
         }
-        .mainindex__sec4__phr33 {
-            grid-area: ph33;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            p{
+
+        .mainindex__sec4__div3 {
+            width: 97%;
+            display: grid;
+            grid-template-columns: 42.5% 30% 32.5%;
+            grid-template-areas:
+                "img h2 b"
+                "img p b";
+            @extend %grid2;
+            margin-top: 15rem;
+
+            p {
                 text-align: left;
+                line-height: $medida-2;
+                font-size: $medida-1 + 0.125rem;
             }
-            h3{
+
+            h3 {
                 text-align: left;
+                font-size: $medida-2 * 1.15;
+                text-decoration: underline nth($colores, 5);
+                font-family: Tiemann, serif;
             }
-        }
-        .b {
-            grid-area: b;
-        }
-        .b2{
-            grid-area: b2;
-        }
-        .b3{
-            grid-area: b3;
         }
     }
 }

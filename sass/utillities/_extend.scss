@@ -1,6 +1,6 @@
 //variables
 @import"variables";
-
+@import"mixin";
 @media screen and (min-width:600px) {
     %grid {
         display: grid;
@@ -14,18 +14,22 @@
 }
 
 %grid2 {
-    grid-template-rows: 40% 60%;
     row-gap: $medida-1;
     margin-bottom: $medida-2;
     column-gap: $medida-1;
     p {
         grid-area: p;
     }
-    h1 {
-        grid-area: h1;
+    h3 {
+        grid-area: h2;
+        padding-top: $medida-2;
     }
     img {
-        width: 30rem;
+        @include sizes(100%,18rem);
         grid-area: img;
+    }
+    div {
+        grid-area: b;
+        width: 80%;
     }
 }
