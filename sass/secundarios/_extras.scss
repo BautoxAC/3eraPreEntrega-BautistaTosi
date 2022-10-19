@@ -10,16 +10,13 @@
     }
     #h1 {
         font-size: $medida-2 * 1.5;
-        margin: $medida-2;
         text-decoration: underline nth($colores, 5);
         font-family: Tiemann,serif;
-        margin-bottom: $medida-1;
     }
     #h2{
         font-size: $medida-2 * 1.15;
         text-decoration: underline nth($colores, 5);
         font-family: Tiemann,serif;
-        margin: $medida-2;
     }
     #h3{
         margin-top: $medida-2;
