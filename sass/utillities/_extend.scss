@@ -12,8 +12,7 @@
         justify-content: center;
     }
 }
-
-%grid2 {
+@media screen and (min-width:600px){%grid2 {
     row-gap: $medida-1;
     margin-bottom: $medida-2;
     column-gap: $medida-1;
@@ -32,4 +31,4 @@
         grid-area: b;
         width: 80%;
     }
-}
+}}
