@@ -37,9 +37,9 @@
     
     .mainindex {
         display: flex;
-        justify-content: center;
         flex-direction: column;
-    
+        align-items: center;
+        width: 100%;
         .mainindex__sec1 {
             position: absolute;
             top: 5.6rem;
@@ -153,35 +153,33 @@
             margin: 0;
             margin-top: 8rem;
         }
-    
         .mainindex__sec4 {
             margin-top: $medida-2 * 3;
-            width: 100%;
+            width: 95%;
             margin-bottom: 6rem;
-    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             h2 {
                 text-align: center;
                 font-size: 4.25rem;
                 text-decoration: underline nth($colores, 5);
                 font-family: Tiemann, serif
             }
-    
             .mainindex__sec4__div1 {
                 margin-top: 8rem;
-                width: 97%;
+                width: 85%;
                 display: grid;
                 grid-template-columns: 42.5% 30% 32.5%;
                 grid-template-areas:
                     "img h2 b"
                     "img p b";
                 @extend %grid2;
-    
                 p {
                     text-align: left;
                     line-height: $medida-2;
                     font-size: $medida-1 + 0.125rem;
                 }
-    
                 h3 {
                     text-align: left;
                     font-size: $medida-2 * 1.15;
@@ -189,16 +187,14 @@
                     font-family: Tiemann, serif;
                 }
             }
-    
             .mainindex__sec4__div2 {
-                width: 97%;
+                width: 80%;
                 display: grid;
                 grid-template-columns: 32.5% 25% 42.5%;
                 grid-template-areas:
                     "b h2 img"
                     "b p img";
                 @extend %grid2;
-    
                 p {
                     text-align: right;
                     line-height: $medida-2;
@@ -211,12 +207,11 @@
                     text-decoration: underline nth($colores, 5);
                     font-family: Tiemann, serif;
                 }
-    
                 margin-top: 15rem;
             }
     
             .mainindex__sec4__div3 {
-                width: 97%;
+                width: 85%;
                 display: grid;
                 grid-template-columns: 42.5% 30% 32.5%;
                 grid-template-areas:

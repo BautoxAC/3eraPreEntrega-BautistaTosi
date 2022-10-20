@@ -13,8 +13,7 @@
       height: 18rem;
       grid-area: img; }
     .mainindex .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b;
-      width: 80%; } }
+      grid-area: b; } }
 
 /*reset*/
 * {
@@ -55,8 +54,7 @@
       height: 18rem;
       grid-area: img; }
     .mainindex .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b;
-      width: 80%; } }
+      grid-area: b; } }
 
 /* estilo de productos */
 .contenedorpro {
@@ -101,8 +99,7 @@
       height: 18rem;
       grid-area: img; }
     .mainindex .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b;
-      width: 80%; } }
+      grid-area: b; } }
 
 /* estilos del nav */
 .body header nav {
@@ -162,8 +159,7 @@
       height: 18rem;
       grid-area: img; }
     .mainindex .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b;
-      width: 80%; } }
+      grid-area: b; } }
 
 /*estilos del index*/
 @media screen and (min-width: 600px) {
@@ -181,8 +177,7 @@
       height: 18rem;
       grid-area: img; }
     .mainindex .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b;
-      width: 80%; } }
+      grid-area: b; } }
 
 /*estilos de nos*/
 .contenedornos {
@@ -217,8 +212,7 @@
       height: 18rem;
       grid-area: img; }
     .mainindex .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b;
-      width: 80%; } }
+      grid-area: b; } }
 
 /* estilos de la mediaquerie */
 @media screen and (min-width: 600px) {
@@ -242,8 +236,9 @@
     display: none; }
   .mainindex {
     display: flex;
-    justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
     .mainindex .mainindex__sec1 {
       position: absolute;
       top: 5.6rem;
@@ -336,8 +331,11 @@
       margin-top: 8rem; }
     .mainindex .mainindex__sec4 {
       margin-top: 6rem;
-      width: 100%;
-      margin-bottom: 6rem; }
+      width: 95%;
+      margin-bottom: 6rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
       .mainindex .mainindex__sec4 h2 {
         text-align: center;
         font-size: 4.25rem;
@@ -345,11 +343,10 @@
         font-family: Tiemann, serif; }
       .mainindex .mainindex__sec4 .mainindex__sec4__div1 {
         margin-top: 8rem;
-        width: 97%;
+        width: 85%;
         display: grid;
         grid-template-columns: 42.5% 30% 32.5%;
-        grid-template-areas: "img h2 b"
- "img p b"; }
+        grid-template-areas: "img h2 b" "img p b"; }
         .mainindex .mainindex__sec4 .mainindex__sec4__div1 p {
           text-align: left;
           line-height: 2rem;
@@ -360,11 +357,10 @@
           text-decoration: underline #319fe7;
           font-family: Tiemann, serif; }
       .mainindex .mainindex__sec4 .mainindex__sec4__div2 {
-        width: 97%;
+        width: 80%;
         display: grid;
         grid-template-columns: 32.5% 25% 42.5%;
-        grid-template-areas: "b h2 img"
- "b p img";
+        grid-template-areas: "b h2 img" "b p img";
         margin-top: 15rem; }
         .mainindex .mainindex__sec4 .mainindex__sec4__div2 p {
           text-align: right;
@@ -376,11 +372,10 @@
           text-decoration: underline #319fe7;
           font-family: Tiemann, serif; }
       .mainindex .mainindex__sec4 .mainindex__sec4__div3 {
-        width: 97%;
+        width: 85%;
         display: grid;
         grid-template-columns: 42.5% 30% 32.5%;
-        grid-template-areas: "img h2 b"
- "img p b";
+        grid-template-areas: "img h2 b" "img p b";
         margin-top: 15rem; }
         .mainindex .mainindex__sec4 .mainindex__sec4__div3 p {
           text-align: left;
