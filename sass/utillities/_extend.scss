@@ -1,7 +1,7 @@
 //variables
 @import"variables";
 @import"mixin";
-@media screen and (min-width:600px) {
+@media screen and (min-width:576px) {
     %grid {
         display: grid;
         margin: 3rem;
@@ -12,7 +12,7 @@
         justify-content: center;
     }
 }
-@media screen and (min-width:600px){%grid2 {
+@media screen and (min-width:576px){%grid2 {
     row-gap: $medida-1;
     margin-bottom: $medida-2;
     column-gap: $medida-1;

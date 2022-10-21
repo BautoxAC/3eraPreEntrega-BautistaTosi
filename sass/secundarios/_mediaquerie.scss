@@ -5,7 +5,7 @@
 @import"../utillities/listas";
 
 /* estilos de la mediaquerie */
-@media screen and (min-width:600px) {
+@media screen and (min-width:576px) {
 
     /* estilos de sedes*/
     /* estilos de Productos de mediaquerie*/
@@ -18,12 +18,6 @@
     .contenedorpro__hijo {
         width: 33.3%;
     }
-
-    /* estilos del h1 */
-    .body main h1 {
-        font-size: $medida-2 + $medida-3;
-    }
-
     /*estilos del nav*/
     #a {
         font-size: $medida-1;
@@ -32,6 +26,9 @@
     .body header nav {
         height: 5.8rem;
     }
+    .boton{
+        display: none;
+    }
 
     /*estilos de index*/
     .contenedorindex__logo {
@@ -39,6 +36,7 @@
     }
 
     .mainindex__sec3 {
+        margin-top: 6rem;
         h1 {
             text-align: center;
             padding: $medida-1;
@@ -46,7 +44,7 @@
             margin: 3rem;
             font-size: 4.5rem;
             text-decoration: underline nth($colores, 5);
-            font-family: Tiemann, serif
+            font-family: Tiemann, serif;
         }
 
         .mainindex__sec3__contenedorpro {
@@ -64,20 +62,17 @@
             overflow: auto;
             transition: 1s;
             margin-top: $medida-2;
-
             p {
                 font-weight: bold;
                 font-size: $medida-1 + $medida-3;
                 padding-bottom: $medida-1;
                 line-height: $medida-2;
                 font-size: $medida-1 + 0.125rem;
-
                 .s1 {
                     text-decoration: line-through;
                     opacity: 50%;
                 }
             }
-
             &:hover {
                 transform: scale(1.08);
             }
@@ -92,7 +87,6 @@
                 font-size: $medida-1 + 0.125rem;
             }
         }
-
         .mainindex__sec3__boton {
             display: flex;
             justify-content: center;
@@ -100,7 +94,6 @@
             font-size: $medida-1 + $medida-3;
             transition: 1s;
             margin-bottom: -$medida-2 * 1.5;
-
             button {
                 border: 0.3rem solid nth($colores, 2);
                 background-color: nth($colores, 3);
