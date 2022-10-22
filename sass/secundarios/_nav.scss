@@ -8,7 +8,6 @@
 .body header nav {
     background-color: nth($colores, 1);
     text-align: center;
-    height: auto;
     text-transform: uppercase;
     .boton {
         background-color: nth($colores, 5);
@@ -22,7 +21,6 @@
             margin-bottom: 0.15rem;
         }
     }
-
     .desk li {
         font-weight: bold;
         padding: $medida-1;
@@ -35,13 +33,11 @@
             color: nth($colores, 3);
         }
     }
-
     div {
         a img {
             @include sizes(8rem, 4rem);
         }
     }
-
     .buscbot {
         background-color: nth($colores, 1);
         .buscbot__phone li {

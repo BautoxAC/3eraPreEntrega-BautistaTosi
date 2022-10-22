@@ -9,7 +9,6 @@
 
     /* estilos de sedes*/
     /* estilos de Productos de mediaquerie*/
-
     .contenedorpro {
         justify-content: center;
         flex-flow: row nowrap;
@@ -18,15 +17,18 @@
     .contenedorpro__hijo {
         width: 33.3%;
     }
+
     /*estilos del nav*/
     #a {
         font-size: $medida-1;
     }
 
-    .body header nav {
-        height: 5.8rem;
+    .body header .nav1 {
+        height: 6rem;
     }
-    .boton{
+
+
+    .boton {
         display: none;
     }
 
@@ -35,8 +37,24 @@
         display: none;
     }
 
+    .mainindex {
+        .mainindex__sec1 {
+            position: absolute;
+            top: 6rem;
+        }
+
+        .mainindex__sec2 {
+            height: 40rem;
+            p{
+                font-size: $medida-1 + 0.25rem;
+            }
+            img{
+                @include sizes(auto,auto);
+            }
+        }
+    }
+
     .mainindex__sec3 {
-        margin-top: 6rem;
         h1 {
             text-align: center;
             padding: $medida-1;
@@ -62,17 +80,20 @@
             overflow: auto;
             transition: 1s;
             margin-top: $medida-2;
+
             p {
                 font-weight: bold;
                 font-size: $medida-1 + $medida-3;
                 padding-bottom: $medida-1;
                 line-height: $medida-2;
                 font-size: $medida-1 + 0.125rem;
+
                 .s1 {
                     text-decoration: line-through;
                     opacity: 50%;
                 }
             }
+
             &:hover {
                 transform: scale(1.08);
             }
@@ -84,9 +105,10 @@
             span {
                 padding: $medida-3;
                 line-height: $medida-2;
-                font-size: $medida-1 + 0.125rem;
+                font-size: $medida-1 + $medida-3;
             }
         }
+
         .mainindex__sec3__boton {
             display: flex;
             justify-content: center;
@@ -94,6 +116,7 @@
             font-size: $medida-1 + $medida-3;
             transition: 1s;
             margin-bottom: -$medida-2 * 1.5;
+
             button {
                 border: 0.3rem solid nth($colores, 2);
                 background-color: nth($colores, 3);

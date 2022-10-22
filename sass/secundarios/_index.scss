@@ -11,16 +11,14 @@
     width: 100%;
     .mainindex__sec1 {
         position: absolute;
-        top: 5.6rem;
+        top: 5.65rem;
         left: 0;
         z-index: 1;
         width: 100%;
-
         .mainindex__sec1__video {
             width: 100%;
         }
     }
-
     .mainindex__sec2 {
         position: relative;
         display: flex;
@@ -29,14 +27,19 @@
         align-items: center;
         width: 100%;
         z-index: 2;
-        height: 28rem;
+        height: 20rem;
         margin-bottom: 6rem;
+        img{
+            @include sizes(30%,5rem);
+        }
         p {
             background: -webkit-linear-gradient(nth($colores, 3), nth($colores, 8));
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            font-size: $medida-1 + 0.25rem;
+            font-size: $medida-1;
+            text-align: center;
+            @include sizes(100%,5rem);
         }
     }
 }
