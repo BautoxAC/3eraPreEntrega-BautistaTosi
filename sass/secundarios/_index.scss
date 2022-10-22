@@ -27,10 +27,12 @@
         align-items: center;
         width: 100%;
         z-index: 2;
-        height: 20rem;
+        height: 10rem;
         margin-bottom: 6rem;
         img{
-            @include sizes(30%,5rem);
+            margin-top: 5rem;
+            z-index: 2;
+            @include sizes(40%,7rem);
         }
         p {
             background: -webkit-linear-gradient(nth($colores, 3), nth($colores, 8));
@@ -42,4 +44,93 @@
             @include sizes(100%,5rem);
         }
     }
+}
+.mainindex__sec3 {
+    h1 {
+        text-align: center;
+        padding: $medida-1;
+        text-align: center;
+        margin: 3rem;
+        font-size: 3rem;
+        text-decoration: underline nth($colores, 5);
+        font-family: Tiemann, serif;
+    }
+
+    .mainindex__sec3__contenedorpro {
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+    }
+
+    .mainindex__sec3__contenedorpro__hijo {
+        @include margen(0rem $medida-1, $medida-1 0rem);
+        width: auto;
+        text-align: center;
+        border: 0.3rem solid nth($colores, 7);
+        border-radius: $medida-3;
+        overflow: auto;
+        transition: 1s;
+        margin-top: $medida-2;
+
+        p {
+            font-weight: bold;
+            font-size: $medida-1 + $medida-3;
+            padding-bottom: $medida-1;
+            line-height: $medida-2;
+            font-size: $medida-1 + 0.125rem;
+
+            .s1 {
+                text-decoration: line-through;
+                opacity: 50%;
+            }
+        }
+
+        &:hover {
+            transform: scale(1.08);
+        }
+
+        img {
+            @include sizes(66.6%, 12.5rem)
+        }
+
+        span {
+            padding: $medida-3;
+            line-height: $medida-2;
+            font-size: $medida-1 + $medida-3;
+        }
+    }
+
+    .mainindex__sec3__boton {
+        display: flex;
+        justify-content: center;
+        margin-top: $medida-2 * 1.2;
+        font-size: $medida-1 + $medida-3;
+        transition: 1s;
+        margin-bottom: -$medida-2 * 1.5;
+
+        button {
+            border: 0.3rem solid nth($colores, 2);
+            background-color: nth($colores, 3);
+            border-radius: $medida-3;
+            transition: 1s;
+
+            &:hover {
+                transform: scale(1.08);
+            }
+        }
+
+        a {
+            display: inline-block;
+            padding: $medida-1;
+            text-decoration: none;
+            color: nth($colores, 2);
+            letter-spacing: 0.15rem;
+            font-weight: bold;
+            border: 0.3rem solid nth($colores, 7);
+        }
+    }
+}
+hr {
+    margin: 0;
+    margin-top: 8rem;
 }
