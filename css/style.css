@@ -13,7 +13,49 @@
       height: 18rem;
       grid-area: img; }
     .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; } }
+      grid-area: b; }
+  .mainindex__sec4m {
+    display: none; } }
+
+.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: 1s; }
+  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
+    text-decoration: underline;
+    transform: scale(1.2); }
+  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
+    color: #dff6ff; }
+    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 0.5rem; }
+
+.mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+  transition: 1s;
+  margin-bottom: 2rem; }
+  .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
+    border: 0.3rem solid #06283d;
+    background-color: #dff6ff;
+    border-radius: 0.5rem;
+    transition: 1s; }
+    .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
+      transform: scale(1.08); }
+  .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #06283d;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    border: 0.3rem solid #bad9e5; }
+
+.mainindex__sec4 {
+  display: none; }
 
 /*reset*/
 * {
@@ -54,7 +96,49 @@
       height: 18rem;
       grid-area: img; }
     .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; } }
+      grid-area: b; }
+  .mainindex__sec4m {
+    display: none; } }
+
+.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: 1s; }
+  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
+    text-decoration: underline;
+    transform: scale(1.2); }
+  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
+    color: #dff6ff; }
+    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 0.5rem; }
+
+.mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+  transition: 1s;
+  margin-bottom: 2rem; }
+  .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
+    border: 0.3rem solid #06283d;
+    background-color: #dff6ff;
+    border-radius: 0.5rem;
+    transition: 1s; }
+    .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
+      transform: scale(1.08); }
+  .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #06283d;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    border: 0.3rem solid #bad9e5; }
+
+.mainindex__sec4 {
+  display: none; }
 
 /* estilo de productos */
 .contenedorpro {
@@ -99,7 +183,49 @@
       height: 18rem;
       grid-area: img; }
     .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; } }
+      grid-area: b; }
+  .mainindex__sec4m {
+    display: none; } }
+
+.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: 1s; }
+  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
+    text-decoration: underline;
+    transform: scale(1.2); }
+  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
+    color: #dff6ff; }
+    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 0.5rem; }
+
+.mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+  transition: 1s;
+  margin-bottom: 2rem; }
+  .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
+    border: 0.3rem solid #06283d;
+    background-color: #dff6ff;
+    border-radius: 0.5rem;
+    transition: 1s; }
+    .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
+      transform: scale(1.08); }
+  .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #06283d;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    border: 0.3rem solid #bad9e5; }
+
+.mainindex__sec4 {
+  display: none; }
 
 /* estilos del nav */
 .body header nav {
@@ -117,33 +243,11 @@
       width: 2rem;
       height: 1rem;
       margin-bottom: 0.15rem; }
-  .body header nav .desk li {
-    font-weight: bold;
-    padding: 1rem;
-    transition: 1s; }
-    .body header nav .desk li:hover {
-      text-decoration: underline;
-      transform: scale(1.2); }
-    .body header nav .desk li #a {
-      color: #dff6ff; }
   .body header nav div a img {
     width: 8rem;
     height: 4rem; }
   .body header nav .buscbot {
     background-color: #47b5ff; }
-    .body header nav .buscbot .buscbot__phone li {
-      font-weight: bold;
-      padding: 0.5rem;
-      transition: 1s; }
-      .body header nav .buscbot .buscbot__phone li:hover {
-        text-decoration: underline;
-        transform: scale(1.2); }
-      .body header nav .buscbot .buscbot__phone li #a {
-        color: #dff6ff; }
-        .body header nav .buscbot .buscbot__phone li #a img {
-          width: 2rem;
-          height: 2rem;
-          margin-right: 0.5rem; }
 
 /* estilo del footer */
 .footer {
@@ -179,7 +283,49 @@
       height: 18rem;
       grid-area: img; }
     .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; } }
+      grid-area: b; }
+  .mainindex__sec4m {
+    display: none; } }
+
+.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: 1s; }
+  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
+    text-decoration: underline;
+    transform: scale(1.2); }
+  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
+    color: #dff6ff; }
+    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 0.5rem; }
+
+.mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+  transition: 1s;
+  margin-bottom: 2rem; }
+  .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
+    border: 0.3rem solid #06283d;
+    background-color: #dff6ff;
+    border-radius: 0.5rem;
+    transition: 1s; }
+    .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
+      transform: scale(1.08); }
+  .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #06283d;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    border: 0.3rem solid #bad9e5; }
+
+.mainindex__sec4 {
+  display: none; }
 
 /*estilos del index*/
 .mainindex {
@@ -263,32 +409,27 @@
     line-height: 2rem;
     font-size: 1.5rem; }
 
-.mainindex__sec3 .mainindex__sec3__boton {
-  display: flex;
-  justify-content: center;
-  margin-top: 2.4rem;
-  font-size: 1.5rem;
-  transition: 1s;
-  margin-bottom: -3rem; }
-  .mainindex__sec3 .mainindex__sec3__boton button {
-    border: 0.3rem solid #06283d;
-    background-color: #dff6ff;
-    border-radius: 0.5rem;
-    transition: 1s; }
-    .mainindex__sec3 .mainindex__sec3__boton button:hover {
-      transform: scale(1.08); }
-  .mainindex__sec3 .mainindex__sec3__boton a {
-    display: inline-block;
-    padding: 1rem;
-    text-decoration: none;
-    color: #06283d;
-    letter-spacing: 0.15rem;
-    font-weight: bold;
-    border: 0.3rem solid #bad9e5; }
-
 hr {
   margin: 0;
-  margin-top: 8rem; }
+  margin-top: 8rem;
+  margin-bottom: 8rem; }
+
+.mainindex__sec4m h3 {
+  font-size: 2.5rem;
+  text-decoration: underline #319fe7;
+  font-family: Tiemann, serif;
+  text-align: center;
+  margin-top: 2rem; }
+
+.mainindex__sec4m h2 {
+  margin-bottom: 3rem;
+  font-size: 3.5rem;
+  text-decoration: underline #319fe7;
+  font-family: Tiemann, serif;
+  text-align: center; }
+
+.mainindex__sec4m img {
+  height: 18rem; }
 
 @media screen and (min-width: 576px) {
   .mainindex__sec4 .mainindex__sec4__div1, .mainindex__sec4 .mainindex__sec4__div2, .mainindex__sec4 .mainindex__sec4__div3 {
@@ -305,7 +446,49 @@ hr {
       height: 18rem;
       grid-area: img; }
     .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; } }
+      grid-area: b; }
+  .mainindex__sec4m {
+    display: none; } }
+
+.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: 1s; }
+  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
+    text-decoration: underline;
+    transform: scale(1.2); }
+  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
+    color: #dff6ff; }
+    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 0.5rem; }
+
+.mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+  transition: 1s;
+  margin-bottom: 2rem; }
+  .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
+    border: 0.3rem solid #06283d;
+    background-color: #dff6ff;
+    border-radius: 0.5rem;
+    transition: 1s; }
+    .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
+      transform: scale(1.08); }
+  .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #06283d;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    border: 0.3rem solid #bad9e5; }
+
+.mainindex__sec4 {
+  display: none; }
 
 /*estilos de nos*/
 .contenedornos {
@@ -340,7 +523,49 @@ hr {
       height: 18rem;
       grid-area: img; }
     .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; } }
+      grid-area: b; }
+  .mainindex__sec4m {
+    display: none; } }
+
+.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: 1s; }
+  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
+    text-decoration: underline;
+    transform: scale(1.2); }
+  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
+    color: #dff6ff; }
+    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 0.5rem; }
+
+.mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+  transition: 1s;
+  margin-bottom: 2rem; }
+  .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
+    border: 0.3rem solid #06283d;
+    background-color: #dff6ff;
+    border-radius: 0.5rem;
+    transition: 1s; }
+    .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
+      transform: scale(1.08); }
+  .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #06283d;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    border: 0.3rem solid #bad9e5; }
+
+.mainindex__sec4 {
+  display: none; }
 
 /* estilos de la mediaquerie */
 @media screen and (min-width: 576px) {
@@ -381,7 +606,6 @@ hr {
   .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
     width: 33.3%; }
   .mainindex__sec4 {
-    margin-top: 6rem;
     width: 95%;
     margin-bottom: 6rem;
     display: flex;
@@ -437,27 +661,6 @@ hr {
         font-size: 2.3rem;
         text-decoration: underline #319fe7;
         font-family: Tiemann, serif; }
-    .mainindex__sec4 .mainindex__sec4__boton {
-      display: flex;
-      justify-content: center;
-      margin-top: 6rem;
-      font-size: 1.5rem;
-      transition: 1s; }
-      .mainindex__sec4 .mainindex__sec4__boton button {
-        border: 0.3rem solid #06283d;
-        background-color: #dff6ff;
-        border-radius: 0.5rem;
-        transition: 1s; }
-        .mainindex__sec4 .mainindex__sec4__boton button:hover {
-          transform: scale(1.08); }
-        .mainindex__sec4 .mainindex__sec4__boton button a {
-          display: inline-block;
-          padding: 1rem;
-          text-decoration: none;
-          color: #06283d;
-          letter-spacing: 0.15rem;
-          font-weight: bold;
-          border: 0.3rem solid #bad9e5; }
   /*estilos de nos*/
   .contenedornos {
     flex-direction: row-reverse;

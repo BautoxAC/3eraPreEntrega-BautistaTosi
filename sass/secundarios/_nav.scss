@@ -22,16 +22,7 @@
         }
     }
     .desk li {
-        font-weight: bold;
-        padding: $medida-1;
-        transition: 1s;
-        &:hover {
-            text-decoration: underline;
-            transform: scale(1.2);
-        }
-        #a {
-            color: nth($colores, 3);
-        }
+        @extend %nav
     }
     div {
         a img {
@@ -41,20 +32,7 @@
     .buscbot {
         background-color: nth($colores, 1);
         .buscbot__phone li {
-            font-weight: bold;
-            padding: $medida-3;
-            transition: 1s;
-            &:hover {
-                text-decoration: underline;
-                transform: scale(1.2);
-            }
-            #a {
-                color: nth($colores, 3);
-                img{
-                    @include sizes($medida-2,$medida-2);
-                    margin-right: $medida-3;
-                }
-            }
+            @extend %nav
         }
     }
 }

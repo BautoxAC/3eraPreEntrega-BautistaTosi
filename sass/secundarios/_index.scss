@@ -101,36 +101,33 @@
     }
 
     .mainindex__sec3__boton {
-        display: flex;
-        justify-content: center;
-        margin-top: $medida-2 * 1.2;
-        font-size: $medida-1 + $medida-3;
-        transition: 1s;
-        margin-bottom: -$medida-2 * 1.5;
-
-        button {
-            border: 0.3rem solid nth($colores, 2);
-            background-color: nth($colores, 3);
-            border-radius: $medida-3;
-            transition: 1s;
-
-            &:hover {
-                transform: scale(1.08);
-            }
-        }
-
-        a {
-            display: inline-block;
-            padding: $medida-1;
-            text-decoration: none;
-            color: nth($colores, 2);
-            letter-spacing: 0.15rem;
-            font-weight: bold;
-            border: 0.3rem solid nth($colores, 7);
-        }
+        @extend %boton
     }
 }
 hr {
     margin: 0;
     margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.mainindex__sec4{
+    @extend %none;
+    .mainindex__sec4__boton {
+        @extend %boton;
+    }
+}
+.mainindex__sec4m{
+    .mainindex__sec4m__boton {
+        @extend %boton;
+    }
+    h3{
+        @include h($medida-2 + $medida-3);
+        margin-top: $medida-2;
+    }
+    h2{
+        margin-bottom: $medida-2 + $medida-1;
+        @include h($medida-2 * 1.75);
+    }
+    img{
+        height: 18rem;
+    }
 }

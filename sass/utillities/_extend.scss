@@ -1,7 +1,37 @@
 //variables
 @import"variables";
 @import"mixin";
+@import"listas";
+
 @media screen and (min-width:576px) {
+    %grid2 {
+        row-gap: $medida-1;
+        margin-bottom: $medida-2;
+        column-gap: $medida-1;
+
+        p {
+            grid-area: p;
+        }
+
+        h3 {
+            grid-area: h2;
+            padding-top: $medida-2;
+        }
+
+        img {
+            @include sizes(100%, 18rem);
+            grid-area: img;
+        }
+
+        div {
+            grid-area: b;
+        }
+    }
+
+    %noned {
+        display: none;
+    }
+
     %grid {
         display: grid;
         margin: 3rem;
@@ -11,23 +41,70 @@
         text-align: center;
         justify-content: center;
     }
+    %h3d {
+        font-size: $medida-2 * 1.15;
+        text-decoration: underline nth($colores, 5);
+        font-family: Tiemann, serif;
+    }
 }
-@media screen and (min-width:576px){%grid2 {
-    row-gap: $medida-1;
+
+%nav {
+    font-weight: bold;
+    padding: $medida-3;
+    transition: 1s;
+
+    &:hover {
+        text-decoration: underline;
+        transform: scale(1.2);
+    }
+
+    #a {
+        color: nth($colores, 3);
+
+        img {
+            @include sizes($medida-2, $medida-2);
+            margin-right: $medida-3;
+        }
+    }
+}
+
+%boton {
+    display: flex;
+    justify-content: center;
+    margin-top: $medida-2 * 1.2;
+    font-size: $medida-1 + $medida-3;
+    transition: 1s;
     margin-bottom: $medida-2;
-    column-gap: $medida-1;
-    p {
-        grid-area: p;
+
+    button {
+        border: 0.3rem solid nth($colores, 2);
+        background-color: nth($colores, 3);
+        border-radius: $medida-3;
+        transition: 1s;
+
+        &:hover {
+            transform: scale(1.08);
+        }
     }
-    h3 {
-        grid-area: h2;
-        padding-top: $medida-2;
+
+    a {
+        display: inline-block;
+        padding: $medida-1;
+        text-decoration: none;
+        color: nth($colores, 2);
+        letter-spacing: 0.15rem;
+        font-weight: bold;
+        border: 0.3rem solid nth($colores, 7);
     }
-    img {
-        @include sizes(100%,18rem);
-        grid-area: img;
-    }
-    div {
-        grid-area: b;
-    }
-}}
+}
+
+%none {
+    display: none;
+}
+
+%h3 {
+    font-size: $medida-2 * 1.15;
+    text-decoration: underline nth($colores, 5);
+    font-family: Tiemann, serif;
+}
+

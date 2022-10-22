@@ -6,3 +6,9 @@
     padding: $padding;
     margin: $margin;
 }
+@mixin h($font-size) {
+        font-size: $font-size;
+        text-decoration: underline nth($colores, 5);
+        font-family: Tiemann, serif;
+        text-align: center;
+}
