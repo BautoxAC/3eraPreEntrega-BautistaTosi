@@ -12,3 +12,12 @@
         font-family: Tiemann, serif;
         text-align: center;
 }
+@mixin  tb($margin-top, $margina-bot) {
+        margin-top: $margin-top;
+        margin-bottom: $margina-bot;
+}
+@mixin p($text-aling) {
+    line-height: $medida-2;
+    font-size: $medida-1 + 0.125rem;
+    text-align: $text-aling;
+}

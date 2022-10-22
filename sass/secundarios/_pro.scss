@@ -22,7 +22,7 @@
     }
     p {
         font-weight: bold;
-        font-size: $medida-1 + $medida-3;
+        font-size: $medida-1 + $medida-05;
         padding-bottom: $medida-1;
     }
     &:hover {
@@ -32,7 +32,7 @@
         @include sizes(66.6%, 12.5rem)
     }
     span {
-        padding: $medida-3;
+        padding: $medida-05;
     }
 }
 

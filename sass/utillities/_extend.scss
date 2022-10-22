@@ -41,16 +41,16 @@
         text-align: center;
         justify-content: center;
     }
-    %h3d {
-        font-size: $medida-2 * 1.15;
-        text-decoration: underline nth($colores, 5);
-        font-family: Tiemann, serif;
+
+    %pd {
+        line-height: $medida-2;
+        font-size: $medida-1 + 0.125rem;
     }
 }
 
 %nav {
     font-weight: bold;
-    padding: $medida-3;
+    padding: $medida-05;
     transition: 1s;
 
     &:hover {
@@ -63,23 +63,26 @@
 
         img {
             @include sizes($medida-2, $medida-2);
-            margin-right: $medida-3;
+            margin-right: $medida-05;
         }
     }
 }
-
+%borde{
+    border: 0.3rem solid nth($colores, 7);
+    border-radius: $medida-05;
+}
 %boton {
     display: flex;
     justify-content: center;
     margin-top: $medida-2 * 1.2;
-    font-size: $medida-1 + $medida-3;
+    font-size: $medida-1 + $medida-05;
     transition: 1s;
     margin-bottom: $medida-2;
 
     button {
+        @extend %borde;
         border: 0.3rem solid nth($colores, 2);
         background-color: nth($colores, 3);
-        border-radius: $medida-3;
         transition: 1s;
 
         &:hover {
@@ -102,9 +105,20 @@
     display: none;
 }
 
-%h3 {
-    font-size: $medida-2 * 1.15;
-    text-decoration: underline nth($colores, 5);
-    font-family: Tiemann, serif;
+%p {
+    line-height: $medida-2;
+    font-size: $medida-1 + 0.125rem;
 }
 
+%bot {
+    background-color: aliceblue;
+    @extend %borde;
+    transition: 1s;
+    font-family: Tiemann, serif;
+    font-weight: bold;
+    font-size: $medida-1;
+    @include sizes(10rem,$medida-2 + $medida-025);
+        &:hover {
+            transform: scale(1.08);
+        }
+}

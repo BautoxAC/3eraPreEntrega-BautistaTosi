@@ -2,21 +2,55 @@
 @import"../utillities/variables";
 @import"../utillities/mixin";
 @import"../utillities/listas";
+
 /*estilo de contact*/
-.main{
+.main {
     display: flex;
     justify-content: center;
-    .main__caja{
+
+    .main__caja {
         margin: 8rem;
-        @include sizes(40rem,auto);
-        border: $medida-3 / 2 solid nth($colores,7);
-        div{
+        @include sizes(40rem, auto);
+        border: $medida-05 / 2 solid nth($colores, 7);
+        border-radius: $medida-05;
+
+        h1 {
+            padding: $medida-1 + $medida-05;
+            @include h($medida-3);
+        }
+
+        div {
             margin: $medida-2;
+            label {
+                font-family: Tiemann, serif;
+                font-size: $medida-1 + $medida-05;
+                font-weight: 500;
+            }
+        }
+
+        .main__caja__text {
+            input {
+                height: 5rem;
+            }
+        }
+
+        .main__caja__bot {
+            width: 100%;
+            display: grid;
+            margin-left: 12%;
+            row-gap: $medida-1;
+            grid-template-areas: 
+            "reset envia";
+        .reset {
+            grid-area: reset;
+            @extend %bot;
+        }
+        .submit{
+            grid-area: envia;
+            align-self: flex-end;
+            @extend %bot;
         }
     }
+
 }
-
-
-
-
-
+}

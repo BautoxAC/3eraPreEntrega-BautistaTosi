@@ -10,7 +10,7 @@
     justify-content: center;
     .contenedornos__p2{
         padding: $medida-1;
-        text-align: center;
+        @include p(center);
     }
     .contenedornos__img{
         padding: $medida-1;

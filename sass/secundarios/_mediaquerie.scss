@@ -45,12 +45,16 @@
 
         .mainindex__sec2 {
             height: 40rem;
-            p{
+
+            p {
                 font-size: $medida-1 + 0.25rem;
             }
-            img{
-                @include sizes(auto,auto);
+
+            img {
+                @include sizes(auto, auto);
             }
+
+            margin-bottom: 6rem;
         }
     }
 
@@ -96,9 +100,7 @@
             @extend %grid2;
 
             p {
-                text-align: left;
-                line-height: $medida-2;
-                font-size: $medida-1 + 0.125rem;
+                @include p(left);
             }
 
             h3 {
@@ -119,9 +121,7 @@
             @extend %grid2;
 
             p {
-                text-align: right;
-                line-height: $medida-2;
-                font-size: $medida-1 + 0.125rem;
+                @include p(right);
             }
 
             h3 {
@@ -145,9 +145,7 @@
             margin-top: 13rem;
 
             p {
-                text-align: left;
-                line-height: $medida-2;
-                font-size: $medida-1 + 0.125rem;
+                @include p(left);
             }
 
             h3 {
@@ -158,9 +156,15 @@
             }
         }
     }
-    .mainindex__sec4m{
+
+    hr {
+        @include  tb(8rem, 8rem)
+    }
+
+    .mainindex__sec4m {
         @extend %noned
     }
+
     /*estilos de nos*/
     .contenedornos {
         flex-direction: row-reverse;
@@ -177,11 +181,12 @@
 
         .contenedornos__div__h1 {
             padding-top: $medida-2 * 1.7;
-            font-size: $medida-2 + $medida-3;
+            font-size: $medida-2 + $medida-05;
         }
 
         .contenedornos__div__p1 {
             display: inline;
+            @include p(center);
         }
     }
 }

@@ -31,6 +31,10 @@
       height: 2rem;
       margin-right: 0.5rem; }
 
+.mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+  border: 0.3rem solid #bad9e5;
+  border-radius: 0.5rem; }
+
 .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
   display: flex;
   justify-content: center;
@@ -41,7 +45,6 @@
   .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
     border: 0.3rem solid #06283d;
     background-color: #dff6ff;
-    border-radius: 0.5rem;
     transition: 1s; }
     .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
       transform: scale(1.08); }
@@ -56,6 +59,17 @@
 
 .mainindex__sec4 {
   display: none; }
+
+.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
+  background-color: aliceblue;
+  transition: 1s;
+  font-family: Tiemann, serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  height: 2.25rem; }
+  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
+    transform: scale(1.08); }
 
 /*reset*/
 * {
@@ -77,9 +91,33 @@
     margin: 8rem;
     width: 40rem;
     height: auto;
-    border: 0.25rem solid #bad9e5; }
+    border: 0.25rem solid #bad9e5;
+    border-radius: 0.5rem; }
+    .main .main__caja h1 {
+      padding: 1.5rem;
+      font-size: 3rem;
+      text-decoration: underline #319fe7;
+      font-family: Tiemann, serif;
+      text-align: center; }
     .main .main__caja div {
       margin: 2rem; }
+      .main .main__caja div label {
+        font-family: Tiemann, serif;
+        font-size: 1.5rem;
+        font-weight: 500; }
+    .main .main__caja .main__caja__text input {
+      height: 5rem; }
+    .main .main__caja .main__caja__bot {
+      width: 100%;
+      display: grid;
+      margin-left: 12%;
+      row-gap: 1rem;
+      grid-template-areas: "reset envia"; }
+      .main .main__caja .main__caja__bot .reset {
+        grid-area: reset; }
+      .main .main__caja .main__caja__bot .submit {
+        grid-area: envia;
+        align-self: flex-end; }
 
 @media screen and (min-width: 576px) {
   .mainindex__sec4 .mainindex__sec4__div1, .mainindex__sec4 .mainindex__sec4__div2, .mainindex__sec4 .mainindex__sec4__div3 {
@@ -114,6 +152,10 @@
       height: 2rem;
       margin-right: 0.5rem; }
 
+.mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+  border: 0.3rem solid #bad9e5;
+  border-radius: 0.5rem; }
+
 .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
   display: flex;
   justify-content: center;
@@ -124,7 +166,6 @@
   .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
     border: 0.3rem solid #06283d;
     background-color: #dff6ff;
-    border-radius: 0.5rem;
     transition: 1s; }
     .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
       transform: scale(1.08); }
@@ -139,6 +180,17 @@
 
 .mainindex__sec4 {
   display: none; }
+
+.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
+  background-color: aliceblue;
+  transition: 1s;
+  font-family: Tiemann, serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  height: 2.25rem; }
+  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
+    transform: scale(1.08); }
 
 /* estilo de productos */
 .contenedorpro {
@@ -201,6 +253,10 @@
       height: 2rem;
       margin-right: 0.5rem; }
 
+.mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+  border: 0.3rem solid #bad9e5;
+  border-radius: 0.5rem; }
+
 .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
   display: flex;
   justify-content: center;
@@ -211,7 +267,6 @@
   .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
     border: 0.3rem solid #06283d;
     background-color: #dff6ff;
-    border-radius: 0.5rem;
     transition: 1s; }
     .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
       transform: scale(1.08); }
@@ -226,6 +281,17 @@
 
 .mainindex__sec4 {
   display: none; }
+
+.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
+  background-color: aliceblue;
+  transition: 1s;
+  font-family: Tiemann, serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  height: 2.25rem; }
+  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
+    transform: scale(1.08); }
 
 /* estilos del nav */
 .body header nav {
@@ -301,6 +367,10 @@
       height: 2rem;
       margin-right: 0.5rem; }
 
+.mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+  border: 0.3rem solid #bad9e5;
+  border-radius: 0.5rem; }
+
 .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
   display: flex;
   justify-content: center;
@@ -311,7 +381,6 @@
   .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
     border: 0.3rem solid #06283d;
     background-color: #dff6ff;
-    border-radius: 0.5rem;
     transition: 1s; }
     .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
       transform: scale(1.08); }
@@ -326,6 +395,17 @@
 
 .mainindex__sec4 {
   display: none; }
+
+.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
+  background-color: aliceblue;
+  transition: 1s;
+  font-family: Tiemann, serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  height: 2.25rem; }
+  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
+    transform: scale(1.08); }
 
 /*estilos del index*/
 .mainindex {
@@ -350,7 +430,7 @@
     width: 100%;
     z-index: 2;
     height: 10rem;
-    margin-bottom: 6rem; }
+    margin-bottom: 2rem; }
     .mainindex .mainindex__sec2 img {
       margin-top: 5rem;
       z-index: 2;
@@ -367,13 +447,12 @@
       height: 5rem; }
 
 .mainindex__sec3 h1 {
-  text-align: center;
-  padding: 1rem;
-  text-align: center;
-  margin: 3rem;
   font-size: 3rem;
   text-decoration: underline #319fe7;
-  font-family: Tiemann, serif; }
+  font-family: Tiemann, serif;
+  text-align: center;
+  padding: 1rem;
+  margin: 3rem; }
 
 .mainindex__sec3 .mainindex__sec3__contenedorpro {
   display: flex;
@@ -385,8 +464,6 @@
   margin: 0rem 1rem;
   width: auto;
   text-align: center;
-  border: 0.3rem solid #bad9e5;
-  border-radius: 0.5rem;
   overflow: auto;
   transition: 1s;
   margin-top: 2rem; }
@@ -411,8 +488,9 @@
 
 hr {
   margin: 0;
-  margin-top: 8rem;
-  margin-bottom: 8rem; }
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  width: 100%; }
 
 .mainindex__sec4m h3 {
   font-size: 2.5rem;
@@ -464,6 +542,10 @@ hr {
       height: 2rem;
       margin-right: 0.5rem; }
 
+.mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+  border: 0.3rem solid #bad9e5;
+  border-radius: 0.5rem; }
+
 .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
   display: flex;
   justify-content: center;
@@ -474,7 +556,6 @@ hr {
   .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
     border: 0.3rem solid #06283d;
     background-color: #dff6ff;
-    border-radius: 0.5rem;
     transition: 1s; }
     .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
       transform: scale(1.08); }
@@ -490,6 +571,17 @@ hr {
 .mainindex__sec4 {
   display: none; }
 
+.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
+  background-color: aliceblue;
+  transition: 1s;
+  font-family: Tiemann, serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  height: 2.25rem; }
+  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
+    transform: scale(1.08); }
+
 /*estilos de nos*/
 .contenedornos {
   display: flex;
@@ -497,6 +589,8 @@ hr {
   justify-content: center; }
   .contenedornos .contenedornos__p2 {
     padding: 1rem;
+    line-height: 2rem;
+    font-size: 1.125rem;
     text-align: center; }
   .contenedornos .contenedornos__img {
     padding: 1rem;
@@ -541,6 +635,10 @@ hr {
       height: 2rem;
       margin-right: 0.5rem; }
 
+.mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+  border: 0.3rem solid #bad9e5;
+  border-radius: 0.5rem; }
+
 .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec4m .mainindex__sec4m__boton {
   display: flex;
   justify-content: center;
@@ -551,7 +649,6 @@ hr {
   .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
     border: 0.3rem solid #06283d;
     background-color: #dff6ff;
-    border-radius: 0.5rem;
     transition: 1s; }
     .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
       transform: scale(1.08); }
@@ -566,6 +663,17 @@ hr {
 
 .mainindex__sec4 {
   display: none; }
+
+.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
+  background-color: aliceblue;
+  transition: 1s;
+  font-family: Tiemann, serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  height: 2.25rem; }
+  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
+    transform: scale(1.08); }
 
 /* estilos de la mediaquerie */
 @media screen and (min-width: 576px) {
@@ -590,7 +698,8 @@ hr {
     position: absolute;
     top: 6rem; }
   .mainindex .mainindex__sec2 {
-    height: 40rem; }
+    height: 40rem;
+    margin-bottom: 6rem; }
     .mainindex .mainindex__sec2 p {
       font-size: 1.25rem; }
     .mainindex .mainindex__sec2 img {
@@ -623,9 +732,9 @@ hr {
       grid-template-columns: 42.5% 30% 32.5%;
       grid-template-areas: "img h2 b" "img p b"; }
       .mainindex__sec4 .mainindex__sec4__div1 p {
-        text-align: left;
         line-height: 2rem;
-        font-size: 1.125rem; }
+        font-size: 1.125rem;
+        text-align: left; }
       .mainindex__sec4 .mainindex__sec4__div1 h3 {
         text-align: left;
         font-size: 2.3rem;
@@ -638,9 +747,9 @@ hr {
       grid-template-areas: "b h2 img" "b p img";
       margin-top: 13rem; }
       .mainindex__sec4 .mainindex__sec4__div2 p {
-        text-align: right;
         line-height: 2rem;
-        font-size: 1.125rem; }
+        font-size: 1.125rem;
+        text-align: right; }
       .mainindex__sec4 .mainindex__sec4__div2 h3 {
         text-align: right;
         font-size: 2.3rem;
@@ -653,14 +762,17 @@ hr {
       grid-template-areas: "img h2 b" "img p b";
       margin-top: 13rem; }
       .mainindex__sec4 .mainindex__sec4__div3 p {
-        text-align: left;
         line-height: 2rem;
-        font-size: 1.125rem; }
+        font-size: 1.125rem;
+        text-align: left; }
       .mainindex__sec4 .mainindex__sec4__div3 h3 {
         text-align: left;
         font-size: 2.3rem;
         text-decoration: underline #319fe7;
         font-family: Tiemann, serif; }
+  hr {
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
   /*estilos de nos*/
   .contenedornos {
     flex-direction: row-reverse;
@@ -676,4 +788,7 @@ hr {
       padding-top: 3.4rem;
       font-size: 2.5rem; }
     .contenedornos .contenedornos__div__p1 {
-      display: inline; } }
+      display: inline;
+      line-height: 2rem;
+      font-size: 1.125rem;
+      text-align: center; } }
