@@ -35,6 +35,14 @@
         padding: $medida-05;
     }
 }
+/* estilos de la mediaquerie */
+@media screen and (min-width:576px) {
+    /* estilos de Productos*/
+    .contenedorpro {
+        justify-content: center;
+        flex-flow: row nowrap;
+    }
+}
 
 
 

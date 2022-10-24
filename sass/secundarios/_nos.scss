@@ -24,3 +24,30 @@
         display: none;
     }
 }
+/* estilos de la mediaquerie */
+@media screen and (min-width:576px) {
+    /*estilos de nosotros*/
+    .contenedornos {
+        flex-direction: row-reverse;
+        margin: $medida-2;
+
+        .contenedornos__div {
+            padding: $medida-1;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-bottom: $medida-2;
+        }
+
+        .contenedornos__div__h1 {
+            padding-top: $medida-2 * 1.7;
+            font-size: $medida-2 + $medida-05;
+        }
+
+        .contenedornos__div__p1 {
+            display: inline;
+            @include p(center);
+        }
+    }
+}

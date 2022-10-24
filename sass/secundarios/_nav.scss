@@ -5,7 +5,7 @@
 @import"../utillities/listas";
 
 /* estilos del nav */
-.body header nav {
+.body header nav{
     background-color: nth($colores, 1);
     text-align: center;
     text-transform: uppercase;
@@ -22,7 +22,7 @@
         }
     }
     .desk li {
-        @extend %nav
+        @extend %nav;
     }
     div {
         a img {
@@ -32,7 +32,23 @@
     .buscbot {
         background-color: nth($colores, 1);
         .buscbot__phone li {
-            @extend %nav
+            @extend %nav;
         }
     }
+}
+/* estilos de la mediaquerie */
+@media screen and (min-width:576px) {
+    /*estilos del nav*/
+    #a {
+        font-size: $medida-1;
+    }
+
+    .body header .nav1 {
+        height: 6rem;
+    }
+
+    .boton {
+        display: none;
+    }
+    
 }

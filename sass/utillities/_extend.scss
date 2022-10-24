@@ -111,7 +111,7 @@
 }
 
 %bot {
-    background-color: aliceblue;
+    background-color:  nth($colores, 7);
     @extend %borde;
     transition: 1s;
     font-family: Tiemann, serif;

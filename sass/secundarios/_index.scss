@@ -1,8 +1,8 @@
 // imports
 @import"../utillities/variables";
-@import"../utillities/mixin";
 @import"../utillities/extend";
-
+@import"../utillities/mixin";
+@import"../utillities/listas";
 /*estilos del index*/
 .mainindex {
     display: flex;
@@ -42,6 +42,12 @@
             font-size: $medida-1;
             text-align: center;
             @include sizes(100%,5rem);
+        }
+    }
+    .mainindex__sec4{
+        @extend %none;
+        .mainindex__sec4__boton {
+            @extend %boton;
         }
     }
 }
@@ -104,12 +110,6 @@ hr {
     @include  tb(6rem,6rem);
     width:100%;
 }
-.mainindex__sec4{
-    @extend %none;
-    .mainindex__sec4__boton {
-        @extend %boton;
-    }
-}
 .mainindex__sec4m{
     .mainindex__sec4m__boton {
         @extend %boton;
@@ -124,5 +124,138 @@ hr {
     }
     img{
         height: 18rem;
+    }
+}
+/* estilos de la mediaquerie */
+@media screen and (min-width:576px) {
+    /*estilos de index*/
+    .contenedorindex__logo {
+        display: none;
+    }
+
+    .mainindex {
+        .mainindex__sec1 {
+            position: absolute;
+            top: 6rem;
+        }
+
+        .mainindex__sec2 {
+            height: 40rem;
+
+            p {
+                font-size: $medida-1 + 0.25rem;
+            }
+
+            img {
+                @include sizes(auto, auto);
+            }
+
+            margin-bottom: 6rem;
+        }
+    }
+
+    .mainindex__sec3 {
+        h1 {
+            margin: 3rem;
+            font-size: 4.5rem;
+        }
+
+        .mainindex__sec3__contenedorpro {
+            display: flex;
+            justify-content: center;
+            flex-flow: row nowrap;
+        }
+
+        .mainindex__sec3__contenedorpro__hijo {
+            width: 33.3%;
+        }
+    }
+
+    .mainindex__sec4 {
+        width: 95%;
+        margin-bottom: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            text-align: center;
+            font-size: 4.25rem;
+            text-decoration: underline nth($colores, 5);
+            font-family: Tiemann, serif;
+        }
+
+        .mainindex__sec4__div1 {
+            margin-top: 7rem;
+            width: 85%;
+            display: grid;
+            grid-template-columns: 42.5% 30% 32.5%;
+            grid-template-areas:
+                "img h2 b"
+                "img p b";
+            @extend %grid2;
+
+            p {
+                @include p(left);
+            }
+
+            h3 {
+                text-align: left;
+                font-size: $medida-2 * 1.15;
+                text-decoration: underline nth($colores, 5);
+                font-family: Tiemann, serif;
+            }
+        }
+
+        .mainindex__sec4__div2 {
+            width: 80%;
+            display: grid;
+            grid-template-columns: 32.5% 25% 42.5%;
+            grid-template-areas:
+                "b h2 img"
+                "b p img";
+            @extend %grid2;
+
+            p {
+                @include p(right);
+            }
+
+            h3 {
+                text-align: right;
+                font-size: $medida-2 * 1.15;
+                text-decoration: underline nth($colores, 5);
+                font-family: Tiemann, serif;
+            }
+
+            margin-top: 13rem;
+        }
+
+        .mainindex__sec4__div3 {
+            width: 85%;
+            display: grid;
+            grid-template-columns: 42.5% 30% 32.5%;
+            grid-template-areas:
+                "img h2 b"
+                "img p b";
+            @extend %grid2;
+            margin-top: 13rem;
+
+            p {
+                @include p(left);
+            }
+
+            h3 {
+                text-align: left;
+                font-size: $medida-2 * 1.15;
+                text-decoration: underline nth($colores, 5);
+                font-family: Tiemann, serif;
+            }
+        }
+    }
+    hr {
+        @include  tb(8rem, 8rem);
+    }
+    .mainindex__sec4m {
+        @extend %noned;
     }
 }
