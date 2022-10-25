@@ -39,10 +39,6 @@
         justify-content: center;
     }
 
-    %pd {
-        line-height: $medida-2;
-        font-size: $medida-1 + 0.125rem;
-    }
 }
 
 %nav {
@@ -102,10 +98,7 @@
     display: none;
 }
 
-%p {
-    line-height: $medida-2;
-    font-size: $medida-1 + 0.125rem;
-}
+
 
 %bot {
     background-color:  nth($colores, 7);

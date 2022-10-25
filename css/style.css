@@ -60,10 +60,6 @@
 .mainindex__sec4 {
   display: none; }
 
-.mainproy .mainproy__sec p {
-  line-height: 2rem;
-  font-size: 1.125rem; }
-
 .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
   background-color: #bad9e5;
   transition: 1s;
@@ -362,7 +358,7 @@ hr {
       grid-template-areas: "img h2 b" "img p b"; }
       .mainindex__sec4 .mainindex__sec4__div1 p {
         line-height: 2rem;
-        font-size: 1.125rem;
+        font-size: 1.25rem;
         text-align: left; }
       .mainindex__sec4 .mainindex__sec4__div1 h3 {
         text-align: left;
@@ -377,7 +373,7 @@ hr {
       margin-top: 13rem; }
       .mainindex__sec4 .mainindex__sec4__div2 p {
         line-height: 2rem;
-        font-size: 1.125rem;
+        font-size: 1.25rem;
         text-align: right; }
       .mainindex__sec4 .mainindex__sec4__div2 h3 {
         text-align: right;
@@ -392,7 +388,7 @@ hr {
       margin-top: 13rem; }
       .mainindex__sec4 .mainindex__sec4__div3 p {
         line-height: 2rem;
-        font-size: 1.125rem;
+        font-size: 1.25rem;
         text-align: left; }
       .mainindex__sec4 .mainindex__sec4__div3 h3 {
         text-align: left;
@@ -411,7 +407,7 @@ hr {
   .contenedornos .contenedornos__p2 {
     padding: 1rem;
     line-height: 2rem;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     text-align: center; }
   .contenedornos .contenedornos__img {
     padding: 1rem;
@@ -442,7 +438,7 @@ hr {
     .contenedornos .contenedornos__div__p1 {
       display: inline;
       line-height: 2rem;
-      font-size: 1.125rem;
+      font-size: 1.25rem;
       text-align: center; } }
 
 /*estilos de proyectos*/
@@ -466,7 +462,36 @@ hr {
     height: 16rem; }
   .mainproy .mainproy__sec h2 {
     grid-area: h2;
-    text-align: center; }
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline #319fe7;
+    font-family: Tiemann, serif;
+    text-align: center;
+    padding: 0rem 0.5rem; }
   .mainproy .mainproy__sec p {
     grid-area: p;
-    padding: 2rem; }
+    padding: 2rem;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    text-align: center;
+    text-align: left; }
+  .mainproy .mainproy__sec .mainproy__sec__span {
+    display: none; }
+
+/* estilos de la mediaquerie */
+@media screen and (min-width: 576px) {
+  .mainproy h1 {
+    font-size: 3.5rem; }
+  .mainproy .mainproy__sec {
+    grid-template-areas: "img h2" "img p"; }
+    .mainproy .mainproy__sec h2 {
+      font-size: 2.5rem;
+      margin-top: 1.5rem; }
+    .mainproy .mainproy__sec p {
+      text-align: center;
+      margin-bottom: 1rem; }
+    .mainproy .mainproy__sec .mainproy__sec__span {
+      display: inline; }
+    .mainproy .mainproy__sec img {
+      width: 30rem;
+      height: 20rem; } }

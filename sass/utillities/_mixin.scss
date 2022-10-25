@@ -18,6 +18,6 @@
 }
 @mixin p($text-aling) {
     line-height: $medida-2;
-    font-size: $medida-1 + 0.125rem;
+    font-size: $medida-1 + $medida-025;
     text-align: $text-aling;
 }
