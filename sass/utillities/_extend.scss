@@ -1,8 +1,5 @@
-//variables
-@import"variables";
-@import"mixin";
-@import"listas";
 
+//extend
 @media screen and (min-width:576px) {
     %grid2 {
         row-gap: $medida-1;

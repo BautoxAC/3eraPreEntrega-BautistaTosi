@@ -31,24 +31,24 @@
       height: 2rem;
       margin-right: 0.5rem; }
 
-.mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+.mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
   border: 0.3rem solid #bad9e5;
   border-radius: 0.5rem; }
 
-.mainindex .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4m .mainindex__sec4m__boton {
+.mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4m .mainindex__sec4m__boton, .mainindex__sec4 .mainindex__sec4__boton {
   display: flex;
   justify-content: center;
   margin-top: 2.4rem;
   font-size: 1.5rem;
   transition: 1s;
   margin-bottom: 2rem; }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
+  .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .mainindex__sec4 .mainindex__sec4__boton button {
     border: 0.3rem solid #06283d;
     background-color: #dff6ff;
     transition: 1s; }
-    .mainindex .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
+    .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover, .mainindex__sec4 .mainindex__sec4__boton button:hover {
       transform: scale(1.08); }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
+  .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4m .mainindex__sec4m__boton a, .mainindex__sec4 .mainindex__sec4__boton a {
     display: inline-block;
     padding: 1rem;
     text-decoration: none;
@@ -57,8 +57,12 @@
     font-weight: bold;
     border: 0.3rem solid #bad9e5; }
 
-.mainindex .mainindex__sec4 {
+.mainindex__sec4 {
   display: none; }
+
+.mainproy .mainproy__sec p {
+  line-height: 2rem;
+  font-size: 1.125rem; }
 
 .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
   background-color: #bad9e5;
@@ -82,79 +86,6 @@
   background-color: #dff6ff;
   font-family: Futura,sans-serif;
   color: #06283d; }
-
-@media screen and (min-width: 576px) {
-  .mainindex__sec4 .mainindex__sec4__div1, .mainindex__sec4 .mainindex__sec4__div2, .mainindex__sec4 .mainindex__sec4__div3 {
-    row-gap: 1rem;
-    margin-bottom: 2rem;
-    column-gap: 1rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex__sec4 .mainindex__sec4__div3 p {
-      grid-area: p; }
-    .mainindex__sec4 .mainindex__sec4__div1 h3, .mainindex__sec4 .mainindex__sec4__div2 h3, .mainindex__sec4 .mainindex__sec4__div3 h3 {
-      grid-area: h2;
-      padding-top: 2rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex__sec4 .mainindex__sec4__div3 img {
-      width: 100%;
-      height: 18rem;
-      grid-area: img; }
-    .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; }
-  .mainindex__sec4m {
-    display: none; } }
-
-.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
-  font-weight: bold;
-  padding: 0.5rem;
-  transition: 1s; }
-  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
-    text-decoration: underline;
-    transform: scale(1.2); }
-  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
-    color: #dff6ff; }
-    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
-      width: 2rem;
-      height: 2rem;
-      margin-right: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
-  border: 0.3rem solid #bad9e5;
-  border-radius: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4m .mainindex__sec4m__boton {
-  display: flex;
-  justify-content: center;
-  margin-top: 2.4rem;
-  font-size: 1.5rem;
-  transition: 1s;
-  margin-bottom: 2rem; }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
-    border: 0.3rem solid #06283d;
-    background-color: #dff6ff;
-    transition: 1s; }
-    .mainindex .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
-      transform: scale(1.08); }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
-    display: inline-block;
-    padding: 1rem;
-    text-decoration: none;
-    color: #06283d;
-    letter-spacing: 0.15rem;
-    font-weight: bold;
-    border: 0.3rem solid #bad9e5; }
-
-.mainindex .mainindex__sec4 {
-  display: none; }
-
-.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
-  background-color: #bad9e5;
-  transition: 1s;
-  font-family: Tiemann, serif;
-  font-weight: bold;
-  font-size: 1rem;
-  width: 10rem;
-  height: 2.25rem; }
-  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
-    transform: scale(1.08); }
 
 /*estilo de contact*/
 .main {
@@ -199,79 +130,6 @@
     .main .main__caja .main__caja__bot {
       margin-left: 12%; } }
 
-@media screen and (min-width: 576px) {
-  .mainindex__sec4 .mainindex__sec4__div1, .mainindex__sec4 .mainindex__sec4__div2, .mainindex__sec4 .mainindex__sec4__div3 {
-    row-gap: 1rem;
-    margin-bottom: 2rem;
-    column-gap: 1rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex__sec4 .mainindex__sec4__div3 p {
-      grid-area: p; }
-    .mainindex__sec4 .mainindex__sec4__div1 h3, .mainindex__sec4 .mainindex__sec4__div2 h3, .mainindex__sec4 .mainindex__sec4__div3 h3 {
-      grid-area: h2;
-      padding-top: 2rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex__sec4 .mainindex__sec4__div3 img {
-      width: 100%;
-      height: 18rem;
-      grid-area: img; }
-    .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; }
-  .mainindex__sec4m {
-    display: none; } }
-
-.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
-  font-weight: bold;
-  padding: 0.5rem;
-  transition: 1s; }
-  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
-    text-decoration: underline;
-    transform: scale(1.2); }
-  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
-    color: #dff6ff; }
-    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
-      width: 2rem;
-      height: 2rem;
-      margin-right: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
-  border: 0.3rem solid #bad9e5;
-  border-radius: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4m .mainindex__sec4m__boton {
-  display: flex;
-  justify-content: center;
-  margin-top: 2.4rem;
-  font-size: 1.5rem;
-  transition: 1s;
-  margin-bottom: 2rem; }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
-    border: 0.3rem solid #06283d;
-    background-color: #dff6ff;
-    transition: 1s; }
-    .mainindex .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
-      transform: scale(1.08); }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
-    display: inline-block;
-    padding: 1rem;
-    text-decoration: none;
-    color: #06283d;
-    letter-spacing: 0.15rem;
-    font-weight: bold;
-    border: 0.3rem solid #bad9e5; }
-
-.mainindex .mainindex__sec4 {
-  display: none; }
-
-.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
-  background-color: #bad9e5;
-  transition: 1s;
-  font-family: Tiemann, serif;
-  font-weight: bold;
-  font-size: 1rem;
-  width: 10rem;
-  height: 2.25rem; }
-  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
-    transform: scale(1.08); }
-
 /* estilo de productos */
 .contenedorpro {
   display: flex;
@@ -306,79 +164,6 @@
   .contenedorpro {
     justify-content: center;
     flex-flow: row nowrap; } }
-
-@media screen and (min-width: 576px) {
-  .mainindex__sec4 .mainindex__sec4__div1, .mainindex__sec4 .mainindex__sec4__div2, .mainindex__sec4 .mainindex__sec4__div3 {
-    row-gap: 1rem;
-    margin-bottom: 2rem;
-    column-gap: 1rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex__sec4 .mainindex__sec4__div3 p {
-      grid-area: p; }
-    .mainindex__sec4 .mainindex__sec4__div1 h3, .mainindex__sec4 .mainindex__sec4__div2 h3, .mainindex__sec4 .mainindex__sec4__div3 h3 {
-      grid-area: h2;
-      padding-top: 2rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex__sec4 .mainindex__sec4__div3 img {
-      width: 100%;
-      height: 18rem;
-      grid-area: img; }
-    .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; }
-  .mainindex__sec4m {
-    display: none; } }
-
-.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
-  font-weight: bold;
-  padding: 0.5rem;
-  transition: 1s; }
-  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
-    text-decoration: underline;
-    transform: scale(1.2); }
-  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
-    color: #dff6ff; }
-    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
-      width: 2rem;
-      height: 2rem;
-      margin-right: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
-  border: 0.3rem solid #bad9e5;
-  border-radius: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4m .mainindex__sec4m__boton {
-  display: flex;
-  justify-content: center;
-  margin-top: 2.4rem;
-  font-size: 1.5rem;
-  transition: 1s;
-  margin-bottom: 2rem; }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
-    border: 0.3rem solid #06283d;
-    background-color: #dff6ff;
-    transition: 1s; }
-    .mainindex .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
-      transform: scale(1.08); }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
-    display: inline-block;
-    padding: 1rem;
-    text-decoration: none;
-    color: #06283d;
-    letter-spacing: 0.15rem;
-    font-weight: bold;
-    border: 0.3rem solid #bad9e5; }
-
-.mainindex .mainindex__sec4 {
-  display: none; }
-
-.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
-  background-color: #bad9e5;
-  transition: 1s;
-  font-family: Tiemann, serif;
-  font-weight: bold;
-  font-size: 1rem;
-  width: 10rem;
-  height: 2.25rem; }
-  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
-    transform: scale(1.08); }
 
 /* estilos del nav */
 .body header nav {
@@ -430,79 +215,6 @@
     margin-bottom: 1rem; }
     .footer div a {
       margin: 0.5rem; }
-
-@media screen and (min-width: 576px) {
-  .mainindex__sec4 .mainindex__sec4__div1, .mainindex__sec4 .mainindex__sec4__div2, .mainindex__sec4 .mainindex__sec4__div3 {
-    row-gap: 1rem;
-    margin-bottom: 2rem;
-    column-gap: 1rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex__sec4 .mainindex__sec4__div3 p {
-      grid-area: p; }
-    .mainindex__sec4 .mainindex__sec4__div1 h3, .mainindex__sec4 .mainindex__sec4__div2 h3, .mainindex__sec4 .mainindex__sec4__div3 h3 {
-      grid-area: h2;
-      padding-top: 2rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex__sec4 .mainindex__sec4__div3 img {
-      width: 100%;
-      height: 18rem;
-      grid-area: img; }
-    .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; }
-  .mainindex__sec4m {
-    display: none; } }
-
-.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
-  font-weight: bold;
-  padding: 0.5rem;
-  transition: 1s; }
-  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
-    text-decoration: underline;
-    transform: scale(1.2); }
-  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
-    color: #dff6ff; }
-    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
-      width: 2rem;
-      height: 2rem;
-      margin-right: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
-  border: 0.3rem solid #bad9e5;
-  border-radius: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4m .mainindex__sec4m__boton {
-  display: flex;
-  justify-content: center;
-  margin-top: 2.4rem;
-  font-size: 1.5rem;
-  transition: 1s;
-  margin-bottom: 2rem; }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
-    border: 0.3rem solid #06283d;
-    background-color: #dff6ff;
-    transition: 1s; }
-    .mainindex .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
-      transform: scale(1.08); }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
-    display: inline-block;
-    padding: 1rem;
-    text-decoration: none;
-    color: #06283d;
-    letter-spacing: 0.15rem;
-    font-weight: bold;
-    border: 0.3rem solid #bad9e5; }
-
-.mainindex .mainindex__sec4 {
-  display: none; }
-
-.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
-  background-color: #bad9e5;
-  transition: 1s;
-  font-family: Tiemann, serif;
-  font-weight: bold;
-  font-size: 1rem;
-  width: 10rem;
-  height: 2.25rem; }
-  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
-    transform: scale(1.08); }
 
 /*estilos del index*/
 .mainindex {
@@ -691,79 +403,6 @@ hr {
     margin-top: 8rem;
     margin-bottom: 8rem; } }
 
-@media screen and (min-width: 576px) {
-  .mainindex__sec4 .mainindex__sec4__div1, .mainindex__sec4 .mainindex__sec4__div2, .mainindex__sec4 .mainindex__sec4__div3 {
-    row-gap: 1rem;
-    margin-bottom: 2rem;
-    column-gap: 1rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex__sec4 .mainindex__sec4__div3 p {
-      grid-area: p; }
-    .mainindex__sec4 .mainindex__sec4__div1 h3, .mainindex__sec4 .mainindex__sec4__div2 h3, .mainindex__sec4 .mainindex__sec4__div3 h3 {
-      grid-area: h2;
-      padding-top: 2rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex__sec4 .mainindex__sec4__div3 img {
-      width: 100%;
-      height: 18rem;
-      grid-area: img; }
-    .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; }
-  .mainindex__sec4m {
-    display: none; } }
-
-.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
-  font-weight: bold;
-  padding: 0.5rem;
-  transition: 1s; }
-  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
-    text-decoration: underline;
-    transform: scale(1.2); }
-  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
-    color: #dff6ff; }
-    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
-      width: 2rem;
-      height: 2rem;
-      margin-right: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
-  border: 0.3rem solid #bad9e5;
-  border-radius: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4m .mainindex__sec4m__boton {
-  display: flex;
-  justify-content: center;
-  margin-top: 2.4rem;
-  font-size: 1.5rem;
-  transition: 1s;
-  margin-bottom: 2rem; }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
-    border: 0.3rem solid #06283d;
-    background-color: #dff6ff;
-    transition: 1s; }
-    .mainindex .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
-      transform: scale(1.08); }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
-    display: inline-block;
-    padding: 1rem;
-    text-decoration: none;
-    color: #06283d;
-    letter-spacing: 0.15rem;
-    font-weight: bold;
-    border: 0.3rem solid #bad9e5; }
-
-.mainindex .mainindex__sec4 {
-  display: none; }
-
-.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
-  background-color: #bad9e5;
-  transition: 1s;
-  font-family: Tiemann, serif;
-  font-weight: bold;
-  font-size: 1rem;
-  width: 10rem;
-  height: 2.25rem; }
-  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
-    transform: scale(1.08); }
-
 /*estilos de nos*/
 .contenedornos {
   display: flex;
@@ -806,75 +445,28 @@ hr {
       font-size: 1.125rem;
       text-align: center; } }
 
-@media screen and (min-width: 576px) {
-  .mainindex__sec4 .mainindex__sec4__div1, .mainindex__sec4 .mainindex__sec4__div2, .mainindex__sec4 .mainindex__sec4__div3 {
-    row-gap: 1rem;
-    margin-bottom: 2rem;
-    column-gap: 1rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 p, .mainindex__sec4 .mainindex__sec4__div2 p, .mainindex__sec4 .mainindex__sec4__div3 p {
-      grid-area: p; }
-    .mainindex__sec4 .mainindex__sec4__div1 h3, .mainindex__sec4 .mainindex__sec4__div2 h3, .mainindex__sec4 .mainindex__sec4__div3 h3 {
-      grid-area: h2;
-      padding-top: 2rem; }
-    .mainindex__sec4 .mainindex__sec4__div1 img, .mainindex__sec4 .mainindex__sec4__div2 img, .mainindex__sec4 .mainindex__sec4__div3 img {
-      width: 100%;
-      height: 18rem;
-      grid-area: img; }
-    .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
-      grid-area: b; }
-  .mainindex__sec4m {
-    display: none; } }
-
-.body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
-  font-weight: bold;
-  padding: 0.5rem;
-  transition: 1s; }
-  .body header nav .desk li:hover, .body header nav .buscbot .buscbot__phone li:hover {
-    text-decoration: underline;
-    transform: scale(1.2); }
-  .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a {
-    color: #dff6ff; }
-    .body header nav .desk li #a img, .body header nav .buscbot .buscbot__phone li #a img {
-      width: 2rem;
-      height: 2rem;
-      margin-right: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
-  border: 0.3rem solid #bad9e5;
-  border-radius: 0.5rem; }
-
-.mainindex .mainindex__sec4 .mainindex__sec4__boton, .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4m .mainindex__sec4m__boton {
-  display: flex;
-  justify-content: center;
-  margin-top: 2.4rem;
-  font-size: 1.5rem;
-  transition: 1s;
-  margin-bottom: 2rem; }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton button, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button {
-    border: 0.3rem solid #06283d;
-    background-color: #dff6ff;
-    transition: 1s; }
-    .mainindex .mainindex__sec4 .mainindex__sec4__boton button:hover, .mainindex__sec3 .mainindex__sec3__boton button:hover, .mainindex__sec4m .mainindex__sec4m__boton button:hover {
-      transform: scale(1.08); }
-  .mainindex .mainindex__sec4 .mainindex__sec4__boton a, .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4m .mainindex__sec4m__boton a {
-    display: inline-block;
-    padding: 1rem;
-    text-decoration: none;
-    color: #06283d;
-    letter-spacing: 0.15rem;
-    font-weight: bold;
-    border: 0.3rem solid #bad9e5; }
-
-.mainindex .mainindex__sec4 {
-  display: none; }
-
-.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
-  background-color: #bad9e5;
-  transition: 1s;
+/*estilos de proyectos*/
+.mainproy h1 {
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-decoration: underline #319fe7;
   font-family: Tiemann, serif;
-  font-weight: bold;
-  font-size: 1rem;
-  width: 10rem;
-  height: 2.25rem; }
-  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
-    transform: scale(1.08); }
+  text-align: center; }
+
+.mainproy .mainproy__sec {
+  margin: 3rem;
+  display: grid;
+  grid-template-areas: "img" "h2" "p";
+  border: 0.5rem inset #bad9e5;
+  border-radius: 1rem 0rem 1rem 0rem; }
+  .mainproy .mainproy__sec img {
+    grid-area: img;
+    padding: 2rem;
+    width: 21rem;
+    height: 16rem; }
+  .mainproy .mainproy__sec h2 {
+    grid-area: h2;
+    text-align: center; }
+  .mainproy .mainproy__sec p {
+    grid-area: p;
+    padding: 2rem; }

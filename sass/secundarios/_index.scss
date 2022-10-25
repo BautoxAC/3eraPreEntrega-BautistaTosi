@@ -1,8 +1,4 @@
-// imports
-@import"../utillities/variables";
-@import"../utillities/extend";
-@import"../utillities/mixin";
-@import"../utillities/listas";
+
 /*estilos del index*/
 .mainindex {
     display: flex;
@@ -42,12 +38,6 @@
             font-size: $medida-1;
             text-align: center;
             @include sizes(100%,5rem);
-        }
-    }
-    .mainindex__sec4{
-        @extend %none;
-        .mainindex__sec4__boton {
-            @extend %boton;
         }
     }
 }
@@ -124,6 +114,12 @@ hr {
     }
     img{
         height: 18rem;
+    }
+}
+.mainindex__sec4{
+    @extend %none;
+    .mainindex__sec4__boton {
+        @extend %boton;
     }
 }
 /* estilos de la mediaquerie */
