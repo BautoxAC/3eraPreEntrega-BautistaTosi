@@ -1,45 +1,113 @@
 /* estilo de productos */
 .contenedorpro {
-    display: flex;
-    flex-flow: column wrap;
+    h1{
+        
+    }
+    display: grid;
+    height: 200rem;
+    grid-template-areas:
+        "hijo1 hijo2 hijo3 hijo3"
+        "hijo4 hijo5 hijo3 hijo3"
+        "hijo6 hijo7 hijo7 hijo8"
+        "hijo9 hijo9 hijo9 hijo10"
+        "hijo9 hijo9 hijo9 hijo11"
+        "hijo12 hijo12 hijo13 hijo13"
+        "hijo12 hijo12 hijo13 hijo13";
+        margin: $medida-3;
 }
-
-.contenedorpro__hijo {
-    @include margen(0rem $medida-1, $medida-1 0rem);
-    width: auto;
-    text-align: center;
-    border: 0.3rem solid nth($colores,7);
-    overflow: auto;
-    transition: 1s;
-    margin-top: $medida-2;
-    h2 {
-        padding: $medida-1;
+.contenedorpro__hijo1{
+    grid-area: hijo1;
+    @include sizes(10rem,10rem);
+    img{
+        @include sizes(100%,10rem);
     }
-    p {
-        font-weight: bold;
-        font-size: $medida-1 + $medida-05;
-        padding-bottom: $medida-1;
+}
+.contenedorpro__hijo2{
+    grid-area: hijo2;
+    @include sizes(10rem,10rem);
+    img{
+        @include sizes(100%,10rem);
     }
-    &:hover {
-        transform: scale(1.08);
+}
+.contenedorpro__hijo3{
+    grid-area: hijo3;
+    @include sizes(15rem,15rem);
+    img{
+        @include sizes(100%,10rem);
     }
-    img {
-        @include sizes(66.6%, 12.5rem)
+}
+.contenedorpro__hijo4{
+    grid-area: hijo4;
+    @include sizes(10rem,10rem);
+    img{
+        @include sizes(100%,10rem);
     }
-    span {
-        padding: $medida-05;
+}
+.contenedorpro__hijo5{
+    grid-area: hijo5;
+    @include sizes(10rem,10rem);
+    img{
+        @include sizes(100%,10rem);
+    }
+}
+.contenedorpro__hijo6{
+    grid-area: hijo6;
+    @include sizes(10rem,10rem);
+    img{
+        @include sizes(100%,10rem);
+    }
+}
+.contenedorpro__hijo7{
+    grid-area: hijo7;
+    @include sizes(15rem,10rem);
+    img{
+        @include sizes(100%,10rem);
+    }
+}
+.contenedorpro__hijo8{
+    grid-area: hijo8;
+    @include sizes(10rem,10rem);
+    img{
+        @include sizes(100%,10rem);
+    }
+}
+.contenedorpro__hijo9{
+    grid-area: hijo9;
+    @include sizes(20rem,15rem);
+    img{
+        @include sizes(100%,10rem);
+    }
+}
+.contenedorpro__hijo10{
+    grid-area: hijo10;
+    @include sizes(10rem,10rem);
+    img{
+        @include sizes(100%,10rem);
+    }
+}
+.contenedorpro__hijo11{
+    grid-area: hijo11;
+    @include sizes(10rem,10rem);
+    img{
+        @include sizes(100%,10rem);
+    }
+}
+.contenedorpro__hijo12{
+    grid-area: hijo12;
+    @include sizes(10rem,10rem);
+    img{
+        @include sizes(100%,10rem);
+    }
+}
+.contenedorpro__hijo13{
+    grid-area: hijo13;
+    @include sizes(10rem,10rem);
+    img{
+        @include sizes(100%,10rem);
     }
 }
 /* estilos de la mediaquerie */
 @media screen and (min-width:576px) {
     /* estilos de Productos*/
-    .contenedorpro {
-        justify-content: center;
-        flex-flow: row nowrap;
-    }
+
 }
-
-
-
-
-

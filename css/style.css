@@ -128,38 +128,118 @@
 
 /* estilo de productos */
 .contenedorpro {
-  display: flex;
-  flex-flow: column wrap; }
+  display: grid;
+  height: 200rem;
+  grid-template-areas: "hijo1 hijo2 hijo3 hijo3" "hijo4 hijo5 hijo3 hijo3" "hijo6 hijo7 hijo7 hijo8" "hijo9 hijo9 hijo9 hijo10" "hijo9 hijo9 hijo9 hijo11" "hijo12 hijo12 hijo13 hijo13" "hijo12 hijo12 hijo13 hijo13";
+  margin: 3rem; }
 
-.contenedorpro__hijo {
-  padding: 1rem 0rem;
-  margin: 0rem 1rem;
-  width: auto;
-  text-align: center;
-  border: 0.3rem solid #bad9e5;
-  overflow: auto;
-  transition: 1s;
-  margin-top: 2rem; }
-  .contenedorpro__hijo h2 {
-    padding: 1rem; }
-  .contenedorpro__hijo p {
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding-bottom: 1rem; }
-  .contenedorpro__hijo:hover {
-    transform: scale(1.08); }
-  .contenedorpro__hijo img {
-    width: 66.6%;
-    height: 12.5rem; }
-  .contenedorpro__hijo span {
-    padding: 0.5rem; }
+.contenedorpro__hijo1 {
+  grid-area: hijo1;
+  width: 10rem;
+  height: 10rem; }
+  .contenedorpro__hijo1 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo2 {
+  grid-area: hijo2;
+  width: 10rem;
+  height: 10rem; }
+  .contenedorpro__hijo2 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo3 {
+  grid-area: hijo3;
+  width: 15rem;
+  height: 15rem; }
+  .contenedorpro__hijo3 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo4 {
+  grid-area: hijo4;
+  width: 10rem;
+  height: 10rem; }
+  .contenedorpro__hijo4 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo5 {
+  grid-area: hijo5;
+  width: 10rem;
+  height: 10rem; }
+  .contenedorpro__hijo5 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo6 {
+  grid-area: hijo6;
+  width: 10rem;
+  height: 10rem; }
+  .contenedorpro__hijo6 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo7 {
+  grid-area: hijo7;
+  width: 15rem;
+  height: 10rem; }
+  .contenedorpro__hijo7 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo8 {
+  grid-area: hijo8;
+  width: 10rem;
+  height: 10rem; }
+  .contenedorpro__hijo8 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo9 {
+  grid-area: hijo9;
+  width: 20rem;
+  height: 15rem; }
+  .contenedorpro__hijo9 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo10 {
+  grid-area: hijo10;
+  width: 10rem;
+  height: 10rem; }
+  .contenedorpro__hijo10 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo11 {
+  grid-area: hijo11;
+  width: 10rem;
+  height: 10rem; }
+  .contenedorpro__hijo11 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo12 {
+  grid-area: hijo12;
+  width: 10rem;
+  height: 10rem; }
+  .contenedorpro__hijo12 img {
+    width: 100%;
+    height: 10rem; }
+
+.contenedorpro__hijo13 {
+  grid-area: hijo13;
+  width: 10rem;
+  height: 10rem; }
+  .contenedorpro__hijo13 img {
+    width: 100%;
+    height: 10rem; }
 
 /* estilos de la mediaquerie */
 @media screen and (min-width: 576px) {
-  /* estilos de Productos*/
-  .contenedorpro {
-    justify-content: center;
-    flex-flow: row nowrap; } }
+  /* estilos de Productos*/ }
 
 /* estilos del nav */
 .body header nav {
@@ -443,25 +523,26 @@ hr {
 
 /*estilos de proyectos*/
 .mainproy h1 {
-  margin-top: 2rem;
   font-size: 3rem;
   text-decoration: underline #319fe7;
   font-family: Tiemann, serif;
-  text-align: center; }
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
 
 .mainproy .mainproy__sec {
-  margin: 3rem;
-  display: grid;
-  grid-template-areas: "img" "h2" "p";
+  margin: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border: 0.5rem inset #bad9e5;
   border-radius: 1rem 0rem 1rem 0rem; }
   .mainproy .mainproy__sec img {
-    grid-area: img;
     padding: 2rem;
-    width: 21rem;
-    height: 16rem; }
+    width: 100%;
+    height: 14rem; }
   .mainproy .mainproy__sec h2 {
-    grid-area: h2;
     text-align: center;
     font-size: 2rem;
     text-decoration: underline #319fe7;
@@ -469,12 +550,10 @@ hr {
     text-align: center;
     padding: 0rem 0.5rem; }
   .mainproy .mainproy__sec p {
-    grid-area: p;
     padding: 2rem;
     line-height: 2rem;
     font-size: 1.25rem;
-    text-align: center;
-    text-align: left; }
+    text-align: center; }
   .mainproy .mainproy__sec .mainproy__sec__span {
     display: none; }
 
@@ -483,15 +562,19 @@ hr {
   .mainproy h1 {
     font-size: 3.5rem; }
   .mainproy .mainproy__sec {
+    display: grid;
     grid-template-areas: "img h2" "img p"; }
     .mainproy .mainproy__sec h2 {
+      grid-area: h2;
       font-size: 2.5rem;
       margin-top: 1.5rem; }
     .mainproy .mainproy__sec p {
+      grid-area: p;
       text-align: center;
       margin-bottom: 1rem; }
     .mainproy .mainproy__sec .mainproy__sec__span {
       display: inline; }
     .mainproy .mainproy__sec img {
+      grid-area: img;
       width: 30rem;
       height: 20rem; } }
