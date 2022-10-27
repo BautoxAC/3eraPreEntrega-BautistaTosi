@@ -31,9 +31,30 @@
       height: 2rem;
       margin-right: 0.5rem; }
 
-.mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+.mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainpro .mainpro__contenedorpro__hijo13, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
   border: 0.3rem solid #bad9e5;
   border-radius: 0.5rem; }
+
+.mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2, .mainpro .mainpro__contenedorpro__hijo13 h2, .mainpro .mainpro__contenedorpro__hijo1 h3, .mainpro .mainpro__contenedorpro__hijo2 h3, .mainpro .mainpro__contenedorpro__hijo3 h3, .mainpro .mainpro__contenedorpro__hijo4 h3, .mainpro .mainpro__contenedorpro__hijo5 h3, .mainpro .mainpro__contenedorpro__hijo6 h3, .mainpro .mainpro__contenedorpro__hijo7 h3, .mainpro .mainpro__contenedorpro__hijo8 h3, .mainpro .mainpro__contenedorpro__hijo9 h3, .mainpro .mainpro__contenedorpro__hijo10 h3, .mainpro .mainpro__contenedorpro__hijo11 h3, .mainpro .mainpro__contenedorpro__hijo12 h3, .mainpro .mainpro__contenedorpro__hijo13 h3, .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p, .mainpro .mainpro__contenedorpro__hijo13 p, .mainpro .mainpro__contenedorpro__hijo1 img, .mainpro .mainpro__contenedorpro__hijo2 img, .mainpro .mainpro__contenedorpro__hijo3 img, .mainpro .mainpro__contenedorpro__hijo4 img, .mainpro .mainpro__contenedorpro__hijo5 img, .mainpro .mainpro__contenedorpro__hijo6 img, .mainpro .mainpro__contenedorpro__hijo7 img, .mainpro .mainpro__contenedorpro__hijo8 img, .mainpro .mainpro__contenedorpro__hijo9 img, .mainpro .mainpro__contenedorpro__hijo10 img, .mainpro .mainpro__contenedorpro__hijo11 img, .mainpro .mainpro__contenedorpro__hijo12 img, .mainpro .mainpro__contenedorpro__hijo13 img, .mainpro .mainpro__contenedorpro__hijo1 span, .mainpro .mainpro__contenedorpro__hijo2 span, .mainpro .mainpro__contenedorpro__hijo3 span, .mainpro .mainpro__contenedorpro__hijo4 span, .mainpro .mainpro__contenedorpro__hijo5 span, .mainpro .mainpro__contenedorpro__hijo6 span, .mainpro .mainpro__contenedorpro__hijo7 span, .mainpro .mainpro__contenedorpro__hijo8 span, .mainpro .mainpro__contenedorpro__hijo9 span, .mainpro .mainpro__contenedorpro__hijo10 span, .mainpro .mainpro__contenedorpro__hijo11 span, .mainpro .mainpro__contenedorpro__hijo12 span, .mainpro .mainpro__contenedorpro__hijo13 span {
+  font-family: Montserrat; }
+
+.mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainpro .mainpro__contenedorpro__hijo13 {
+  margin: 1.25rem;
+  text-align: center;
+  transition: 1s; }
+  .mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2, .mainpro .mainpro__contenedorpro__hijo13 h2 {
+    padding: 1rem; }
+  .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p, .mainpro .mainpro__contenedorpro__hijo13 p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 1rem; }
+  .mainpro .mainpro__contenedorpro__hijo1:hover, .mainpro .mainpro__contenedorpro__hijo2:hover, .mainpro .mainpro__contenedorpro__hijo3:hover, .mainpro .mainpro__contenedorpro__hijo4:hover, .mainpro .mainpro__contenedorpro__hijo5:hover, .mainpro .mainpro__contenedorpro__hijo6:hover, .mainpro .mainpro__contenedorpro__hijo7:hover, .mainpro .mainpro__contenedorpro__hijo8:hover, .mainpro .mainpro__contenedorpro__hijo9:hover, .mainpro .mainpro__contenedorpro__hijo10:hover, .mainpro .mainpro__contenedorpro__hijo11:hover, .mainpro .mainpro__contenedorpro__hijo12:hover, .mainpro .mainpro__contenedorpro__hijo13:hover {
+    transform: scale(1.08); }
+  .mainpro .mainpro__contenedorpro__hijo1 img, .mainpro .mainpro__contenedorpro__hijo2 img, .mainpro .mainpro__contenedorpro__hijo3 img, .mainpro .mainpro__contenedorpro__hijo4 img, .mainpro .mainpro__contenedorpro__hijo5 img, .mainpro .mainpro__contenedorpro__hijo6 img, .mainpro .mainpro__contenedorpro__hijo7 img, .mainpro .mainpro__contenedorpro__hijo8 img, .mainpro .mainpro__contenedorpro__hijo9 img, .mainpro .mainpro__contenedorpro__hijo10 img, .mainpro .mainpro__contenedorpro__hijo11 img, .mainpro .mainpro__contenedorpro__hijo12 img, .mainpro .mainpro__contenedorpro__hijo13 img {
+    width: 66.6%;
+    height: 12.5rem; }
+  .mainpro .mainpro__contenedorpro__hijo1 span, .mainpro .mainpro__contenedorpro__hijo2 span, .mainpro .mainpro__contenedorpro__hijo3 span, .mainpro .mainpro__contenedorpro__hijo4 span, .mainpro .mainpro__contenedorpro__hijo5 span, .mainpro .mainpro__contenedorpro__hijo6 span, .mainpro .mainpro__contenedorpro__hijo7 span, .mainpro .mainpro__contenedorpro__hijo8 span, .mainpro .mainpro__contenedorpro__hijo9 span, .mainpro .mainpro__contenedorpro__hijo10 span, .mainpro .mainpro__contenedorpro__hijo11 span, .mainpro .mainpro__contenedorpro__hijo12 span, .mainpro .mainpro__contenedorpro__hijo13 span {
+    padding: 0.5rem; }
 
 .mainindex__sec3 .mainindex__sec3__boton, .mainindex__sec4m .mainindex__sec4m__boton, .mainindex__sec4 .mainindex__sec4__boton {
   display: flex;
@@ -65,8 +86,8 @@
   transition: 1s;
   font-family: Tiemann, serif;
   font-weight: bold;
-  font-size: 1rem;
-  width: 10rem;
+  font-size: 1.25rem;
+  width: 9rem;
   height: 2.25rem; }
   .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
     transform: scale(1.08); }
@@ -127,113 +148,95 @@
       margin-left: 12%; } }
 
 /* estilo de productos */
-.contenedorpro {
+.mainpro h1 {
+  font-size: 4rem;
+  text-decoration: underline #319fe7;
+  font-family: Tiemann, serif;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem; }
+
+.mainpro .mainpro__contenedorpro {
   display: grid;
-  height: 200rem;
-  grid-template-areas: "hijo1 hijo2 hijo3 hijo3" "hijo4 hijo5 hijo3 hijo3" "hijo6 hijo7 hijo7 hijo8" "hijo9 hijo9 hijo9 hijo10" "hijo9 hijo9 hijo9 hijo11" "hijo12 hijo12 hijo13 hijo13" "hijo12 hijo12 hijo13 hijo13";
-  margin: 3rem; }
+  height: 100%;
+  margin: 4rem;
+  grid-template-areas: "hijo1 hijo2 hijo3 hijo3" "hijo4 hijo5 hijo3 hijo3" "hijo6 hijo7 hijo7 hijo8" "hijo9 hijo9 hijo9 hijo10" "hijo9 hijo9 hijo9 hijo11" "hijo12 hijo12 hijo13 hijo13" "hijo12 hijo12 hijo13 hijo13"; }
 
-.contenedorpro__hijo1 {
-  grid-area: hijo1;
-  width: 10rem;
-  height: 10rem; }
-  .contenedorpro__hijo1 img {
+.mainpro .mainpro__contenedorpro__hijo1 {
+  grid-area: hijo1; }
+  .mainpro .mainpro__contenedorpro__hijo1 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo2 {
-  grid-area: hijo2;
-  width: 10rem;
-  height: 10rem; }
-  .contenedorpro__hijo2 img {
+.mainpro .mainpro__contenedorpro__hijo2 {
+  grid-area: hijo2; }
+  .mainpro .mainpro__contenedorpro__hijo2 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo3 {
-  grid-area: hijo3;
-  width: 15rem;
-  height: 15rem; }
-  .contenedorpro__hijo3 img {
+.mainpro .mainpro__contenedorpro__hijo3 {
+  grid-area: hijo3; }
+  .mainpro .mainpro__contenedorpro__hijo3 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo4 {
-  grid-area: hijo4;
-  width: 10rem;
-  height: 10rem; }
-  .contenedorpro__hijo4 img {
+.mainpro .mainpro__contenedorpro__hijo4 {
+  grid-area: hijo4; }
+  .mainpro .mainpro__contenedorpro__hijo4 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo5 {
-  grid-area: hijo5;
-  width: 10rem;
-  height: 10rem; }
-  .contenedorpro__hijo5 img {
+.mainpro .mainpro__contenedorpro__hijo5 {
+  grid-area: hijo5; }
+  .mainpro .mainpro__contenedorpro__hijo5 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo6 {
-  grid-area: hijo6;
-  width: 10rem;
-  height: 10rem; }
-  .contenedorpro__hijo6 img {
+.mainpro .mainpro__contenedorpro__hijo6 {
+  grid-area: hijo6; }
+  .mainpro .mainpro__contenedorpro__hijo6 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo7 {
-  grid-area: hijo7;
-  width: 15rem;
-  height: 10rem; }
-  .contenedorpro__hijo7 img {
+.mainpro .mainpro__contenedorpro__hijo7 {
+  grid-area: hijo7; }
+  .mainpro .mainpro__contenedorpro__hijo7 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo8 {
-  grid-area: hijo8;
-  width: 10rem;
-  height: 10rem; }
-  .contenedorpro__hijo8 img {
+.mainpro .mainpro__contenedorpro__hijo8 {
+  grid-area: hijo8; }
+  .mainpro .mainpro__contenedorpro__hijo8 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo9 {
-  grid-area: hijo9;
-  width: 20rem;
-  height: 15rem; }
-  .contenedorpro__hijo9 img {
+.mainpro .mainpro__contenedorpro__hijo9 {
+  grid-area: hijo9; }
+  .mainpro .mainpro__contenedorpro__hijo9 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo10 {
-  grid-area: hijo10;
-  width: 10rem;
-  height: 10rem; }
-  .contenedorpro__hijo10 img {
+.mainpro .mainpro__contenedorpro__hijo10 {
+  grid-area: hijo10; }
+  .mainpro .mainpro__contenedorpro__hijo10 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo11 {
-  grid-area: hijo11;
-  width: 10rem;
-  height: 10rem; }
-  .contenedorpro__hijo11 img {
+.mainpro .mainpro__contenedorpro__hijo11 {
+  grid-area: hijo11; }
+  .mainpro .mainpro__contenedorpro__hijo11 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo12 {
-  grid-area: hijo12;
-  width: 10rem;
-  height: 10rem; }
-  .contenedorpro__hijo12 img {
+.mainpro .mainpro__contenedorpro__hijo12 {
+  grid-area: hijo12; }
+  .mainpro .mainpro__contenedorpro__hijo12 img {
     width: 100%;
     height: 10rem; }
 
-.contenedorpro__hijo13 {
-  grid-area: hijo13;
-  width: 10rem;
-  height: 10rem; }
-  .contenedorpro__hijo13 img {
+.mainpro .mainpro__contenedorpro__hijo13 {
+  grid-area: hijo13; }
+  .mainpro .mainpro__contenedorpro__hijo13 img {
     width: 100%;
     height: 10rem; }
 
