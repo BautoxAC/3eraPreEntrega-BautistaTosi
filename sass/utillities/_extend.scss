@@ -1,5 +1,68 @@
 //extend
+%borde {
+    border: 0.3rem solid nth($colores, 7);
+    border-radius: $medida-05;
+}
+
+%prol {
+    font-family: Montserrat;
+}
+
+%flexm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+%pro {
+    @extend %borde;
+    border: 0.3rem solid nth($colores, 2);
+    margin: $medida-1 + $medida-025;
+    text-align: center;
+    transition: 1s;
+    padding: $medida-1;
+    overflow: hidden;
+    @extend %flexm;
+    h2 {
+        @include tb($medida-05, $medida-05);
+        @extend %prold;
+    }
+
+    p {
+        font-weight: bold;
+        font-size: $medida-1 + $medida-05;
+        padding-bottom: $medida-1;
+        @extend %prold;
+    }
+
+    &:hover {
+        transform: scale(1.08);
+    }
+
+    img {
+        @include sizes(66.6%, 12.5rem);
+        @extend %prold;
+    }
+
+    button {
+        font-size: $medida-1 + $medida-05;
+        background-color:nth($colores, 9); 
+            &:hover{
+                background-color:nth($colores, 2); 
+            }
+    }
+}
+
 @media screen and (min-width:576px) {
+    %borded {
+        border: 0.3rem solid nth($colores, 2);
+        border-radius: $medida-025;
+    }
+
+    %prold {
+        font-family: Montserrat;
+    }
+
     %grid2 {
         row-gap: $medida-1;
         margin-bottom: $medida-2;
@@ -38,6 +101,22 @@
         justify-content: center;
     }
 
+    %prod {
+        p {
+            font-size: $medida-1 + $medida-05;
+        }
+
+        button {
+            font-size: $medida-1 + $medida-05;
+        }
+
+    }
+
+    %imgp {
+        img {
+            @include sizes(80%, 15rem);
+        }
+    }
 }
 
 %nav {
@@ -60,49 +139,9 @@
     }
 }
 
-%borde {
-    border: 0.3rem solid nth($colores, 7);
-    border-radius: $medida-05;
-}
 
-%prol {
-    font-family: Montserrat;
-}
 
-%pro {
-    @extend %borde;
-    margin: $medida-1 + $medida-025;
-    text-align: center;
-    transition: 1s;
 
-    h2 {
-        padding: $medida-1;
-        @extend %prol;
-    }
-h3{
-    @extend %prol;
-}
-    p {
-        font-weight: bold;
-        font-size: $medida-1 + $medida-05;
-        padding-bottom: $medida-1;
-        @extend %prol;
-    }
-
-    &:hover {
-        transform: scale(1.08);
-    }
-
-    img {
-        @include sizes(66.6%, 12.5rem);
-        @extend %prol;
-    }
-
-    span {
-        padding: $medida-05;
-        @extend %prol;
-    }
-}
 
 %boton {
     display: flex;

@@ -1,141 +1,191 @@
 /* estilo de productos */
 .mainpro {
     h1 {
-        @include h($medida-4);
+        @include h($medida-3);
         @include tb($medida-3, $medida-1);
     }
 
     .mainpro__contenedorpro {
         display: grid;
-        height: 100%;
-        margin: $medida-4;
+        margin: 0rem;
+        width: 100%;
         grid-template-areas:
-            "hijo1 hijo2 hijo3 hijo3"
-            "hijo4 hijo5 hijo3 hijo3"
-            "hijo6 hijo7 hijo7 hijo8"
-            "hijo9 hijo9 hijo9 hijo10"
-            "hijo9 hijo9 hijo9 hijo11"
-            "hijo12 hijo12 hijo13 hijo13"
-            "hijo12 hijo12 hijo13 hijo13";
+            "hijo1 hijo2"
+            "hijo3 hijo4"
+            "hijo5 hijo6"
+            "hijo7 hijo8"
+            "hijo9 hijo10"
+            "hijo11 hijo12";
     }
 
     .mainpro__contenedorpro__hijo1 {
         grid-area: hijo1;
         @extend %pro;
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo2 {
         grid-area: hijo2;
         @extend %pro;
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo3 {
         grid-area: hijo3;
         @extend %pro;
-
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo4 {
         grid-area: hijo4;
         @extend %pro;
-
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo5 {
         grid-area: hijo5;
         @extend %pro;
-
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo6 {
         grid-area: hijo6;
         @extend %pro;
 
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo7 {
         grid-area: hijo7;
         @extend %pro;
 
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo8 {
         grid-area: hijo8;
         @extend %pro;
 
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo9 {
         grid-area: hijo9;
         @extend %pro;
 
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo10 {
-        grid-area: hijo10;
         @extend %pro;
 
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo11 {
         grid-area: hijo11;
         @extend %pro;
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 
     .mainpro__contenedorpro__hijo12 {
         grid-area: hijo12;
         @extend %pro;
-
-        img {
-            @include sizes(100%, 10rem);
-        }
-    }
-
-    .mainpro__contenedorpro__hijo13 {
-        grid-area: hijo13;
-        @extend %pro;
-
-        img {
-            @include sizes(100%, 10rem);
-        }
     }
 }
 
 /* estilos de la mediaquerie */
 @media screen and (min-width:576px) {
-    /* estilos de Productos*/
 
+    /* estilos de Productos*/
+    .mainpro {
+        h1 {
+            font-size: $medida-4;
+        }
+
+        .mainpro__contenedorpro {
+            width: auto;
+            display: grid;
+            margin: $medida-3;
+            grid-template-areas:
+                "hijo1 hijo2 hijo3 hijo3"
+                "hijo4 hijo5 hijo3 hijo3"
+                "hijo6 hijo7 hijo8 hijo9"
+                "hijo10 hijo10 hijo11 hijo11"
+                "hijo10 hijo10 hijo12 hijo12";
+        }
+
+        .mainpro__contenedorpro__hijo1 {
+            grid-area: hijo1;
+            @extend %prod;
+            @extend %imgp;
+        }
+
+        .mainpro__contenedorpro__hijo2 {
+            grid-area: hijo2;
+            @extend %prod;
+            @extend %imgp;
+        }
+
+        .mainpro__contenedorpro__hijo3 {
+            grid-area: hijo3;
+            @extend %prod;
+
+            img {
+                @include sizes(90%, 40rem);
+            }
+        }
+
+        .mainpro__contenedorpro__hijo4 {
+            grid-area: hijo4;
+            @extend %prod;
+            @extend %imgp;
+        }
+
+        .mainpro__contenedorpro__hijo5 {
+            grid-area: hijo5;
+            @extend %prod;
+            @extend %imgp;
+        }
+
+        .mainpro__contenedorpro__hijo6 {
+            grid-area: hijo6;
+            @extend %prod;
+            @extend %imgp;
+        }
+
+        .mainpro__contenedorpro__hijo7 {
+            grid-area: hijo7;
+            @extend %prod;
+            @extend %imgp;
+        }
+
+        .mainpro__contenedorpro__hijo8 {
+            grid-area: hijo8;
+            @extend %prod;
+            @extend %imgp;
+        }
+
+        .mainpro__contenedorpro__hijo9 {
+            grid-area: hijo9;
+            @extend %prod;
+            @extend %imgp;
+        }
+
+        .mainpro__contenedorpro__hijo10 {
+            grid-area: hijo10;
+            @extend %prod;
+
+            img {
+                @include sizes(60%, 25rem);
+            }
+        }
+
+        .mainpro__contenedorpro__hijo11 {
+            grid-area: hijo11;
+            @extend %prod;
+
+            img {
+                @include sizes(40%, 9rem);
+            }
+        }
+
+        .mainpro__contenedorpro__hijo12 {
+            grid-area: hijo12;
+            @extend %prod;
+
+            img {
+                @include sizes(40%, 10rem);
+            }
+        }
+    }
 }
