@@ -9,6 +9,7 @@
         @include sizes(3rem, $medida-2);
         border: 4px solid nth($colores, 7);
         @extend %act;
+
         img {
             @include sizes($medida-2, $medida-1);
             margin-bottom: 0.15rem;
@@ -16,12 +17,12 @@
     }
 
     .desk {
-        margin-left:-8rem;
+
         li {
             @extend %nav;
         }
     }
-    
+
 
     div {
         a img {
@@ -39,7 +40,7 @@
     }
 }
 
-/* estilos de la mediaquerie */
+/* estilos de la mediaquerie tablet*/
 @media screen and (min-width:576px) {
 
     /*estilos del nav*/
@@ -50,9 +51,22 @@
     .body header .nav1 {
         height: 6rem;
     }
-
+    .body header nav {
+        .desk {
+            margin-left: 0rem;
+        }
+    }
     .boton {
         display: none;
     }
 
+}
+/* estilos de la mediaquerie desktop*/
+@media screen and (min-width:1000px) {
+
+    .body header nav {
+        .desk {
+            margin-left: -8rem;
+        }
+    }
 }

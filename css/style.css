@@ -322,23 +322,28 @@
       width: 2rem;
       height: 1rem;
       margin-bottom: 0.15rem; }
-  .body header nav .desk {
-    margin-left: -8rem; }
   .body header nav div a img {
     width: 8rem;
     height: 4rem; }
   .body header nav .buscbot {
     background-color: #47b5ff; }
 
-/* estilos de la mediaquerie */
+/* estilos de la mediaquerie tablet*/
 @media screen and (min-width: 576px) {
   /*estilos del nav*/
   #a {
     font-size: 1rem; }
   .body header .nav1 {
     height: 6rem; }
+  .body header nav .desk {
+    margin-left: 0rem; }
   .boton {
     display: none; } }
+
+/* estilos de la mediaquerie desktop*/
+@media screen and (min-width: 1000px) {
+  .body header nav .desk {
+    margin-left: -8rem; } }
 
 /* estilo del footer */
 .footer {
