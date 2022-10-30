@@ -2,10 +2,11 @@
 .mainpro {
     h1 {
         @include h($medida-3);
-        @include tb($medida-3, $medida-1);
+        @include tb($medida-3, $medida-2);
     }
 
     .mainpro__contenedorpro {
+        margin-bottom: 6;
         display: grid;
         margin: 0rem;
         width: 100%;
@@ -21,65 +22,72 @@
     .mainpro__contenedorpro__hijo1 {
         grid-area: hijo1;
         @extend %pro;
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo2 {
         grid-area: hijo2;
         @extend %pro;
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo3 {
         grid-area: hijo3;
         @extend %pro;
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo4 {
         grid-area: hijo4;
         @extend %pro;
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo5 {
         grid-area: hijo5;
         @extend %pro;
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo6 {
         grid-area: hijo6;
         @extend %pro;
-
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo7 {
         grid-area: hijo7;
         @extend %pro;
-
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo8 {
         grid-area: hijo8;
         @extend %pro;
-
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo9 {
         grid-area: hijo9;
         @extend %pro;
-
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo10 {
         @extend %pro;
-
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo11 {
         grid-area: hijo11;
         @extend %pro;
+        @extend %imgpm;
     }
 
     .mainpro__contenedorpro__hijo12 {
         grid-area: hijo12;
         @extend %pro;
+        @extend %imgpm;
     }
 }
 

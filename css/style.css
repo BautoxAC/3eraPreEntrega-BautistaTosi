@@ -1,40 +1,43 @@
-.mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
+.mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
   border: 0.3rem solid #bad9e5;
   border-radius: 0.5rem; }
 
-.mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
+.mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
 
-.mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
-  border: 0.3rem solid #06283d;
-  margin: 1.25rem;
+.mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo {
+  border: 3px groove #06283d;
+  margin: 0.75rem;
   text-align: center;
   transition: 1s;
   padding: 1rem;
-  overflow: hidden; }
-  .mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo h2 {
+  overflow: hidden;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  .mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo h2 {
     margin-top: 0.5rem;
-    margin-bottom: 0.5rem; }
-  .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo p {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem; }
+  .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo p {
     font-weight: bold;
     font-size: 1.5rem;
     padding-bottom: 1rem; }
-  .mainpro .mainpro__contenedorpro__hijo1:hover, .mainpro .mainpro__contenedorpro__hijo2:hover, .mainpro .mainpro__contenedorpro__hijo3:hover, .mainpro .mainpro__contenedorpro__hijo4:hover, .mainpro .mainpro__contenedorpro__hijo5:hover, .mainpro .mainpro__contenedorpro__hijo6:hover, .mainpro .mainpro__contenedorpro__hijo7:hover, .mainpro .mainpro__contenedorpro__hijo8:hover, .mainpro .mainpro__contenedorpro__hijo9:hover, .mainpro .mainpro__contenedorpro__hijo10:hover, .mainpro .mainpro__contenedorpro__hijo11:hover, .mainpro .mainpro__contenedorpro__hijo12:hover, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo:hover {
+  .mainpro .mainpro__contenedorpro__hijo1:hover, .mainpro .mainpro__contenedorpro__hijo2:hover, .mainpro .mainpro__contenedorpro__hijo3:hover, .mainpro .mainpro__contenedorpro__hijo4:hover, .mainpro .mainpro__contenedorpro__hijo5:hover, .mainpro .mainpro__contenedorpro__hijo6:hover, .mainpro .mainpro__contenedorpro__hijo7:hover, .mainpro .mainpro__contenedorpro__hijo8:hover, .mainpro .mainpro__contenedorpro__hijo9:hover, .mainpro .mainpro__contenedorpro__hijo10:hover, .mainpro .mainpro__contenedorpro__hijo11:hover, .mainpro .mainpro__contenedorpro__hijo12:hover, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo:hover {
     transform: scale(1.08); }
-  .mainpro .mainpro__contenedorpro__hijo1 img, .mainpro .mainpro__contenedorpro__hijo2 img, .mainpro .mainpro__contenedorpro__hijo3 img, .mainpro .mainpro__contenedorpro__hijo4 img, .mainpro .mainpro__contenedorpro__hijo5 img, .mainpro .mainpro__contenedorpro__hijo6 img, .mainpro .mainpro__contenedorpro__hijo7 img, .mainpro .mainpro__contenedorpro__hijo8 img, .mainpro .mainpro__contenedorpro__hijo9 img, .mainpro .mainpro__contenedorpro__hijo10 img, .mainpro .mainpro__contenedorpro__hijo11 img, .mainpro .mainpro__contenedorpro__hijo12 img, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo img {
-    width: 66.6%;
-    height: 12.5rem; }
-  .mainpro .mainpro__contenedorpro__hijo1 button, .mainpro .mainpro__contenedorpro__hijo2 button, .mainpro .mainpro__contenedorpro__hijo3 button, .mainpro .mainpro__contenedorpro__hijo4 button, .mainpro .mainpro__contenedorpro__hijo5 button, .mainpro .mainpro__contenedorpro__hijo6 button, .mainpro .mainpro__contenedorpro__hijo7 button, .mainpro .mainpro__contenedorpro__hijo8 button, .mainpro .mainpro__contenedorpro__hijo9 button, .mainpro .mainpro__contenedorpro__hijo10 button, .mainpro .mainpro__contenedorpro__hijo11 button, .mainpro .mainpro__contenedorpro__hijo12 button, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo button {
+  .mainpro .mainpro__contenedorpro__hijo1 button, .mainpro .mainpro__contenedorpro__hijo2 button, .mainpro .mainpro__contenedorpro__hijo3 button, .mainpro .mainpro__contenedorpro__hijo4 button, .mainpro .mainpro__contenedorpro__hijo5 button, .mainpro .mainpro__contenedorpro__hijo6 button, .mainpro .mainpro__contenedorpro__hijo7 button, .mainpro .mainpro__contenedorpro__hijo8 button, .mainpro .mainpro__contenedorpro__hijo9 button, .mainpro .mainpro__contenedorpro__hijo10 button, .mainpro .mainpro__contenedorpro__hijo11 button, .mainpro .mainpro__contenedorpro__hijo12 button, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo button {
     font-size: 1.5rem;
     background-color: #20618a; }
-    .mainpro .mainpro__contenedorpro__hijo1 button:hover, .mainpro .mainpro__contenedorpro__hijo2 button:hover, .mainpro .mainpro__contenedorpro__hijo3 button:hover, .mainpro .mainpro__contenedorpro__hijo4 button:hover, .mainpro .mainpro__contenedorpro__hijo5 button:hover, .mainpro .mainpro__contenedorpro__hijo6 button:hover, .mainpro .mainpro__contenedorpro__hijo7 button:hover, .mainpro .mainpro__contenedorpro__hijo8 button:hover, .mainpro .mainpro__contenedorpro__hijo9 button:hover, .mainpro .mainpro__contenedorpro__hijo10 button:hover, .mainpro .mainpro__contenedorpro__hijo11 button:hover, .mainpro .mainpro__contenedorpro__hijo12 button:hover, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo button:hover {
+    .mainpro .mainpro__contenedorpro__hijo1 button:hover, .mainpro .mainpro__contenedorpro__hijo2 button:hover, .mainpro .mainpro__contenedorpro__hijo3 button:hover, .mainpro .mainpro__contenedorpro__hijo4 button:hover, .mainpro .mainpro__contenedorpro__hijo5 button:hover, .mainpro .mainpro__contenedorpro__hijo6 button:hover, .mainpro .mainpro__contenedorpro__hijo7 button:hover, .mainpro .mainpro__contenedorpro__hijo8 button:hover, .mainpro .mainpro__contenedorpro__hijo9 button:hover, .mainpro .mainpro__contenedorpro__hijo10 button:hover, .mainpro .mainpro__contenedorpro__hijo11 button:hover, .mainpro .mainpro__contenedorpro__hijo12 button:hover, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo button:hover {
       background-color: #06283d; }
 
+.mainpro .mainpro__contenedorpro__hijo1 img, .mainpro .mainpro__contenedorpro__hijo2 img, .mainpro .mainpro__contenedorpro__hijo3 img, .mainpro .mainpro__contenedorpro__hijo4 img, .mainpro .mainpro__contenedorpro__hijo5 img, .mainpro .mainpro__contenedorpro__hijo6 img, .mainpro .mainpro__contenedorpro__hijo7 img, .mainpro .mainpro__contenedorpro__hijo8 img, .mainpro .mainpro__contenedorpro__hijo9 img, .mainpro .mainpro__contenedorpro__hijo10 img, .mainpro .mainpro__contenedorpro__hijo11 img, .mainpro .mainpro__contenedorpro__hijo12 img {
+  width: 100%;
+  height: 9.2rem; }
+
 @media screen and (min-width: 576px) {
-  .mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo h2, .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo p, .mainpro .mainpro__contenedorpro__hijo1 img, .mainpro .mainpro__contenedorpro__hijo2 img, .mainpro .mainpro__contenedorpro__hijo3 img, .mainpro .mainpro__contenedorpro__hijo4 img, .mainpro .mainpro__contenedorpro__hijo5 img, .mainpro .mainpro__contenedorpro__hijo6 img, .mainpro .mainpro__contenedorpro__hijo7 img, .mainpro .mainpro__contenedorpro__hijo8 img, .mainpro .mainpro__contenedorpro__hijo9 img, .mainpro .mainpro__contenedorpro__hijo10 img, .mainpro .mainpro__contenedorpro__hijo11 img, .mainpro .mainpro__contenedorpro__hijo12 img, .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo img {
+  .mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo h2, .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo p {
     font-family: Montserrat; }
   .mainindex__sec4 .mainindex__sec4__div1, .mainindex__sec4 .mainindex__sec4__div2, .mainindex__sec4 .mainindex__sec4__div3 {
     row-gap: 1rem;
@@ -53,10 +56,12 @@
       grid-area: b; }
   .mainindex__sec4m {
     display: none; }
-  .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p {
-    font-size: 1.5rem; }
-  .mainpro .mainpro__contenedorpro__hijo1 button, .mainpro .mainpro__contenedorpro__hijo2 button, .mainpro .mainpro__contenedorpro__hijo3 button, .mainpro .mainpro__contenedorpro__hijo4 button, .mainpro .mainpro__contenedorpro__hijo5 button, .mainpro .mainpro__contenedorpro__hijo6 button, .mainpro .mainpro__contenedorpro__hijo7 button, .mainpro .mainpro__contenedorpro__hijo8 button, .mainpro .mainpro__contenedorpro__hijo9 button, .mainpro .mainpro__contenedorpro__hijo10 button, .mainpro .mainpro__contenedorpro__hijo11 button, .mainpro .mainpro__contenedorpro__hijo12 button {
-    font-size: 1.5rem; }
+  .mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12 {
+    margin: 1.25rem; }
+    .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p {
+      font-size: 1.5rem; }
+    .mainpro .mainpro__contenedorpro__hijo1 button, .mainpro .mainpro__contenedorpro__hijo2 button, .mainpro .mainpro__contenedorpro__hijo3 button, .mainpro .mainpro__contenedorpro__hijo4 button, .mainpro .mainpro__contenedorpro__hijo5 button, .mainpro .mainpro__contenedorpro__hijo6 button, .mainpro .mainpro__contenedorpro__hijo7 button, .mainpro .mainpro__contenedorpro__hijo8 button, .mainpro .mainpro__contenedorpro__hijo9 button, .mainpro .mainpro__contenedorpro__hijo10 button, .mainpro .mainpro__contenedorpro__hijo11 button, .mainpro .mainpro__contenedorpro__hijo12 button {
+      font-size: 1.5rem; }
   .mainpro .mainpro__contenedorpro__hijo1 img, .mainpro .mainpro__contenedorpro__hijo2 img, .mainpro .mainpro__contenedorpro__hijo4 img, .mainpro .mainpro__contenedorpro__hijo5 img, .mainpro .mainpro__contenedorpro__hijo6 img, .mainpro .mainpro__contenedorpro__hijo7 img, .mainpro .mainpro__contenedorpro__hijo8 img, .mainpro .mainpro__contenedorpro__hijo9 img {
     width: 80%;
     height: 15rem; } }
@@ -173,9 +178,10 @@
   font-family: Tiemann, serif;
   text-align: center;
   margin-top: 3rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 2rem; }
 
 .mainpro .mainpro__contenedorpro {
+  margin-bottom: 6;
   display: grid;
   margin: 0rem;
   width: 100%;
@@ -296,10 +302,9 @@
 /* estilo del footer */
 .footer {
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
+  flex-flow: column nowrap;
   align-items: center;
-  background-color: #06283d;
+  background-color: rgba(6, 40, 61, 0.932);
   padding: 1rem;
   margin-top: 1rem;
   color: white;
@@ -311,6 +316,9 @@
     margin-bottom: 1rem; }
     .footer div a {
       margin: 0.5rem; }
+  .footer img {
+    width: 2.25rem;
+    height: 2rem; }
 
 /*estilos del index*/
 .mainindex {
@@ -357,22 +365,28 @@
   font-family: Tiemann, serif;
   text-align: center;
   padding: 1rem;
-  margin: 3rem; }
+  margin: 3rem;
+  margin-bottom: -1rem; }
 
 .mainindex__sec3 .mainindex__sec3__contenedorpro {
   display: flex;
   justify-content: center;
-  flex-flow: column wrap; }
-
-.mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
-  margin-top: 2rem; }
-  .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo p .s1 {
-    text-decoration: line-through;
-    opacity: 50%; }
-  .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo span {
-    padding: 0.5rem;
-    line-height: 2rem;
-    font-size: 1.5rem; }
+  align-items: center;
+  flex-flow: column wrap;
+  margin-bottom: 1.25rem; }
+  .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo {
+    margin-top: 2rem;
+    width: 70%; }
+    .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo p .s1 {
+      text-decoration: line-through;
+      opacity: 50%; }
+    .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo span {
+      padding: 0.5rem;
+      line-height: 2rem;
+      font-size: 1.5rem; }
+    .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo img {
+      width: 70%;
+      height: 12rem; }
 
 hr {
   margin: 0;
@@ -395,7 +409,7 @@ hr {
   text-align: center; }
 
 .mainindex__sec4m img {
-  height: 18rem; }
+  height: 16rem; }
 
 /* estilos de la mediaquerie */
 @media screen and (min-width: 576px) {
@@ -413,15 +427,21 @@ hr {
     .mainindex .mainindex__sec2 img {
       width: auto;
       height: auto; }
-  .mainindex__sec3 h1 {
-    margin: 3rem;
-    font-size: 4.5rem; }
-  .mainindex__sec3 .mainindex__sec3__contenedorpro {
-    display: flex;
-    justify-content: center;
-    flex-flow: row nowrap; }
-  .mainindex__sec3 .mainindex__sec3__contenedorpro__hijo {
-    width: 33.3%; }
+  .mainindex__sec3 {
+    width: 100%; }
+    .mainindex__sec3 h1 {
+      margin: 3rem;
+      font-size: 4.5rem; }
+    .mainindex__sec3 .mainindex__sec3__contenedorpro {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-flow: row nowrap; }
+      .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo {
+        width: 25%; }
+        .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo img {
+          width: 66%;
+          height: 10rem; }
   .mainindex__sec4 {
     width: 95%;
     margin-bottom: 6rem;
@@ -495,10 +515,14 @@ hr {
   .contenedornos .contenedornos__img {
     padding: 1rem;
     width: auto;
-    height: 25rem; }
+    height: 21rem; }
   .contenedornos .contenedornos__div__h1 {
-    font-size: 2rem;
-    padding: 1rem; }
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-decoration: underline #319fe7;
+    font-family: Tiemann, serif;
+    text-align: center;
+    padding: 2rem; }
   .contenedornos .contenedornos__div__p1 {
     display: none; }
 
@@ -515,9 +539,14 @@ hr {
       flex-wrap: wrap;
       justify-content: space-evenly;
       margin-bottom: 2rem; }
+    .contenedornos .contenedornos__img {
+      padding: 1rem;
+      width: auto;
+      height: 25rem; }
     .contenedornos .contenedornos__div__h1 {
+      margin-top: 0rem;
       padding-top: 3.4rem;
-      font-size: 2.5rem; }
+      font-size: 3rem; }
     .contenedornos .contenedornos__div__p1 {
       display: inline;
       line-height: 2rem;

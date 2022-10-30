@@ -10,11 +10,12 @@
     }
     .contenedornos__img{
         padding: $medida-1;
-        @include sizes(auto,25rem);
+        @include sizes(auto,21rem);
     }
     .contenedornos__div__h1{
-        font-size: $medida-2;
-        padding: $medida-1;
+        margin-top: $medida-2;
+        @include h($medida-3);
+        padding: $medida-2;
     }
     .contenedornos__div__p1{
         display: none;
@@ -35,10 +36,14 @@
             justify-content: space-evenly;
             margin-bottom: $medida-2;
         }
-
+        .contenedornos__img{
+            padding: $medida-1;
+            @include sizes(auto,25rem);
+        }
         .contenedornos__div__h1 {
+            margin-top: 0rem;
             padding-top: $medida-2 * 1.7;
-            font-size: $medida-2 + $medida-05;
+            font-size: $medida-3;
         }
 
         .contenedornos__div__p1 {

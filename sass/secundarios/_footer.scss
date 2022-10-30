@@ -2,10 +2,9 @@
 /* estilo del footer */
 .footer {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
+    flex-flow: column nowrap;
     align-items: center;
-    background-color: nth($colores, 2);
+    background-color: nth($colores, 10);
     padding: $medida-1;
     margin-top: $medida-1;
     color: white;
@@ -20,7 +19,9 @@
             margin: $medida-05;
         }
     }
-    
+    img{
+        @include sizes($medida-2 + $medida-025,$medida-2)
+    }    
 }
 
 
