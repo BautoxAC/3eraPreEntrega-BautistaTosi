@@ -8,6 +8,14 @@
     font-family: Montserrat;
 }
 
+%act {
+    transition: 0.3s;
+
+    &:active {
+        transform: scale(1.1);
+    }
+}
+
 %flexm {
     display: flex;
     flex-direction: column;
@@ -51,6 +59,8 @@
         &:hover {
             background-color: nth($colores, 2);
         }
+
+        @extend %act;
     }
 }
 
@@ -59,13 +69,33 @@
         @include sizes(100%, 8.8rem);
     }
 }
+%bot {
+    background-color: nth($colores, 7);
+    @extend %borde;
+    transition: 1s;
+    font-family: Tiemann, serif;
+    font-weight: bold;
+    font-size: $medida-1;
+    @include sizes(6rem, $medida-2 + $medida-025);
 
+    &:hover {
+        transform: scale(1.08);
+    }
+
+}
 @media screen and (min-width:576px) {
+    %bott {
+        font-size: $medida-1 + $medida-05;
+        @include sizes(9rem, $medida-3);
+    }
+
     %prot {
         margin: $medida-1;
-        h2{
+
+        h2 {
             font-size: $medida-2;
         }
+
         p {
             font-size: $medida-1 + $medida-05;
         }
@@ -75,11 +105,13 @@
         }
 
     }
+
     %imgpt {
         img {
             @include sizes(80%, 8rem);
         }
     }
+
     %grid {
         display: grid;
         margin: 3rem;
@@ -115,6 +147,7 @@
             grid-area: b;
         }
     }
+
     %noned {
         display: none;
     }
@@ -124,6 +157,7 @@
             @include sizes(80%, 15rem);
         }
     }
+
     %prod {
         margin: $medida-1 + $medida-025;
 
@@ -134,7 +168,8 @@
         button {
             font-size: $medida-1 + $medida-05;
         }
-        h2{
+
+        h2 {
             font-size: $medida-3 - $medida-05;
         }
     }
@@ -152,6 +187,7 @@
 
     #a {
         color: nth($colores, 3);
+        @extend %act;
 
         img {
             @include sizes($medida-2, $medida-2);
@@ -187,25 +223,10 @@
         letter-spacing: 0.15rem;
         font-weight: bold;
         border: 0.3rem solid nth($colores, 7);
+        @extend %act;
     }
 }
 
 %none {
     display: none;
-}
-
-
-
-%bot {
-    background-color: nth($colores, 7);
-    @extend %borde;
-    transition: 1s;
-    font-family: Tiemann, serif;
-    font-weight: bold;
-    font-size: $medida-1 + $medida-025;
-    @include sizes(9rem, $medida-2 + $medida-025);
-
-    &:hover {
-        transform: scale(1.08);
-    }
 }

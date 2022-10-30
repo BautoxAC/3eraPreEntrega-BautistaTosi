@@ -1,9 +1,14 @@
-.mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .mainindex__sec4 .mainindex__sec4__boton button, .main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
+.mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo, .main .main__caja .main__caja__bot .rese, .main .main__caja .main__caja__bot .submi, .mainindex__sec3 .mainindex__sec3__boton button, .mainindex__sec4m .mainindex__sec4m__boton button, .mainindex__sec4 .mainindex__sec4__boton button {
   border: 0.3rem solid #bad9e5;
   border-radius: 0.5rem; }
 
-.mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo h2, .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo p {
+.mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo h2, .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo p, .footer p {
   font-family: Montserrat; }
+
+.mainpro .mainpro__contenedorpro__hijo1 button, .mainpro .mainpro__contenedorpro__hijo2 button, .mainpro .mainpro__contenedorpro__hijo3 button, .mainpro .mainpro__contenedorpro__hijo4 button, .mainpro .mainpro__contenedorpro__hijo5 button, .mainpro .mainpro__contenedorpro__hijo6 button, .mainpro .mainpro__contenedorpro__hijo7 button, .mainpro .mainpro__contenedorpro__hijo8 button, .mainpro .mainpro__contenedorpro__hijo9 button, .mainpro .mainpro__contenedorpro__hijo10 button, .mainpro .mainpro__contenedorpro__hijo11 button, .mainpro .mainpro__contenedorpro__hijo12 button, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo button, .body header nav .desk li #a, .body header nav .buscbot .buscbot__phone li #a, .mainindex__sec3 .mainindex__sec3__boton a, .mainindex__sec4m .mainindex__sec4m__boton a, .mainindex__sec4 .mainindex__sec4__boton a, .body header nav .boton, .body header nav div a img {
+  transition: 0.3s; }
+  .mainpro .mainpro__contenedorpro__hijo1 button:active, .mainpro .mainpro__contenedorpro__hijo2 button:active, .mainpro .mainpro__contenedorpro__hijo3 button:active, .mainpro .mainpro__contenedorpro__hijo4 button:active, .mainpro .mainpro__contenedorpro__hijo5 button:active, .mainpro .mainpro__contenedorpro__hijo6 button:active, .mainpro .mainpro__contenedorpro__hijo7 button:active, .mainpro .mainpro__contenedorpro__hijo8 button:active, .mainpro .mainpro__contenedorpro__hijo9 button:active, .mainpro .mainpro__contenedorpro__hijo10 button:active, .mainpro .mainpro__contenedorpro__hijo11 button:active, .mainpro .mainpro__contenedorpro__hijo12 button:active, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo button:active, .body header nav .desk li #a:active, .body header nav .buscbot .buscbot__phone li #a:active, .mainindex__sec3 .mainindex__sec3__boton a:active, .mainindex__sec4m .mainindex__sec4m__boton a:active, .mainindex__sec4 .mainindex__sec4__boton a:active, .body header nav .boton:active, .body header nav div a img:active {
+    transform: scale(1.1); }
 
 .mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo {
   display: flex;
@@ -39,7 +44,22 @@
   width: 100%;
   height: 8.8rem; }
 
+.main .main__caja .main__caja__bot .rese, .main .main__caja .main__caja__bot .submi {
+  background-color: #bad9e5;
+  transition: 1s;
+  font-family: Tiemann, serif;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 6rem;
+  height: 2.25rem; }
+  .main .main__caja .main__caja__bot .rese:hover, .main .main__caja .main__caja__bot .submi:hover {
+    transform: scale(1.08); }
+
 @media screen and (min-width: 576px) {
+  .main .main__caja .main__caja__bot .rese, .main .main__caja .main__caja__bot .submi {
+    font-size: 1.5rem;
+    width: 9rem;
+    height: 3rem; }
   .mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12 {
     margin: 1rem; }
     .mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2 {
@@ -121,17 +141,6 @@
 .mainindex__sec4 {
   display: none; }
 
-.main .main__caja .main__caja__bot .reset, .main .main__caja .main__caja__bot .submit {
-  background-color: #bad9e5;
-  transition: 1s;
-  font-family: Tiemann, serif;
-  font-weight: bold;
-  font-size: 1.25rem;
-  width: 9rem;
-  height: 2.25rem; }
-  .main .main__caja .main__caja__bot .reset:hover, .main .main__caja .main__caja__bot .submit:hover {
-    transform: scale(1.08); }
-
 /*reset*/
 * {
   padding: 0rem;
@@ -169,23 +178,25 @@
     .main .main__caja .main__caja__text input {
       height: 5rem; }
     .main .main__caja .main__caja__bot {
+      margin: 0rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
       width: 100%;
       display: grid;
-      margin-left: 2%;
+      justify-items: center;
       row-gap: 1rem;
-      grid-template-areas: "reset envia"; }
-      .main .main__caja .main__caja__bot .reset {
-        grid-area: reset; }
-      .main .main__caja .main__caja__bot .submit {
+      grid-template-areas: "rese envia"; }
+      .main .main__caja .main__caja__bot .rese {
+        grid-area: rese; }
+      .main .main__caja .main__caja__bot .submi {
         grid-area: envia;
         align-self: flex-end; }
 
-/*estilos de las mediaqueries*/
-@media screen and (min-width: 576px) {
+/*estilos de las mediaqueries tablet*/
+/*estilos de las mediaqueries desktop*/
+@media screen and (min-width: 1000px) {
   .main .main__caja {
-    margin: 8rem; }
-    .main .main__caja .main__caja__bot {
-      margin-left: 12%; } }
+    margin: 8rem; } }
 
 /* estilo de productos */
 .mainpro h1 {
@@ -307,12 +318,12 @@
     width: 3rem;
     height: 2rem;
     border: 4px solid #bad9e5; }
-    .body header nav .boton:active {
-      transform: scale(1.2); }
     .body header nav .boton img {
       width: 2rem;
       height: 1rem;
       margin-bottom: 0.15rem; }
+  .body header nav .desk {
+    margin-left: -8rem; }
   .body header nav div a img {
     width: 8rem;
     height: 4rem; }
@@ -340,14 +351,17 @@
   color: white;
   gap: 0.6rem; }
   .footer .footer__subt {
-    font-size: 1.5rem;
+    font-family: Futura,sans-serif;
+    font-size: 2rem;
     font-weight: bold; }
+  .footer p {
+    font-size: 1.125rem; }
   .footer div {
     margin-bottom: 1rem; }
     .footer div a {
       margin: 0.5rem; }
   .footer img {
-    width: 2.25rem;
+    width: 2.125rem;
     height: 2rem; }
 
 /*estilos del index*/
@@ -374,13 +388,16 @@
     width: 100%;
     z-index: 2;
     height: 10rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem; }
     .mainindex .mainindex__sec2 img {
       margin-top: 6rem;
       z-index: 2;
-      width: 40%;
+      width: 45%;
       height: 7rem; }
     .mainindex .mainindex__sec2 p {
+      padding-top: 2rem;
       background: -webkit-linear-gradient(#dff6ff, white);
       background-clip: text;
       -webkit-background-clip: text;
