@@ -2,6 +2,9 @@
   border: 0.3rem solid #bad9e5;
   border-radius: 0.5rem; }
 
+.mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo h2, .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo p {
+  font-family: Montserrat; }
+
 .mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo {
   display: flex;
   flex-direction: column;
@@ -37,17 +40,17 @@
   height: 8.8rem; }
 
 @media screen and (min-width: 576px) {
-  .mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo h2, .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p, .mainindex__sec3 .mainindex__sec3__contenedorpro .mainindex__sec3__contenedorpro__hijo p {
-    font-family: Montserrat; }
   .mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12 {
-    margin: 1.25rem; }
+    margin: 1rem; }
+    .mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2 {
+      font-size: 2rem; }
     .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p {
       font-size: 1.5rem; }
     .mainpro .mainpro__contenedorpro__hijo1 button, .mainpro .mainpro__contenedorpro__hijo2 button, .mainpro .mainpro__contenedorpro__hijo3 button, .mainpro .mainpro__contenedorpro__hijo4 button, .mainpro .mainpro__contenedorpro__hijo5 button, .mainpro .mainpro__contenedorpro__hijo6 button, .mainpro .mainpro__contenedorpro__hijo7 button, .mainpro .mainpro__contenedorpro__hijo8 button, .mainpro .mainpro__contenedorpro__hijo9 button, .mainpro .mainpro__contenedorpro__hijo10 button, .mainpro .mainpro__contenedorpro__hijo11 button, .mainpro .mainpro__contenedorpro__hijo12 button {
-      font-size: 1.5rem; }
+      font-size: 1rem; }
   .mainpro .mainpro__contenedorpro__hijo1 img, .mainpro .mainpro__contenedorpro__hijo2 img, .mainpro .mainpro__contenedorpro__hijo4 img, .mainpro .mainpro__contenedorpro__hijo5 img, .mainpro .mainpro__contenedorpro__hijo6 img, .mainpro .mainpro__contenedorpro__hijo7 img, .mainpro .mainpro__contenedorpro__hijo8 img, .mainpro .mainpro__contenedorpro__hijo9 img {
     width: 80%;
-    height: 15rem; } }
+    height: 8rem; } }
 
 @media screen and (min-width: 1000px) {
   .mainindex__sec4 .mainindex__sec4__div1, .mainindex__sec4 .mainindex__sec4__div2, .mainindex__sec4 .mainindex__sec4__div3 {
@@ -66,7 +69,18 @@
     .mainindex__sec4 .mainindex__sec4__div1 div, .mainindex__sec4 .mainindex__sec4__div2 div, .mainindex__sec4 .mainindex__sec4__div3 div {
       grid-area: b; }
   .mainindex__sec4m {
-    display: none; } }
+    display: none; }
+  .mainpro .mainpro__contenedorpro__hijo1 img, .mainpro .mainpro__contenedorpro__hijo2 img, .mainpro .mainpro__contenedorpro__hijo4 img, .mainpro .mainpro__contenedorpro__hijo5 img, .mainpro .mainpro__contenedorpro__hijo6 img, .mainpro .mainpro__contenedorpro__hijo7 img, .mainpro .mainpro__contenedorpro__hijo8 img, .mainpro .mainpro__contenedorpro__hijo9 img {
+    width: 80%;
+    height: 15rem; }
+  .mainpro .mainpro__contenedorpro__hijo1, .mainpro .mainpro__contenedorpro__hijo2, .mainpro .mainpro__contenedorpro__hijo3, .mainpro .mainpro__contenedorpro__hijo4, .mainpro .mainpro__contenedorpro__hijo5, .mainpro .mainpro__contenedorpro__hijo6, .mainpro .mainpro__contenedorpro__hijo7, .mainpro .mainpro__contenedorpro__hijo8, .mainpro .mainpro__contenedorpro__hijo9, .mainpro .mainpro__contenedorpro__hijo10, .mainpro .mainpro__contenedorpro__hijo11, .mainpro .mainpro__contenedorpro__hijo12 {
+    margin: 1.25rem; }
+    .mainpro .mainpro__contenedorpro__hijo1 p, .mainpro .mainpro__contenedorpro__hijo2 p, .mainpro .mainpro__contenedorpro__hijo3 p, .mainpro .mainpro__contenedorpro__hijo4 p, .mainpro .mainpro__contenedorpro__hijo5 p, .mainpro .mainpro__contenedorpro__hijo6 p, .mainpro .mainpro__contenedorpro__hijo7 p, .mainpro .mainpro__contenedorpro__hijo8 p, .mainpro .mainpro__contenedorpro__hijo9 p, .mainpro .mainpro__contenedorpro__hijo10 p, .mainpro .mainpro__contenedorpro__hijo11 p, .mainpro .mainpro__contenedorpro__hijo12 p {
+      font-size: 1.5rem; }
+    .mainpro .mainpro__contenedorpro__hijo1 button, .mainpro .mainpro__contenedorpro__hijo2 button, .mainpro .mainpro__contenedorpro__hijo3 button, .mainpro .mainpro__contenedorpro__hijo4 button, .mainpro .mainpro__contenedorpro__hijo5 button, .mainpro .mainpro__contenedorpro__hijo6 button, .mainpro .mainpro__contenedorpro__hijo7 button, .mainpro .mainpro__contenedorpro__hijo8 button, .mainpro .mainpro__contenedorpro__hijo9 button, .mainpro .mainpro__contenedorpro__hijo10 button, .mainpro .mainpro__contenedorpro__hijo11 button, .mainpro .mainpro__contenedorpro__hijo12 button {
+      font-size: 1.5rem; }
+    .mainpro .mainpro__contenedorpro__hijo1 h2, .mainpro .mainpro__contenedorpro__hijo2 h2, .mainpro .mainpro__contenedorpro__hijo3 h2, .mainpro .mainpro__contenedorpro__hijo4 h2, .mainpro .mainpro__contenedorpro__hijo5 h2, .mainpro .mainpro__contenedorpro__hijo6 h2, .mainpro .mainpro__contenedorpro__hijo7 h2, .mainpro .mainpro__contenedorpro__hijo8 h2, .mainpro .mainpro__contenedorpro__hijo9 h2, .mainpro .mainpro__contenedorpro__hijo10 h2, .mainpro .mainpro__contenedorpro__hijo11 h2, .mainpro .mainpro__contenedorpro__hijo12 h2 {
+      font-size: 2.5rem; } }
 
 .body header nav .desk li, .body header nav .buscbot .buscbot__phone li {
   font-weight: bold;
@@ -222,9 +236,8 @@
 .mainpro .mainpro__contenedorpro__hijo12 {
   grid-area: hijo12; }
 
-/* estilos de la mediaquerie */
+/* estilos de la mediaquerie tablet*/
 @media screen and (min-width: 576px) {
-  /* estilos de Productos*/
   .mainpro h1 {
     font-size: 4rem; }
   .mainpro .mainpro__contenedorpro {
@@ -240,7 +253,7 @@
     grid-area: hijo3; }
     .mainpro .mainpro__contenedorpro__hijo3 img {
       width: 90%;
-      height: 40rem; }
+      height: 20rem; }
   .mainpro .mainpro__contenedorpro__hijo4 {
     grid-area: hijo4; }
   .mainpro .mainpro__contenedorpro__hijo5 {
@@ -257,17 +270,32 @@
     grid-area: hijo10; }
     .mainpro .mainpro__contenedorpro__hijo10 img {
       width: 60%;
-      height: 25rem; }
+      height: 15rem; }
   .mainpro .mainpro__contenedorpro__hijo11 {
     grid-area: hijo11; }
     .mainpro .mainpro__contenedorpro__hijo11 img {
-      width: 40%;
-      height: 9rem; }
+      width: 30%;
+      height: 6rem; }
   .mainpro .mainpro__contenedorpro__hijo12 {
     grid-area: hijo12; }
     .mainpro .mainpro__contenedorpro__hijo12 img {
       width: 40%;
-      height: 10rem; } }
+      height: 6rem; } }
+
+/* estilos de la mediaquerie desktop*/
+@media screen and (min-width: 1000px) {
+  .mainpro .mainpro__contenedorpro__hijo3 img {
+    width: 90%;
+    height: 40rem; }
+  .mainpro .mainpro__contenedorpro__hijo10 img {
+    width: 60%;
+    height: 25rem; }
+  .mainpro .mainpro__contenedorpro__hijo11 img {
+    width: 30%;
+    height: 9rem; }
+  .mainpro .mainpro__contenedorpro__hijo12 img {
+    width: 40%;
+    height: 10rem; } }
 
 /* estilos del nav */
 .body header nav {
@@ -415,7 +443,7 @@ hr {
     width: 100%;
     height: 16rem; }
 
-/* estilos de la mediaquerie */
+/* estilos de la mediaquerie tablet*/
 @media screen and (min-width: 576px) {
   /*estilos de index*/
   .mainindex .mainindex__sec1 {
@@ -452,6 +480,7 @@ hr {
     width: 100%;
     height: 24rem; } }
 
+/* estilos de la mediaquerie desktop*/
 @media screen and (min-width: 1000px) {
   .mainindex .mainindex__sec1 img {
     height: 45rem; }
@@ -528,7 +557,8 @@ hr {
     padding: 1rem;
     line-height: 2rem;
     font-size: 1.25rem;
-    text-align: center; }
+    text-align: center;
+    display: inline; }
   .contenedornos .contenedornos__img {
     padding: 1rem;
     width: auto;
@@ -543,15 +573,29 @@ hr {
   .contenedornos .contenedornos__div__p1 {
     display: none; }
 
-/* estilos de la mediaquerie */
+/* estilos de la mediaquerie tablet*/
 @media screen and (min-width: 576px) {
-  /*estilos de nosotros*/
+  .contenedornos .contenedornos__div {
+    padding: 1rem;
+    text-align: center;
+    padding: 2rem 4rem; }
+  .contenedornos .contenedornos__div__p1 {
+    display: inline;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    text-align: center; }
+  .contenedornos .contenedornos__p2 {
+    display: none; }
+  .contenedornos .contenedornos__img {
+    width: auto;
+    height: 30rem; } }
+
+/* estilos de la mediaquerie desktop*/
+@media screen and (min-width: 1000px) {
   .contenedornos {
     flex-direction: row-reverse;
     margin: 2rem; }
     .contenedornos .contenedornos__div {
-      padding: 1rem;
-      text-align: center;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
@@ -563,12 +607,7 @@ hr {
     .contenedornos .contenedornos__div__h1 {
       margin-top: 0rem;
       padding-top: 3.4rem;
-      font-size: 3rem; }
-    .contenedornos .contenedornos__div__p1 {
-      display: inline;
-      line-height: 2rem;
-      font-size: 1.25rem;
-      text-align: center; } }
+      font-size: 3rem; } }
 
 /*estilos de proyectos*/
 .mainproy h1 {
@@ -585,6 +624,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   border: 0.5rem inset #bad9e5;
   border-radius: 1rem 0rem 1rem 0rem; }
   .mainproy .mainproy__sec img {
@@ -606,8 +646,21 @@ hr {
   .mainproy .mainproy__sec .mainproy__sec__span {
     display: none; }
 
-/* estilos de la mediaquerie */
+/* estilos de la mediaquerie tablet*/
 @media screen and (min-width: 576px) {
+  .mainproy .mainproy__sec {
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+    .mainproy .mainproy__sec p {
+      padding: 1.5rem 3rem; }
+    .mainproy .mainproy__sec .mainproy__sec__span {
+      display: inline; }
+    .mainproy .mainproy__sec img {
+      width: 30rem;
+      height: 20rem; } }
+
+/* estilos de la mediaquerie desktop*/
+@media screen and (min-width: 1000px) {
   .mainproy h1 {
     font-size: 3.5rem; }
   .mainproy .mainproy__sec {
@@ -624,6 +677,4 @@ hr {
     .mainproy .mainproy__sec .mainproy__sec__span {
       display: inline; }
     .mainproy .mainproy__sec img {
-      grid-area: img;
-      width: 30rem;
-      height: 20rem; } }
+      grid-area: img; } }

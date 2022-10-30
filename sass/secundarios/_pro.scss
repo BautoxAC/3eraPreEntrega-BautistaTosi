@@ -91,10 +91,8 @@
     }
 }
 
-/* estilos de la mediaquerie */
+/* estilos de la mediaquerie tablet*/
 @media screen and (min-width:576px) {
-
-    /* estilos de Productos*/
     .mainpro {
         h1 {
             font-size: $medida-4;
@@ -114,86 +112,163 @@
 
         .mainpro__contenedorpro__hijo1 {
             grid-area: hijo1;
-            @extend %prod;
-            @extend %imgp;
+            @extend %prot;
+            @extend %imgpt;
         }
 
         .mainpro__contenedorpro__hijo2 {
             grid-area: hijo2;
-            @extend %prod;
-            @extend %imgp;
+            @extend %prot;
+            @extend %imgpt;
         }
 
         .mainpro__contenedorpro__hijo3 {
             grid-area: hijo3;
-            @extend %prod;
+            @extend %prot;
 
             img {
-                @include sizes(90%, 40rem);
+                @include sizes(90%, 20rem);
             }
         }
 
         .mainpro__contenedorpro__hijo4 {
             grid-area: hijo4;
-            @extend %prod;
-            @extend %imgp;
+            @extend %prot;
+            @extend %imgpt;
         }
 
         .mainpro__contenedorpro__hijo5 {
             grid-area: hijo5;
-            @extend %prod;
-            @extend %imgp;
+            @extend %prot;
+            @extend %imgpt;
         }
 
         .mainpro__contenedorpro__hijo6 {
             grid-area: hijo6;
-            @extend %prod;
-            @extend %imgp;
+            @extend %prot;
+            @extend %imgpt;
         }
 
         .mainpro__contenedorpro__hijo7 {
             grid-area: hijo7;
-            @extend %prod;
-            @extend %imgp;
+            @extend %prot;
+            @extend %imgpt;
         }
 
         .mainpro__contenedorpro__hijo8 {
             grid-area: hijo8;
-            @extend %prod;
-            @extend %imgp;
+            @extend %prot;
+            @extend %imgpt;
         }
 
         .mainpro__contenedorpro__hijo9 {
             grid-area: hijo9;
-            @extend %prod;
-            @extend %imgp;
+            @extend %prot;
+            @extend %imgpt;
         }
 
         .mainpro__contenedorpro__hijo10 {
             grid-area: hijo10;
-            @extend %prod;
+            @extend %prot;
 
             img {
-                @include sizes(60%, 25rem);
+                @include sizes(60%, 15rem);
             }
         }
 
         .mainpro__contenedorpro__hijo11 {
             grid-area: hijo11;
-            @extend %prod;
+            @extend %prot;
 
             img {
-                @include sizes(40%, 9rem);
+                @include sizes(30%, 6rem);
             }
         }
 
         .mainpro__contenedorpro__hijo12 {
             grid-area: hijo12;
-            @extend %prod;
+            @extend %prot;
 
+            img {
+                @include sizes(40%, 6rem);
+            }
+        }
+    }
+}
+
+/* estilos de la mediaquerie desktop*/
+@media screen and (min-width:1000px) {
+    .mainpro {
+        .mainpro__contenedorpro__hijo1 {
+            @extend %imgp;
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo2 {
+            @extend %imgp;
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo3 {
+            img {
+                @include sizes(90%, 40rem);
+            }
+
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo4 {
+            @extend %imgp;
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo5 {
+            @extend %imgp;
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo6 {
+            @extend %imgp;
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo7 {
+            @extend %imgp;
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo8 {
+            @extend %imgp;
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo9 {
+            @extend %imgp;
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo10 {
+            img {
+                @include sizes(60%, 25rem);
+            }
+
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo11 {
+            img {
+                @include sizes(30%, 9rem);
+            }
+
+            @extend %prod;
+        }
+
+        .mainpro__contenedorpro__hijo12 {
             img {
                 @include sizes(40%, 10rem);
             }
+
+            @extend %prod;
         }
     }
 }
